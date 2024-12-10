@@ -1,12 +1,23 @@
 from classifier import intentClassifier, TextClassifier
+from similarity import DocumentSimilarity, StopWords
 
 classifier = intentClassifier(use_stemming= True)
+QAsimilarity = DocumentSimilarity(use_stemming= True)
+talkSimilarity = StopWords(use_stemming= True)
 
 def handle_talk(user_input):
-    print("small_talk")
+    answers = talkSimilarity.main("Data/small_talk.csv", user_input)
+    ans = answers['Answer']
+    print(ans)
 
 def handle_QA(user_input):
-    print("QA")
+    answers = QAsimilarity.main("Data/QA.csv", user_input)
+    ans = []
+    for item in answers:
+        if 'Answer' in item:  # Ensure the key exists
+            ans.append(item['Answer'])
+    for x in ans:
+        print(f"{x}\n")
 
 def handle_identity(user_input):
     print("ID")
@@ -82,7 +93,7 @@ def chatbot():
                     ).strip().lower()
 
                     if intent_confirm in ["y", "yes"]:
-                        handle_talk(user_input)
+                        handle_QA(user_input)
                         break  # Exit the loop for confirmation input
                     elif intent_confirm in ["n", "no"]:
                         handle_mismatch(user_input)
@@ -127,7 +138,7 @@ def chatbot():
                         break  # Exit the loop for confirmation input
                     else:
                         handle_input(user_input)  # Inform user and retry
-                
+
 
 if __name__ == "__main__":
     chatbot()

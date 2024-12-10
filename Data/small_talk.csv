@@ -1,0 +1,87 @@
+QuestionID,Question,Answer,Document
+q1,how's the weather today?,"it's sunny and warm, a perfect day for a walk.","how's the weather today?"
+q2,how are you doing?,"i'm doing well, thanks for asking! how about you?","how are you doing?"
+q3,did you have a good weekend?,"yes, it was great! i went hiking. what about you?","did you have a good weekend?"
+q4,any fun plans for the holiday?,"i'm planning to relax at home and maybe catch up on some movies.","any fun plans for the holiday?"
+q5,how was your day?,"it was busy but productive! how was yours?","how was your day?"
+q6,have you seen any good movies lately?,"yes, i watched a great action film last night. it was thrilling!","have you seen any good movies lately?"
+q7,how's work going?,"it's been pretty hectic, but i'm managing. how about you?","how's work going?"
+q8,what do you like to do in your free time?,"i love reading and going for walks in the park.","what do you like to do in your free time?"
+q9,how is your family?,"everyone's doing well, thanks for asking! how's your family?","how is your family?"
+q10,do you have any pets?,"yes, i have a dog named max. he's always full of energy!","do you have any pets?"
+q11,what's your favorite food?,"i really love italian food, especially pasta.","what's your favorite food?"
+q12,what kind of music do you like?,"i'm into pop and indie music. i love discovering new artists.","what kind of music do you like?"
+q13,have you traveled anywhere recently?,"i went to the beach last month. it was a much-needed getaway!","have you traveled anywhere recently?"
+q14,how's your week going so far?,"it's been good, just keeping busy with work and some errands.","how's your week going so far?"
+q15,are you excited for the weekend?,"yes, i'm looking forward to a relaxing weekend with friends.","are you excited for the weekend?"
+q16,do you like coffee?,"yes, i drink it every morning. it helps me get going!","do you like coffee?"
+q17,do you prefer summer or winter?,"i prefer summer because i love the warm weather and outdoor activities.","do you prefer summer or winter?"
+q18,what's your favorite season?,"i really enjoy spring. the weather is perfect, and everything is blooming.","what's your favorite season?"
+q19,do you have any plans for this evening?,"i'm just going to stay in and watch a movie. what about you?","do you have any plans for this evening?"
+q20,have you been to any good restaurants lately?,"yes, i went to a great sushi place last week. the food was amazing!","have you been to any good restaurants lately?"
+q21,how do you like your coffee?,"i prefer it black, no sugar.","how do you like your coffee?"
+q22,what's your favorite holiday?,"i love christmas because of the family gatherings and the festive atmosphere.","what's your favorite holiday?"
+q23,do you like to cook?,"yes, i enjoy cooking, especially trying new recipes.","do you like to cook?"
+q24,do you have a favorite tv show?,"yes, i'm currently watching a great drama series. it's so intense!","do you have a favorite tv show?"
+q25,how's your day going?,"it's going well, just getting through my to-do list. how about yours?","how's your day going?"
+q26,what's the best part of your day?,"the best part is definitely the morning coffee. it helps me start my day right.","what's the best part of your day?"
+q27,do you prefer the city or the countryside?,"i prefer the city for its energy and convenience, but i love visiting the countryside for a peaceful escape.","do you prefer the city or the countryside?"
+q28,what was the last book you read?,"i just finished reading a mystery novel. it was gripping from start to finish!","what was the last book you read?"
+q29,are you a morning person or a night owl?,"i’m definitely a night owl. i’m most productive in the evening.","are you a morning person or a night owl?"
+q30,do you enjoy exercise?,"yes, i try to work out a few times a week. it helps me feel energized.","do you enjoy exercise?"
+q31,what's your favorite way to relax?,"i like to unwind with some yoga and a cup of tea. it helps me clear my mind.","what's your favorite way to relax?"
+q32,do you prefer coastal or mountain vacations?,"i think i prefer coastal vacations. there's something about the ocean that's so calming.","do you prefer coastal or mountain vacations?"
+q33,what's a new skill you're learning?,"i’ve started learning to play the guitar. it’s challenging but fun!","what's a new skill you're learning?"
+q34,do you have a favorite sports team?,"yes, i’m a big fan of soccer, especially my local team!","do you have a favorite sports team?"
+q35,what’s your favorite type of cuisine?,"i absolutely love mexican food, especially tacos and guacamole!","what’s your favorite type of cuisine?"
+q36,do you enjoy gardening?,"yes, i find it very rewarding. watching plants grow is so satisfying.","do you enjoy gardening?"
+q37,what's your favorite kind of art?,"i love modern art. it’s abstract and thought-provoking, and it always makes me think.","what's your favorite kind of art?"
+q38,are you a dog person or a cat person?,"i’m a dog person, i just love how loyal and playful they are.","are you a dog person or a cat person?"
+q39,do you like going to concerts?,"yes, there’s nothing like live music! i love the atmosphere at concerts.","do you like going to concerts?"
+q40,what kind of movies do you enjoy?,"i’m a fan of thrillers, especially ones with plot twists that keep you on the edge of your seat.","what kind of movies do you enjoy?"
+q41,do you like to do puzzles?,"i enjoy solving puzzles, especially crosswords. it helps me relax and think.","do you like to do puzzles?"
+q42,what’s a fun fact about you?,"i once met a celebrity while traveling. it was totally unexpected and a great experience!","what’s a fun fact about you?"
+q43,do you like board games?,"yes, i enjoy playing board games with friends, especially strategy games like settlers of catan.","do you like board games?"
+q44,are you a fan of any podcasts?,"i listen to a lot of true crime podcasts. they’re fascinating and keep me hooked!","are you a fan of any podcasts?"
+q45,what's your favorite way to stay productive?,"i find making lists and breaking tasks into smaller chunks really helps me stay on track.","what's your favorite way to stay productive?"
+q46,do you like to try new restaurants?,"i love trying new restaurants, especially when i hear good reviews about them.","do you like to try new restaurants?"
+q47,what's the most adventurous thing you've done?,"i went skydiving last year. it was thrilling and terrifying at the same time!","what's the most adventurous thing you've done?"
+q48,what's your go-to comfort food?,"mac and cheese is my ultimate comfort food. it’s always satisfying and delicious.","what's your go-to comfort food?"
+q49,what's your favorite place to shop?,"i love shopping at local markets. you can find unique, handmade items that aren’t available anywhere else.","what's your favorite place to shop?"
+q50,do you enjoy baking?,"yes, i love baking sweets, especially cookies. it's a fun and rewarding hobby.","do you enjoy baking?"
+q51,do you enjoy people-watching?,"yes, it’s interesting to observe how people interact and what they do in different situations.","do you enjoy people-watching?"
+q52,what's your favorite way to spend a sunday afternoon?,"i enjoy spending sunday afternoons reading, relaxing, and sometimes going for a long walk in the park.","what's your favorite way to spend a sunday afternoon?"
+q53,do you like taking photos?,"yes, i love photography, especially capturing moments during travel or nature walks.","do you like taking photos?"
+q54,are you a fan of sci-fi?,"yes, i love science fiction movies and books, especially ones with futuristic technology.","are you a fan of sci-fi?"
+q55,what's your favorite way to stay active?,"i like going for runs or doing home workouts. it helps me clear my mind and stay healthy.","what's your favorite way to stay active?"
+q56,what kind of vacations do you prefer?,"i prefer vacations that mix relaxation and adventure, like a beach resort with excursions.","what kind of vacations do you prefer?"
+q57,do you like to learn languages?,"yes, i’m currently learning spanish. it’s challenging, but i’m enjoying the process.","do you like to learn languages?"
+q58,what's your favorite kind of weather?,"i love mild, sunny weather – not too hot, not too cold.","what's your favorite kind of weather?"
+Q59,hi,"Hi there! How’s it going?","hi"
+Q60,hello,"Hello! How can I help you today?","hello"
+Q61,how are you,"I’m doing well, thank you! How about you?","how are you"
+Q62,what's up,"Not much, just catching up on things. What about you?","what's up"
+Q63,hey,"Hey! Great to see you! What’s new?","hey"
+Q64,how's it going,"It’s going well, thanks! How’s everything on your end?","how's it going"
+Q65,good morning,"Good morning! Hope you’re having a great start to your day.","good morning"
+Q66,good afternoon,"Good afternoon! How’s your day been so far?","good afternoon"
+Q67,good evening,"Good evening! What’s been the highlight of your day?","good evening"
+Q68,how do you do,"How do you do? It’s nice to meet you.","how do you do"
+
+
+Q1001,What can you do?,"I can make small talk, answer some general questions and help you book resturaunt tables.",what can you do?
+Q1002,How can you help me?,"I can make small talk, answer some general questions and help you book resturaunt tables.",help me?
+Q1003,What services do you provide?,"I can make small talk, answer some general questions and help you book resturaunt tables.",services provide
+Q1004,Can you tell me about your features?,"I can make small talk, answer some general questions and help you book resturaunt tables.",your features
+Q1005,What do you offer?,"I can make small talk, answer some general questions and help you book resturaunt tables.",you offer
+Q1005,What do you do?,"I can make small talk, answer some general questions and help you book resturaunt tables.",you do
+Q1006,Tell me about your features.,"I can make small talk, answer some general questions and help you book resturaunt tables.",features
+Q1007,How can you assist me?,"I can make small talk, answer some general questions and help you book resturaunt tables.",assist me
+Q1008,What tasks can you help with?,"I can make small talk, answer some general questions and help you book resturaunt tables.",tasks help me
+Q1009,Can you help me with anything?,"I can make small talk, answer some general questions and help you book resturaunt tables.",help with anything
+Q1010,How can I use your features?,"I can make small talk, answer some general questions and help you book resturaunt tables.",use your features
+Q1011,What kind of assistance do you offer?,"I can make small talk, answer some general questions and help you book resturaunt tables.",assistance do you offer
+Q1012,Can you describe your capabilities?,"I can make small talk, answer some general questions and help you book resturaunt tables.",capabilities
+Q1013,capabilities,"I can make small talk, answer some general questions and help you book resturaunt tables.",capabilities
+Q1014,capability,"I can make small talk, answer some general questions and help you book resturaunt tables.",capabilities
+Q1015,Do you offer any support?,"I can make small talk, answer some general questions and help you book resturaunt tables.",support

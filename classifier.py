@@ -88,8 +88,8 @@ class TextClassifier:
         return predicted_label
     
 # only use when training and evaluating models
-classifier = TextClassifier(use_stemming=False)
-classifier.main("Data/intents_Class.csv", "book table")
+# classifier = TextClassifier(use_stemming=False)
+# classifier.main("Data/intents_Class.csv", "book table")
 
 """
 subclasses - these are ones you will acctually use in code when not training
