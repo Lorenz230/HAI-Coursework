@@ -1,0 +1,187 @@
+text,intent
+hi there,small_talk
+hello there,small_talk
+how are,small_talk
+tell me,small_talk
+joke for,small_talk
+something funny,small_talk
+what's up,small_talk
+good morning,small_talk
+how are you,small_talk
+tell a joke,small_talk
+funny story,small_talk
+what are,small_talk
+what's going,small_talk
+how's your,small_talk
+hi how,small_talk
+what's up today,small_talk
+jokes for,small_talk
+talk about,small_talk
+how's life,small_talk
+hows you,small_talk
+good evening,small_talk
+hey there,small_talk
+are things,small_talk
+doing well,small_talk
+know any,small_talk
+share jokes,small_talk
+what's happening,small_talk
+day going,small_talk
+what's latest,small_talk
+funny to,small_talk
+have you,small_talk
+another joke,small_talk
+make me,small_talk
+chatting about,small_talk
+recommend we,small_talk
+good one,small_talk
+what's new,small_talk
+what’s up,small_talk
+have any,small_talk
+today going,small_talk
+funny stories,small_talk
+morning been,small_talk
+how’s it,small_talk
+
+who am I,identity_management
+show my profile,identity_management
+what's my name,identity_management
+my identity,identity_management
+tell me who,identity_management
+do you know,identity_management
+remind me of,identity_management
+name for me,identity_management
+identify me,identity_management
+who are you,identity_management
+you talking to,identity_management
+know about me,identity_management
+remind me who,identity_management
+information about me,identity_management
+do you recognize,identity_management
+details about me,identity_management
+can you identify,identity_management
+what’s my profile,identity_management
+do you call,identity_management
+record you have,identity_management
+saved about me,identity_management
+confirm my name,identity_management
+tell me what,identity_management
+stored about me,identity_management
+show my details,identity_management
+who am I,identity_management
+you have for,identity_management
+remind me of,identity_management
+am I registered,identity_management
+name recorded,identity_management
+retrieve my identity,identity_management
+check my profile,identity_management
+my identity system,identity_management
+my details saved,identity_management
+do you think,identity_management
+
+
+
+what is,question_answering
+can you,question_answering
+how does,question_answering
+tell me,question_answering
+explain how,question_answering
+what are,question_answering
+how do,question_answering
+can explain,question_answering
+what’s the,question_answering
+how is,question_answering
+what do,question_answering
+can I,question_answering
+what makes,question_answering
+how does it,question_answering
+what happens,question_answering
+is there,question_answering
+what’s a,question_answering
+do you,question_answering
+how can,question_answering
+where is,question_answering
+why does,question_answering
+what causes,question_answering
+can you explain,question_answering
+what kind,question_answering
+types of,question_answering
+difference between,question_answering
+how it,question_answering
+what does,question_answering
+is it,question_answering
+where are,question_answering
+how is it,question_answering
+how do you,question_answering
+what’s this,question_answering
+what is this,question_answering
+how does one,question_answering
+what do you,question_answering
+why is,question_answering
+what’s the meaning,question_answering
+can you describe,question_answering
+what can,question_answering
+how do they,question_answering
+how does this,question_answering
+how to,question_answering
+tell me about,question_answering
+what about,question_answering
+what do they,question_answering
+can it,question_answering
+what happens if,question_answering
+can you tell,question_answering
+how do these,question_answering
+why do,question_answering
+
+
+
+book a table,restaurant_booking
+make a reservation,restaurant_booking
+need a table,restaurant_booking
+table for two,restaurant_booking
+help me book,restaurant_booking
+reserve a table,restaurant_booking
+table for tonight,restaurant_booking
+book a restaurant,restaurant_booking
+reservation for dinner,restaurant_booking
+check table availability,restaurant_booking
+restaurant reservation,restaurant_booking
+table for four,restaurant_booking
+table at 7,restaurant_booking
+reserve a spot,restaurant_booking
+find a table,restaurant_booking
+table for lunch,restaurant_booking
+reservation for tomorrow,restaurant_booking
+help me reserve,restaurant_booking
+available at 6,restaurant_booking
+table at 6,restaurant_booking
+restaurant with availability,restaurant_booking
+book a restaurant,restaurant_booking
+table for dinner,restaurant_booking
+reserve for Friday,restaurant_booking
+restaurants with reservations,restaurant_booking
+spot at restaurant,restaurant_booking
+table at sushi,restaurant_booking
+availability tonight,restaurant_booking
+reserve for dinner,restaurant_booking
+dinner reservation,restaurant_booking
+find a spot,restaurant_booking
+table for five,restaurant_booking
+table for six,restaurant_booking
+reserve for weekend,restaurant_booking
+table at 8,restaurant_booking
+make a reservation,restaurant_booking
+restaurant with tables,restaurant_booking
+table for three,restaurant_booking
+open reservations,restaurant_booking
+table for French,restaurant_booking
+book at 9,restaurant_booking
+reserve for three,restaurant_booking
+restaurant reservations,restaurant_booking
+table for 7,restaurant_booking
+reserve for dinner,restaurant_booking
+help me find,restaurant_booking
+open at 7,restaurant_booking
+reservation at 9,restaurant_booking
+eat somewhere, restaurant_booking
+somewhere to eat, restaurant_booking
