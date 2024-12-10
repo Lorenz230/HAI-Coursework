@@ -1,9 +1,14 @@
 from classifier import intentClassifier, TextClassifier
 from similarity import DocumentSimilarity, StopWords
+from identity_managment import identityManager
 
 classifier = intentClassifier(use_stemming= True)
 QAsimilarity = DocumentSimilarity(use_stemming= True)
 talkSimilarity = StopWords(use_stemming= True)
+
+
+globalIdentityManager = identityManager("Data/user_data.csv")
+
 
 def handle_talk(user_input):
     answers = talkSimilarity.main("Data/small_talk.csv", user_input)
@@ -20,7 +25,8 @@ def handle_QA(user_input):
         print(f"{x}\n")
 
 def handle_identity(user_input):
-    print("ID")
+    user_data_manager = identityManager("Data/user_data.csv")
+    user_data_manager.check_name()
 
 def handle_booking(user_input):
     print("booking")
@@ -57,6 +63,7 @@ def chatbot():
     while True:
         user_input = input("Enter something or type 'exit' to end the program: ")
         if user_input.lower() == 'exit':
+            globalIdentityManager.clear_user_data()
             print("Goodbye!")
             break
         else:
@@ -112,7 +119,7 @@ def chatbot():
                     ).strip().lower()
 
                     if intent_confirm in ["y", "yes"]:
-                        handle_talk(user_input)
+                        handle_booking(user_input)
                         break  # Exit the loop for confirmation input
                     elif intent_confirm in ["n", "no"]:
                         handle_mismatch(user_input)
@@ -131,7 +138,7 @@ def chatbot():
                     ).strip().lower()
 
                     if intent_confirm in ["y", "yes"]:
-                        handle_talk(user_input)
+                        handle_identity(user_input)
                         break  # Exit the loop for confirmation input
                     elif intent_confirm in ["n", "no"]:
                         handle_mismatch(user_input)
