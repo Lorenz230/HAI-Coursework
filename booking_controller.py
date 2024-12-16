@@ -4,26 +4,39 @@ import random
 
 restaurantFinder = DocumentSimilarity(use_stemming= True)
 
+
+
 def find_restaurants(query):
-    answers = restaurantFinder.main("Data/restaurants.csv", query)
-    numbered_answers = {i + 1: item['Answer'] for i, item in enumerate(answers) if 'Answer' in item}
+    while True:
+        if query.lower() == "exit":
+            print("Exiting the search.")
+            return "exit"
 
-    print("Here are your top choices:")
-    for key, value in numbered_answers.items():
-        print(f"{key}: {value}")
+        answers = restaurantFinder.main("Data/restaurants.csv", query)
 
-    while True:  # Loop until a valid selection is made
-        try:
-            selection = int(input("Select the number of the option you want: "))
-            if selection in numbered_answers:
-                print(f"You selected: {numbered_answers[selection]}")
-                break  # Exit the loop if valid input is given
-            else:
-                print("Invalid choice. Please select a number from the list.")
-        except ValueError:
-            print("Invalid input. Please enter a number.")
-    
-    return numbered_answers[selection]
+        if answers:  # If answers are found, proceed
+            numbered_answers = {i + 1: item['Answer'] for i, item in enumerate(answers) if 'Answer' in item}
+
+            print("Here are your top choices:")
+            for key, value in numbered_answers.items():
+                print(f"{key}: {value}")
+
+            while True:  # Loop until a valid selection is made
+                try:
+                    selection = int(input("Select the number of the option you want: "))
+                    if selection in numbered_answers:
+                        print(f"You selected: {numbered_answers[selection]}")
+                        return numbered_answers[selection]  # Return the selected answer
+                    else:
+                        print("Invalid choice. Please select a number from the list.")
+                except ValueError:
+                    print("Invalid input. Please enter a number.")
+        else:  # If no answers are found, prompt the user for a new query
+            print("No restaurants found. Please refine your search or type 'exit' to quit.")
+            query = input("Enter a new search query: ")
+
+
+
 
 def month_selector():
     months = [
@@ -47,6 +60,9 @@ def month_selector():
                 print("Invalid choice. Please select a number between 1 and 12.")
         except ValueError:
             print("Invalid input. Please enter a number.")
+
+
+
 
 def day_selector():
     print("Select the day of the month you want to make a reservation for:")
@@ -88,7 +104,7 @@ def Controller(User_input):
     data = DataStore()
     data.append_data(location = parsed_data['location'], restaurant_type = parsed_data['restaurant_type'], group_size= parsed_data['group_size'])
 
-    # get location and restaurant type if it is not present.
+    # get location and restaurant type
     data.get_location()
     data.get_restautant_type()
     
@@ -101,6 +117,9 @@ def Controller(User_input):
 
     # find restaurants after processing query. 
     answer = find_restaurants(query)
+    if answer.strip().lower() == "exit":
+        return
+    
     data.append_data(name = answer, location = location, restaurant_type= restaurant_type)
     
     print("Almost there, just pick a date")
@@ -110,8 +129,4 @@ def Controller(User_input):
     day = day_selector()
     data.append_data(name = answer, location = location, restaurant_type= restaurant_type, date= f'{day}-{month}')
     print(data.get_data())
-
-    
-
-    
     
