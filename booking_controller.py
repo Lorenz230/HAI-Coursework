@@ -1,5 +1,6 @@
 from booking_helper import SentenceParser, DataStore
 from similarity import DocumentSimilarity
+import random
 
 restaurantFinder = DocumentSimilarity(use_stemming= True)
 
@@ -24,7 +25,62 @@ def find_restaurants(query):
     
     return numbered_answers[selection]
 
+def month_selector():
+    months = [
+        "January", "February", "March", "April", "May", "June", 
+        "July", "August", "September", "October", "November", "December"
+    ]
+
+    print("I can show you the available dates for each month. Just pick one:")
+    
+    # Display numbered options for months
+    for i, month in enumerate(months, start=1):
+        print(f"{i}: {month}")
+    
+    while True:  # Loop until a valid input is given
+        try:
+            choice = int(input("Select the number of the month (1-12): "))
+            if 1 <= choice <= 12:
+                print(f"You selected: {months[choice - 1]}")
+                return months[choice - 1]  # Return the selected month
+            else:
+                print("Invalid choice. Please select a number between 1 and 12.")
+        except ValueError:
+            print("Invalid input. Please enter a number.")
+
+def day_selector():
+    print("Select the day of the month you want to make a reservation for:")
+
+    # Generate up to 15 unique random numbers between 1 and 28
+    days = sorted(random.sample(range(1, 29), min(15, 28)))
+
+    # Display the days to the user with keys a, b, c, etc.
+    print("Available days:")
+    keys = [chr(97 + i) for i in range(len(days))]  # Generate keys 'a', 'b', 'c', ...
+    for key, day in zip(keys, days):
+        print(f"{key}: Day {day}")
+
+    # Get user input and validate
+    while True:
+        try:
+            user_choice = input("Enter the letter corresponding to your choice: ").strip().lower()
+
+            # Check if the input is a valid key
+            if user_choice in keys:
+                selected_day = days[keys.index(user_choice)]
+                print(f"You have selected Day {selected_day}.")
+                return selected_day
+                break
+            else:
+                print(f"Invalid input. Please select a letter between {keys[0]} and {keys[-1]}.")
+        except ValueError:
+            print("Invalid input. Please enter a valid letter.")
+        
+
+
+
 def Controller(User_input):
+
     # When the booking option is chosen this will start processing of the query. 
     parser = SentenceParser()
     parsed_data = parser.main(User_input)
@@ -41,14 +97,21 @@ def Controller(User_input):
     location = booking['location']
     restaurant_type = booking['restaurant_type']
     query = f"{location}, {restaurant_type}"
-    
+    print(f"Searching for {restaurant_type} in {location}")
+
     # find restaurants after processing query. 
     answer = find_restaurants(query)
     data.append_data(name = answer, location = location, restaurant_type= restaurant_type)
+    
+    print("Almost there, just pick a date")
+
+    # next step is to find the date for
+    month = month_selector()
+    day = day_selector()
+    data.append_data(name = answer, location = location, restaurant_type= restaurant_type, date= f'{day}-{month}')
     print(data.get_data())
-    
 
     
 
-
+    
     
