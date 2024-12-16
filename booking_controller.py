@@ -92,8 +92,30 @@ def day_selector():
         except ValueError:
             print("Invalid input. Please enter a valid letter.")
         
+def time_selector():
+    # Generate six random hours within the range of 10 AM (10) to 12 AM (24)
+    hours = random.sample(range(10, 24), 6)
 
+    # Sort the hours to ensure ascending order
+    hours.sort()
 
+    # Format the times as strings in HH:00 format
+    times = [f"{hour:02d}:00" for hour in hours]
+
+    # Create a lettered list for the user to choose from
+    print("Here are the available times:")
+    lettered_times = {chr(97 + i): time for i, time in enumerate(times)}  # Create lettered keys 'a', 'b', 'c', ...
+    for letter, time in lettered_times.items():
+        print(f"{letter}: {time}")
+
+    # Prompt user to select a time frame
+    while True:
+        selection = input("Select the letter corresponding to your preferred time: ").strip().lower()
+        if selection in lettered_times:
+            print(f"You selected: {lettered_times[selection]}")
+            return lettered_times[selection]
+        else:
+            print("Invalid selection. Please choose a valid letter from the list.")
 
 def Controller(User_input):
 
@@ -122,11 +144,17 @@ def Controller(User_input):
     
     data.append_data(name = answer, location = location, restaurant_type= restaurant_type)
     
-    print("Almost there, just pick a date")
-
+   
     # next step is to find the date for
+    print("Almost there, just pick a date and time")
     month = month_selector()
     day = day_selector()
     data.append_data(name = answer, location = location, restaurant_type= restaurant_type, date= f'{day}-{month}')
     print(data.get_data())
+
+    # next pick the time you want to book
+    print("You're nearly done, now just pick a time")
+    time = time_selector()
+    data.append_data(name = answer, location = location, restaurant_type= restaurant_type, date= f'{day}-{month}', time= time)
+
     
