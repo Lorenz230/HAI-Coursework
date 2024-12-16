@@ -25,25 +25,29 @@ def find_restaurants(query):
     return numbered_answers[selection]
 
 def Controller(User_input):
-    # this will run at the start when thre suer asks restaurant booking. 
+    # When the booking option is chosen this will start processing of the query. 
     parser = SentenceParser()
     parsed_data = parser.main(User_input)
     print(parsed_data)
     data = DataStore()
     data.append_data(location = parsed_data['location'], restaurant_type = parsed_data['restaurant_type'], group_size= parsed_data['group_size'])
 
+    # get location and restaurant type if it is not present.
     data.get_location()
+    data.get_restautant_type()
     
+    # get location and restaurant type if it is not present.
     booking = data.get_data()
     location = booking['location']
     restaurant_type = booking['restaurant_type']
     query = f"{location}, {restaurant_type}"
     
-    #find restaurants after processing query. 
-    answrer = find_restaurants(query)
-    print(answrer)
-
+    # find restaurants after processing query. 
+    answer = find_restaurants(query)
+    data.append_data(name = answer, location = location, restaurant_type= restaurant_type)
+    print(data.get_data())
     
+
     
 
 
