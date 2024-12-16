@@ -7,11 +7,22 @@ def find_restaurants(query):
     answers = restaurantFinder.main("Data/restaurants.csv", query)
     numbered_answers = {i + 1: item['Answer'] for i, item in enumerate(answers) if 'Answer' in item}
 
-    print(f"Here are your top Choices:")
+    print("Here are your top choices:")
     for key, value in numbered_answers.items():
         print(f"{key}: {value}")
 
-    print("select the number of the option you want")
+    while True:  # Loop until a valid selection is made
+        try:
+            selection = int(input("Select the number of the option you want: "))
+            if selection in numbered_answers:
+                print(f"You selected: {numbered_answers[selection]}")
+                break  # Exit the loop if valid input is given
+            else:
+                print("Invalid choice. Please select a number from the list.")
+        except ValueError:
+            print("Invalid input. Please enter a number.")
+    
+    return numbered_answers[selection]
 
 def Controller(User_input):
     # this will run at the start when thre suer asks restaurant booking. 
@@ -29,7 +40,8 @@ def Controller(User_input):
     query = f"{location}, {restaurant_type}"
     
     #find restaurants after processing query. 
-    find_restaurants(query)
+    answrer = find_restaurants(query)
+    print(answrer)
 
     
     
