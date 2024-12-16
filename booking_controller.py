@@ -1,6 +1,18 @@
 from booking_helper import SentenceParser, DataStore
 from similarity import DocumentSimilarity
 
+restaurantFinder = DocumentSimilarity(use_stemming= True)
+
+def find_restaurants(query):
+    answers = restaurantFinder.main("Data/restaurants.csv", query)
+    ans = []
+    for item in answers:
+        if 'Answer' in item:  # Ensure the key exists
+            ans.append(item['Answer'])
+    for x in ans:
+        print(f"{x}\n")
+
+
 def Controller(User_input):
     # this will run at the start when thre suer asks restaurant booking. 
     parser = SentenceParser()
@@ -12,4 +24,14 @@ def Controller(User_input):
     data.get_location()
     
     booking = data.get_data()
-    print("booking data:",booking)
+    location = booking['location']
+    restaurant_type = booking['restaurant_type']
+    query = f"{location}, {restaurant_type}"
+
+    find_restaurants(query)
+
+    
+    
+
+
+    

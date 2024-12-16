@@ -1,0 +1,569 @@
+QuestionID,Question,Answer,Document
+q1,restaurant,The Cozy Fork,Manchester Italian
+q2,restaurant,Spice Haven,Birmingham Indian
+q3,restaurant,Oyster & Pearl,Bristol Seafood
+q4,restaurant,Golden Olive,Leeds Mediterranean
+q5,restaurant,Smokehouse Yard,Newcastle BBQ
+q6,restaurant,Saffron Fields,Edinburgh Vegetarian
+q7,restaurant,Maple & Vine,Glasgow Canadian
+q8,restaurant,The Curry Leaf,Leicester Indian
+q9,restaurant,Bluebell Bistro,Cardiff Contemporary British
+q10,restaurant,Pizza Lab,Sheffield Italian
+
+QuestionID,Question,Answer,Document
+q11,restaurant,Riverside Grill,Bath Steakhouse
+q12,restaurant,Urban Tandoor,Nottingham Indian
+q13,restaurant,The Rustic Table,Liverpool Modern European
+q14,restaurant,Copper Spoon,Oxford Vegan
+q15,restaurant,Lavender Lane,Brighton French Bistro
+q16,restaurant,Crimson Flame,Leeds Tex-Mex
+q17,restaurant,Harvest & Hearth,Cambridge Farm-to-Table
+q18,restaurant,Emerald Lagoon,Portsmouth Seafood
+q19,restaurant,Bavarian Bliss,Manchester German
+q20,restaurant,The Greek Plate,Bristol Greek
+q21,restaurant,Amber Flame,Newcastle Persian
+q22,restaurant,Moonlit Meadow,Derby Vegetarian
+q23,restaurant,Chopstick Dynasty,Leicester Chinese
+q24,restaurant,Curry Express,Luton Indian
+q25,restaurant,Sunflower Café,Exeter Vegan Café
+q26,restaurant,The Spice Merchant,Plymouth Indian
+q27,restaurant,Heritage Smokehouse,Dundee BBQ
+q28,restaurant,Blue Horizon,Aberdeen Seafood
+q29,restaurant,Fusion Flavors,Coventry Pan-Asian
+q30,restaurant,Tuscany Vibes,Reading Italian
+q31,restaurant,The Hungry Fox,Hull Pub Fare
+q32,restaurant,The Vineyard Table,Winchester Mediterranean
+q33,restaurant,Golden Curry House,Swansea Indian
+q34,restaurant,The Artisan Spoon,Chester Contemporary British
+q35,restaurant,The Crimson Lotus,Gloucester Thai
+q36,restaurant,Velvet Fork,Canterbury Modern European
+q37,restaurant,Blackwood Grill,Stoke-on-Trent Steakhouse
+q38,restaurant,The Cozy Chimney,York Comfort Food
+q39,restaurant,Ocean Wave,Sunderland Seafood
+q40,restaurant,Sakura Bloom,Preston Japanese
+q41,restaurant,Silver Birch,Bournemouth Vegan
+q42,restaurant,The Stone Oven,Lincoln Pizza
+q43,restaurant,Salt & Flame,Worcester BBQ
+q44,restaurant,Golden Sakura,Ipswich Japanese
+q45,restaurant,The Olive Branch,Chichester Mediterranean
+q46,restaurant,Ruby Lantern,Colchester Chinese
+q47,restaurant,Hearthstone Kitchen,Truro Modern European
+q48,restaurant,Amber Grove,Durham Vegan
+q49,restaurant,The Red Pepper,Woking Mexican
+q50,restaurant,Bright Fork,Norwich Farm-to-Table
+q51,restaurant,Pinewood Grille,Slough Steakhouse
+q52,restaurant,The Lemon Thyme,Carlisle Vegetarian
+q53,restaurant,Golden Dragon,Wolverhampton Chinese
+q54,restaurant,Maple Breeze,Milton Keynes Canadian
+q55,restaurant,The Saffron Pot,Southampton Indian
+q56,restaurant,Coastal Harvest,Lancaster Seafood
+q57,restaurant,Brookside Flame,Bathurst BBQ
+q58,restaurant,Sapphire Table,Hastings Fine Dining
+q59,restaurant,Mystic Curry,Paisley Indian
+q60,restaurant,The Rustic Fork,Wakefield Contemporary British
+
+QuestionID,Question,Answer,Document
+q61,restaurant,Harvest Bowl,Blackpool Farm-to-Table
+q62,restaurant,The Mariner's Plate,Southport Seafood
+q63,restaurant,Crimson Peppercorn,Scunthorpe Italian
+q64,restaurant,Sapphire Spice,Telford Indian
+q65,restaurant,Golden Barrel,Warrington Pub Fare
+q66,restaurant,The Green Lantern,Darlington Vegan
+q67,restaurant,Ocean's Edge,Hartlepool Seafood
+q68,restaurant,Amber Sky,Northampton Modern European
+q69,restaurant,The Curry Bowl,Basingstoke Indian
+q70,restaurant,The Pepper Vine,Oldham Mediterranean
+q71,restaurant,Midnight Ember,Stevenage BBQ
+q72,restaurant,Lavender & Vine,Stratford-upon-Avon French Bistro
+q73,restaurant,The Urban Grill,Basildon Steakhouse
+q74,restaurant,Tandoori Flame,Burnley Indian
+q75,restaurant,The Maple Leaf,Grimsby Canadian
+q76,restaurant,Golden Lotus,Kings Lynn Chinese
+q77,restaurant,Rustic Ridge,Weston-super-Mare Contemporary British
+q78,restaurant,The Jade Dragon,Kettering Thai
+q79,restaurant,Sunlit Spoon,Hemel Hempstead Comfort Food
+q80,restaurant,Blue Horizon,Rugby Seafood
+q81,restaurant,Sakura Table,Harlow Japanese
+q82,restaurant,The Olive Grove,Maidstone Mediterranean
+q83,restaurant,Curry House Express,Widnes Indian
+q84,restaurant,The Lemon Bowl,Torquay Vegan
+q85,restaurant,Iron Skillet,Chelmsford Steakhouse
+q86,restaurant,The Crimson Vine,Redditch Tex-Mex
+q87,restaurant,Amber Flame,Dover Persian
+q88,restaurant,Ocean Breeze,Barry Seafood
+q89,restaurant,Saffron Rose,Eastbourne Indian
+q90,restaurant,Maple Hearth,Crewe Canadian
+q91,restaurant,The Urban Fork,Yeovil Modern European
+q92,restaurant,Velvet Apron,Huddersfield French Bistro
+q93,restaurant,The Firehouse Grill,Chesterfield BBQ
+q94,restaurant,Copper Lantern,Farnborough Vegan
+q95,restaurant,Golden Wok,Hastings Chinese
+q96,restaurant,Sapphire Lounge,Barrow-in-Furness Fine Dining
+q97,restaurant,The Curry Pot,Harlow Indian
+q98,restaurant,The Mediterranean Table,Tunbridge Wells Mediterranean
+q99,restaurant,The Artisan Flame,Royal Leamington Spa Steakhouse
+q100,restaurant,Pine & Thyme,Dumfries Farm-to-Table
+q101,restaurant,Crimson Skillet,Ramsgate Comfort Food
+q102,restaurant,Golden Bamboo,Aldershot Asian Fusion
+q103,restaurant,The Coastal Fork,Margate Seafood
+q104,restaurant,Spice Street,Hinckley Indian
+q105,restaurant,Lavender Hearth,Keighley Vegan Café
+q106,restaurant,Harvest Ember,Llanelli Modern British
+q107,restaurant,Amber Bistro,Sittingbourne French Bistro
+q108,restaurant,The Rustic Pantry,Dunstable Farm-to-Table
+q109,restaurant,Urban Spice,Yate Indian
+q110,restaurant,The Silver Plate,Haverhill Contemporary European
+
+QuestionID,Question,Answer,Document
+q111,restaurant,The Velvet Spoon,London Modern British
+q112,restaurant,Amber Flame,Birmingham Indian
+q113,restaurant,Golden Olive,Manchester Mediterranean
+q114,restaurant,Crimson Plate,Glasgow Steakhouse
+q115,restaurant,The Ocean Pearl,Edinburgh Seafood
+q116,restaurant,Harvest Table,Leeds Farm-to-Table
+q117,restaurant,The Curry Corner,Bristol Indian
+q118,restaurant,Spice Alley,Liverpool Thai
+q119,restaurant,The Artisan Plate,Nottingham Modern European
+q120,restaurant,The Vine & Branch,Sheffield Mediterranean
+q121,restaurant,Smokehouse Yard,Newcastle BBQ
+q122,restaurant,Saffron Flame,Cardiff Indian
+q123,restaurant,The Maple Fork,Southampton Canadian
+q124,restaurant,Golden Dragon,Brighton Chinese
+q125,restaurant,The Olive Terrace,Oxford Mediterranean
+q126,restaurant,Blue Horizon,Cambridge Seafood
+q127,restaurant,Pizza Haven,Bath Italian
+q128,restaurant,Urban Tandoor,Leicester Indian
+q129,restaurant,Sakura Garden,Plymouth Japanese
+q130,restaurant,The Amber Table,Aberdeen Contemporary British
+q131,restaurant,Lavender Hearth,Exeter Vegan Café
+q132,restaurant,Crimson Lantern,Dundee Modern European
+q133,restaurant,Spice of Life,Gloucester Indian
+q134,restaurant,Ocean Crest,Swansea Seafood
+q135,restaurant,The Rustic Olive,Chester Mediterranean
+q136,restaurant,Bavarian Brew,Luton German
+q137,restaurant,Harvest Flame,Wolverhampton Farm-to-Table
+q138,restaurant,Golden Curry House,Coventry Indian
+q139,restaurant,The Urban Fork,Reading Modern British
+q140,restaurant,Velvet Bistro,Milton Keynes French Bistro
+q141,restaurant,The Rustic Grille,Slough Steakhouse
+q142,restaurant,Silver Lotus,Portsmouth Thai
+q143,restaurant,The Curry Emporium,Derby Indian
+q144,restaurant,The Ocean Wave,Sunderland Seafood
+q145,restaurant,Lavender Vine,Preston Vegetarian
+q146,restaurant,Pinewood Kitchen,Kingston upon Hull Farm-to-Table
+q147,restaurant,Maple Hearth,Blackpool Canadian
+q148,restaurant,The Golden Plate,Northampton Modern European
+q149,restaurant,Copper Flame,Stoke-on-Trent BBQ
+q150,restaurant,Golden Sakura,Winchester Japanese
+q151,restaurant,The Cozy Chimney,Newport Pub Fare
+q152,restaurant,Amber Vine,Canterbury Vegan
+q153,restaurant,Blue Horizon,Lancaster Seafood
+q154,restaurant,Spice Hub,Chichester Indian
+q155,restaurant,The Vineyard Table,Woking Mediterranean
+q156,restaurant,The Rustic Spoon,Shrewsbury Farm-to-Table
+q157,restaurant,Harvest & Hearth,Worcester Contemporary British
+q158,restaurant,The Amber Grove,Chelmsford Vegan
+q159,restaurant,Oyster Cove,York Seafood
+q160,restaurant,Tuscany Vibes,Bradford Italian
+q161,restaurant,Crimson Fork,Wakefield Modern British
+q162,restaurant,The Golden Olive,Colchester Mediterranean
+q163,restaurant,The Jade Bowl,Norwich Asian Fusion
+q164,restaurant,Maple & Vine,Peterborough Canadian
+q165,restaurant,Urban Flame,Newcastle-under-Lyme BBQ
+
+QuestionID,Question,Answer,Document
+q166,restaurant,Saffron Lounge,London Indian
+q167,restaurant,The Golden Spoon,Birmingham Contemporary British
+q168,restaurant,Oyster Haven,Manchester Seafood
+q169,restaurant,The Vine Bistro,Leeds Mediterranean
+q170,restaurant,Copper Chimney,Liverpool Indian
+q171,restaurant,The Amber Plate,Glasgow Modern European
+q172,restaurant,Harvest Grille,Edinburgh Farm-to-Table
+q173,restaurant,The Curry Pot,Bristol Indian
+q174,restaurant,Sakura Blossom,Sheffield Japanese
+q175,restaurant,Golden Olive,Cardiff Mediterranean
+q176,restaurant,Velvet Hearth,Southampton Vegan
+q177,restaurant,The Rustic Skillet,Newcastle Steakhouse
+q178,restaurant,Maple Terrace,Nottingham Canadian
+q179,restaurant,The Crimson Bowl,Brighton Asian Fusion
+q180,restaurant,Amber Flame,Cambridge BBQ
+q181,restaurant,Urban Harvest,Oxford Farm-to-Table
+q182,restaurant,The Jade Lantern,Aberdeen Thai
+q183,restaurant,Golden Horizon,Plymouth Seafood
+q184,restaurant,Lavender Grill,Exeter Vegan
+q185,restaurant,The Artisan Vine,Dundee Modern European
+q186,restaurant,Harvest Ember,Leicester Contemporary British
+q187,restaurant,Spice Bazaar,Gloucester Indian
+q188,restaurant,Blue Coral,Swansea Seafood
+q189,restaurant,The Olive Grove,Chester Mediterranean
+q190,restaurant,Crimson Flame,Brighton BBQ
+q191,restaurant,Golden Curry,Portsmouth Indian
+q192,restaurant,Silver Fork,Milton Keynes Modern British
+q193,restaurant,The Rustic Bowl,Coventry Farm-to-Table
+q194,restaurant,Harvest Coast,York Seafood
+q195,restaurant,The Amber Hearth,Winchester Vegan
+q196,restaurant,Saffron Fields,Bath Vegetarian
+q197,restaurant,The Jade Plate,Lancaster Asian Fusion
+q198,restaurant,Golden Sky,Northampton Seafood
+q199,restaurant,The Vine Flame,Peterborough Mediterranean
+q200,restaurant,Spice Trail,Blackpool Indian
+q201,restaurant,Lavender Bistro,Stoke-on-Trent French
+q202,restaurant,Oyster Table,Sunderland Seafood
+q203,restaurant,Golden Sakura,Reading Japanese
+q204,restaurant,Crimson Vine,Slough Modern European
+q205,restaurant,Harvest Roots,Bradford Vegan
+q206,restaurant,The Urban Olive,Newport Mediterranean
+q207,restaurant,The Rustic Lantern,Hull Comfort Food
+q208,restaurant,Maple Horizon,Preston Canadian
+q209,restaurant,Blue Ocean,Bournemouth Seafood
+q210,restaurant,The Curry House,Leeds Indian
+q211,restaurant,Golden Bamboo,Newcastle Asian Fusion
+q212,restaurant,Amber Thyme,Sheffield Farm-to-Table
+q213,restaurant,The Rustic Hearth,Cardiff Comfort Food
+q214,restaurant,Harvest Bowl,Glasgow Vegetarian
+q215,restaurant,Velvet Vine,Liverpool Modern European
+q216,restaurant,The Cozy Fork,Manchester Contemporary British
+q217,restaurant,Golden Olive,Edinburgh Mediterranean
+q218,restaurant,The Curry Vine,London Indian
+q219,restaurant,The Jade Wave,Birmingham Thai
+q220,restaurant,Oyster & Vine,Bristol Seafood
+
+QuestionID,Question,Answer,Document
+q221,restaurant,The Golden Hearth,Leicester Mediterranean
+q222,restaurant,Amber Spice,Southampton Indian
+q223,restaurant,Velvet Table,Nottingham Modern European
+q224,restaurant,The Crimson Spoon,Newcastle BBQ
+q225,restaurant,Blue Horizon,Cambridge Seafood
+q226,restaurant,Sakura Flame,Oxford Japanese
+q227,restaurant,Harvest Plate,Glasgow Farm-to-Table
+q228,restaurant,Golden Thyme,Bath Vegan
+q229,restaurant,Urban Curry,Liverpool Indian
+q230,restaurant,Maple Grille,Edinburgh Canadian
+q231,restaurant,The Rustic Pearl,York Mediterranean
+q232,restaurant,Oyster Point,Bristol Seafood
+q233,restaurant,Amber Fork,Reading Vegan
+q234,restaurant,The Vine Flame,Manchester Comfort Food
+q235,restaurant,Silver Lantern,Birmingham Thai
+q236,restaurant,Crimson Olive,Cardiff Mediterranean
+q237,restaurant,Golden Bowl,Brighton Asian Fusion
+q238,restaurant,The Curry Box,Leeds Indian
+q239,restaurant,Ocean View,Swansea Seafood
+q240,restaurant,Lavender Olive,Chester Modern British
+q241,restaurant,Golden Dragon,Plymouth Chinese
+q242,restaurant,Harvest Grill,Sheffield Steakhouse
+q243,restaurant,Amber Coast,Aberdeen Vegetarian
+q244,restaurant,The Rustic Flame,Gloucester Farm-to-Table
+q245,restaurant,Maple Fork,Newcastle Modern European
+q246,restaurant,The Curry Leaf,Exeter Indian
+q247,restaurant,Blue Oyster,Portsmouth Seafood
+q248,restaurant,Velvet Ember,Milton Keynes Vegan
+q249,restaurant,Golden Vine,Bradford Mediterranean
+q250,restaurant,Harvest Ember,Dundee BBQ
+q251,restaurant,Amber Table,Peterborough Farm-to-Table
+q252,restaurant,The Jade Olive,Northampton Asian Fusion
+q253,restaurant,Golden Fork,Blackpool Comfort Food
+q254,restaurant,The Urban Plate,Bournemouth Modern European
+q255,restaurant,Crimson Lantern,Slough Indian
+q256,restaurant,Oyster Grove,Lancaster Seafood
+q257,restaurant,Sakura Olive,Hull Japanese
+q258,restaurant,Golden Thyme,Luton Vegan
+q259,restaurant,The Rustic Vine,Coventry Farm-to-Table
+q260,restaurant,Lavender Grove,Worcester Vegetarian
+q261,restaurant,The Curry Lantern,Stoke-on-Trent Indian
+q262,restaurant,Amber Grille,Chesterfield Modern British
+q263,restaurant,Ocean's Edge,Newport Seafood
+q264,restaurant,The Olive Plate,Sunderland Mediterranean
+q265,restaurant,Crimson Hearth,Winchester Vegan
+q266,restaurant,Maple Flame,Darlington Canadian
+q267,restaurant,The Urban Thyme,York Modern European
+q268,restaurant,Velvet Pearl,Brighton Comfort Food
+q269,restaurant,Blue Coral,Bristol Seafood
+q270,restaurant,Harvest Plate,Glasgow Farm-to-Table
+q271,restaurant,Golden Curry,Leicester Indian
+q272,restaurant,Amber Bistro,London Contemporary British
+q273,restaurant,Oyster Shell,Liverpool Seafood
+q274,restaurant,Silver Fork,Cardiff Modern European
+q275,restaurant,The Jade Bowl,Southampton Asian Fusion
+q276,restaurant,Crimson Thyme,Manchester Farm-to-Table
+q277,restaurant,Golden Vine,Newcastle Mediterranean
+q278,restaurant,Lavender Ember,Oxford Vegan
+q279,restaurant,The Rustic Table,Cambridge Comfort Food
+q280,restaurant,Blue Wave,Bath Seafood
+
+QuestionID,Question,Answer,Document
+q281,restaurant,Golden Olive,London Mediterranean
+q282,restaurant,Spice Bazaar,Birmingham Indian
+q283,restaurant,The Urban Grill,Manchester Steakhouse
+q284,restaurant,Amber Lantern,Glasgow Asian Fusion
+q285,restaurant,Blue Ocean,Edinburgh Seafood
+q286,restaurant,The Rustic Fork,Leeds Contemporary British
+q287,restaurant,Golden Saffron,Liverpool Indian
+q288,restaurant,Harvest Flame,Cardiff Farm-to-Table
+q289,restaurant,Crimson Vine,Nottingham Modern European
+q290,restaurant,Oyster Grove,Bristol Seafood
+q291,restaurant,Velvet Hearth,Sheffield Vegan
+q292,restaurant,The Curry Bowl,Newcastle Indian
+q293,restaurant,Maple Horizon,Southampton Canadian
+q294,restaurant,The Golden Spoon,Brighton Contemporary British
+q295,restaurant,Amber Terrace,Oxford Mediterranean
+q296,restaurant,The Vine Bistro,Cambridge French
+q297,restaurant,Harvest Skillet,York Farm-to-Table
+q298,restaurant,Blue Sapphire,Plymouth Seafood
+q299,restaurant,Sakura Orchid,Exeter Japanese
+q300,restaurant,Silver Lotus,Aberdeen Thai
+q301,restaurant,Golden Ember,Leicester BBQ
+q302,restaurant,The Rustic Lantern,Bath Comfort Food
+q303,restaurant,The Curry Hut,Portsmouth Indian
+q304,restaurant,Crimson Grille,Dundee Modern British
+q305,restaurant,Velvet Fork,Gloucester Vegan
+q306,restaurant,Amber Wave,Swansea Seafood
+q307,restaurant,Golden Thyme,Chester Vegetarian
+q308,restaurant,Urban Smokehouse,Lancaster BBQ
+q309,restaurant,Blue Horizon,Luton Seafood
+q310,restaurant,The Olive Table,Coventry Mediterranean
+q311,restaurant,Harvest & Vine,Slough Farm-to-Table
+q312,restaurant,The Jade Orchid,Hull Asian Fusion
+q313,restaurant,Golden Terrace,Blackpool Modern European
+q314,restaurant,Oyster Pearl,Worcester Seafood
+q315,restaurant,Lavender Grille,Milton Keynes Vegan
+q316,restaurant,The Amber Plate,Bradford Comfort Food
+q317,restaurant,The Curry Pearl,York Indian
+q318,restaurant,Saffron Grill,Newport Indian
+q319,restaurant,Golden Ocean,Reading Seafood
+q320,restaurant,Velvet Olive,Newcastle Mediterranean
+q321,restaurant,The Rustic Table,London Modern European
+q322,restaurant,Blue Coast,Birmingham Seafood
+q323,restaurant,Maple Grill,Manchester Canadian
+q324,restaurant,Golden Lotus,Glasgow Chinese
+q325,restaurant,Oyster & Co.,Liverpool Seafood
+q326,restaurant,Harvest Ember,Edinburgh Farm-to-Table
+q327,restaurant,Amber Olive,Leeds Mediterranean
+q328,restaurant,Sakura Plate,Brighton Japanese
+q329,restaurant,The Curry Spice,Southampton Indian
+q330,restaurant,Golden Olive,Nottingham Mediterranean
+q331,restaurant,Lavender Flame,Cambridge Vegan
+q332,restaurant,Crimson Terrace,Bath Modern British
+q333,restaurant,Blue Lagoon,Bristol Seafood
+q334,restaurant,Golden Harvest,Oxford Vegetarian
+q335,restaurant,The Urban Table,Plymouth Contemporary British
+q336,restaurant,Amber & Vine,Dundee Farm-to-Table
+q337,restaurant,Maple Thyme,Gloucester Canadian
+q338,restaurant,Velvet Lantern,Swansea Vegan
+q339,restaurant,The Curry Pot,York Indian
+q340,restaurant,Oyster Bliss,Leicester Seafood
+q341,restaurant,Golden Grill,Newcastle Steakhouse
+q342,restaurant,The Rustic Hearth,Edinburgh Comfort Food
+q343,restaurant,The Vine Flame,Sheffield Modern European
+q344,restaurant,Harvest Coast,Cardiff Seafood
+q345,restaurant,Amber Thyme,Manchester Mediterranean
+q346,restaurant,Golden Plate,London Contemporary British
+q347,restaurant,Silver Flame,Birmingham Indian
+q348,restaurant,Sakura Orchid,Leeds Japanese
+q349,restaurant,The Crimson Spoon,Liverpool Farm-to-Table
+q350,restaurant,Oyster Wave,Glasgow Seafood
+
+QuestionID,Question,Answer,Document
+q351,restaurant,Golden Curry,London Indian
+q352,restaurant,The Sapphire Grill,Birmingham Steakhouse
+q353,restaurant,Amber Vine,Manchester Contemporary European
+q354,restaurant,Blue Lagoon,Glasgow Seafood
+q355,restaurant,The Olive Garden,Edinburgh Mediterranean
+q356,restaurant,Harvest Table,Liverpool Farm-to-Table
+q357,restaurant,Saffron Flame,Leeds Indian
+q358,restaurant,Oyster Coast,Brighton Seafood
+q359,restaurant,Golden Lantern,Cardiff Chinese
+q360,restaurant,Velvet Ember,Sheffield Vegan
+q361,restaurant,The Rustic Vine,Newcastle Modern British
+q362,restaurant,Maple Hearth,Southampton Canadian
+q363,restaurant,Amber Thyme,Nottingham Farm-to-Table
+q364,restaurant,The Curry Orchard,Oxford Indian
+q365,restaurant,Golden Pearl,Cambridge Mediterranean
+q366,restaurant,Urban Flame,Plymouth BBQ
+q367,restaurant,The Jade Horizon,Exeter Asian Fusion
+q368,restaurant,Harvest Ember,Dundee Contemporary British
+q369,restaurant,Sakura Bowl,Aberdeen Japanese
+q370,restaurant,Silver Olive,Leicester Modern European
+q371,restaurant,Oyster Haven,Gloucester Seafood
+q372,restaurant,Amber Plate,Swansea Vegan
+q373,restaurant,The Rustic Olive,York Farm-to-Table
+q374,restaurant,Lavender Wave,Bath Vegetarian
+q375,restaurant,Blue Ember,Bristol Seafood
+q376,restaurant,Golden Orchid,Portsmouth Thai
+q377,restaurant,The Crimson Grill,Chester Steakhouse
+q378,restaurant,Velvet Lantern,Lancaster Vegan
+q379,restaurant,Amber Ocean,Milton Keynes Mediterranean
+q380,restaurant,Golden Wave,Hull Seafood
+q381,restaurant,The Curry Flame,Luton Indian
+q382,restaurant,Harvest Fork,Coventry Farm-to-Table
+q383,restaurant,Sakura Terrace,Slough Japanese
+q384,restaurant,Blue Pearl,Blackpool Seafood
+q385,restaurant,Urban Bowl,Worcester Comfort Food
+q386,restaurant,Amber Coast,Bradford Vegan
+q387,restaurant,Golden Fork,Reading Mediterranean
+q388,restaurant,The Curry Terrace,Newport Indian
+q389,restaurant,Silver Tide,Bournemouth Seafood
+q390,restaurant,Harvest Flame,Brighton Farm-to-Table
+q391,restaurant,The Rustic Plate,London Contemporary British
+q392,restaurant,Crimson Lantern,Birmingham Modern European
+q393,restaurant,Golden Olive,Manchester Mediterranean
+q394,restaurant,Amber Sapphire,Liverpool Asian Fusion
+q395,restaurant,Oyster Tide,Glasgow Seafood
+q396,restaurant,The Urban Olive,Edinburgh Farm-to-Table
+q397,restaurant,Harvest Table,Leeds Modern European
+q398,restaurant,Golden Spoon,Cardiff Contemporary British
+q399,restaurant,Sakura Lantern,Sheffield Japanese
+q400,restaurant,Amber Blossom,Southampton Vegetarian
+
+QuestionID,Question,Answer,Document
+q401,restaurant,Golden Plate,London Contemporary British
+q402,restaurant,The Crimson Bowl,Birmingham Indian
+q403,restaurant,Blue Lagoon,Manchester Seafood
+q404,restaurant,Saffron Vine,Glasgow Mediterranean
+q405,restaurant,Amber Olive,Edinburgh Farm-to-Table
+q406,restaurant,Oyster Pearl,Liverpool Seafood
+q407,restaurant,The Urban Grill,Leeds Steakhouse
+q408,restaurant,Golden Thyme,Cardiff Vegetarian
+q409,restaurant,Silver Wave,Sheffield Asian Fusion
+q410,restaurant,Maple Flame,Newcastle Canadian
+q411,restaurant,Harvest Coast,Southampton Modern European
+q412,restaurant,The Rustic Spoon,Nottingham Comfort Food
+q413,restaurant,Golden Lantern,Oxford Mediterranean
+q414,restaurant,Amber Vine,Cambridge Vegan
+q415,restaurant,Sakura Horizon,Plymouth Japanese
+q416,restaurant,Silver Pearl,Exeter Seafood
+q417,restaurant,The Curry Bowl,Dundee Indian
+q418,restaurant,Harvest Ember,Aberdeen Farm-to-Table
+q419,restaurant,Oyster Terrace,Leicester Seafood
+q420,restaurant,Amber Fork,Gloucester Modern British
+q421,restaurant,Golden Olive,Swansea Mediterranean
+q422,restaurant,Lavender Lantern,York Vegan
+q423,restaurant,Blue Coral,Bath Seafood
+q424,restaurant,The Jade Grill,Bristol Asian Fusion
+q425,restaurant,Amber Plate,Portsmouth Vegetarian
+q426,restaurant,Urban Ember,Chester BBQ
+q427,restaurant,Harvest Bowl,Lancaster Farm-to-Table
+q428,restaurant,Sakura Thyme,Milton Keynes Japanese
+q429,restaurant,Golden Flame,Hull Mediterranean
+q430,restaurant,The Curry Leaf,Luton Indian
+q431,restaurant,Velvet Pearl,Coventry Vegan
+q432,restaurant,Blue Wave,Slough Seafood
+q433,restaurant,Amber Olive,Blackpool Mediterranean
+q434,restaurant,Silver Flame,Worcester Asian Fusion
+q435,restaurant,Golden Coast,Bradford Seafood
+q436,restaurant,The Urban Plate,Reading Modern British
+q437,restaurant,Sakura Vine,Newport Japanese
+q438,restaurant,Golden Bowl,Bournemouth Farm-to-Table
+q439,restaurant,Harvest Olive,Brighton Mediterranean
+q440,restaurant,The Crimson Fork,London Steakhouse
+q441,restaurant,Oyster Grill,Birmingham Seafood
+q442,restaurant,Velvet Hearth,Manchester Vegan
+q443,restaurant,Golden Lantern,Glasgow Comfort Food
+q444,restaurant,Silver Vine,Edinburgh Modern European
+q445,restaurant,Harvest Flame,Liverpool Farm-to-Table
+q446,restaurant,Amber Ember,Leeds Contemporary British
+q447,restaurant,Sakura Blossom,Cardiff Japanese
+q448,restaurant,Golden Pearl,Sheffield Thai
+q449,restaurant,The Rustic Bowl,Newcastle Farm-to-Table
+q450,restaurant,Silver Olive,Southampton Vegetarian
+q451,restaurant,Golden Flame,Nottingham Mediterranean
+q452,restaurant,Velvet Bowl,Oxford Comfort Food
+q453,restaurant,Oyster Table,Cambridge Seafood
+q454,restaurant,Saffron Orchid,Plymouth Indian
+q455,restaurant,The Urban Lantern,Exeter Vegan
+q456,restaurant,Amber Pearl,Dundee Modern European
+q457,restaurant,Blue Tide,Aberdeen Seafood
+q458,restaurant,Golden Terrace,Leicester Mediterranean
+q459,restaurant,Lavender Ember,Gloucester Vegan
+q460,restaurant,Harvest Orchid,Swansea Farm-to-Table
+q461,restaurant,Amber Grille,York Comfort Food
+q462,restaurant,Golden Fork,Bath Steakhouse
+q463,restaurant,Sakura Flame,Bristol Japanese
+q464,restaurant,Silver Vine,Portsmouth Modern British
+q465,restaurant,Crimson Bowl,Chester Contemporary European
+q466,restaurant,Blue Olive,Lancaster Seafood
+q467,restaurant,Amber Thyme,Milton Keynes Farm-to-Table
+q468,restaurant,Golden Horizon,Hull Seafood
+q469,restaurant,The Rustic Table,Luton Comfort Food
+q470,restaurant,Sakura Grove,Coventry Japanese
+q471,restaurant,Velvet Wave,Slough Mediterranean
+q472,restaurant,Golden Blossom,Blackpool Vegetarian
+q473,restaurant,Harvest Table,Worcester Farm-to-Table
+q474,restaurant,Amber Orchid,Bradford Modern European
+q475,restaurant,Golden Olive,Reading Mediterranean
+q476,restaurant,The Curry House,Newport Indian
+q477,restaurant,Velvet Flame,Bournemouth Vegan
+q478,restaurant,Blue Lantern,Brighton Seafood
+q479,restaurant,Golden Grill,London Steakhouse
+q480,restaurant,Silver Thyme,Birmingham Farm-to-Table
+
+QuestionID,Question,Answer,Document
+q481,restaurant,Amber Hearth,Manchester Modern European
+q482,restaurant,Oyster Haven,Glasgow Seafood
+q483,restaurant,Harvest Olive,Edinburgh Farm-to-Table
+q484,restaurant,Golden Spoon,Liverpool Contemporary British
+q485,restaurant,Velvet Ember,Leeds Vegan
+q486,restaurant,Sakura Coast,Cardiff Japanese
+q487,restaurant,Blue Pearl,Sheffield Seafood
+q488,restaurant,The Urban Olive,Newcastle Mediterranean
+q489,restaurant,Silver Lantern,Southampton Thai
+q490,restaurant,Golden Flame,Nottingham BBQ
+q491,restaurant,Amber Blossom,Oxford Vegetarian
+q492,restaurant,The Rustic Fork,Cambridge Farm-to-Table
+q493,restaurant,Harvest Tide,Plymouth Seafood
+q494,restaurant,Sakura Ember,Exeter Japanese
+q495,restaurant,Golden Terrace,Dundee Modern European
+q496,restaurant,Silver Olive,Aberdeen Mediterranean
+q497,restaurant,Amber Vine,Leicester Vegan
+q498,restaurant,Golden Plate,Gloucester Contemporary British
+q499,restaurant,Velvet Bowl,Swansea Comfort Food
+q500,restaurant,The Curry Flame,York Indian
+q501,restaurant,Oyster Coast,Bath Seafood
+q502,restaurant,Harvest Grille,Bristol Farm-to-Table
+q503,restaurant,Golden Lantern,Portsmouth Asian Fusion
+q504,restaurant,Sakura Blossom,Chester Japanese
+q505,restaurant,Velvet Vine,Lancaster Vegan
+q506,restaurant,Amber Fork,Milton Keynes Mediterranean
+q507,restaurant,Golden Wave,Hull Seafood
+q508,restaurant,Harvest Plate,Luton Farm-to-Table
+q509,restaurant,Silver Thyme,Coventry Vegetarian
+q510,restaurant,Amber Ocean,Slough Comfort Food
+q511,restaurant,Blue Sapphire,Blackpool Seafood
+q512,restaurant,The Curry Spoon,Worcester Indian
+q513,restaurant,Harvest Flame,Bradford BBQ
+q514,restaurant,Amber Olive,Reading Mediterranean
+q515,restaurant,Golden Wave,Newport Seafood
+q516,restaurant,Velvet Fork,Bournemouth Farm-to-Table
+q517,restaurant,Oyster Grille,Brighton Seafood
+q518,restaurant,Golden Horizon,London Contemporary British
+q519,restaurant,Silver Spoon,Birmingham Farm-to-Table
+q520,restaurant,Sakura Orchid,Manchester Japanese
+q521,restaurant,Amber Vine,Glasgow Vegan
+q522,restaurant,The Rustic Plate,Edinburgh Modern European
+q523,restaurant,Harvest Bowl,Liverpool Farm-to-Table
+q524,restaurant,Golden Olive,Leeds Mediterranean
+q525,restaurant,Amber Blossom,Cardiff Vegetarian
+q526,restaurant,Sakura Flame,Sheffield Japanese
+q527,restaurant,Silver Lantern,Newcastle Asian Fusion
+q528,restaurant,Golden Ember,Southampton BBQ
+q529,restaurant,Blue Horizon,Nottingham Seafood
+q530,restaurant,Velvet Pearl,Oxford Vegan
+q531,restaurant,Amber Hearth,Cambridge Farm-to-Table
+q532,restaurant,Golden Vine,Plymouth Mediterranean
+q533,restaurant,The Curry Bowl,Exeter Indian
+q534,restaurant,Harvest Lantern,Dundee Comfort Food
+q535,restaurant,Oyster Grille,Aberdeen Seafood
+q536,restaurant,Silver Olive,Leicester Vegetarian
+q537,restaurant,Amber Flame,Gloucester BBQ
+q538,restaurant,Blue Olive,Swansea Seafood
+q539,restaurant,Golden Thyme,York Farm-to-Table
+q540,restaurant,Sakura Ember,Bath Japanese
+q541,restaurant,Velvet Vine,Bristol Vegan
+q542,restaurant,Amber Orchid,Portsmouth Contemporary British
+q543,restaurant,Golden Plate,Chester Modern European
+q544,restaurant,Oyster Table,Lancaster Seafood
+q545,restaurant,The Curry Spoon,Milton Keynes Indian
+q546,restaurant,Harvest Bowl,Hull Comfort Food
+q547,restaurant,Golden Terrace,Luton Mediterranean
+q548,restaurant,Velvet Flame,Coventry Vegan
+q549,restaurant,Silver Lantern,Slough Asian Fusion
+q550,restaurant,Amber Ember,Blackpool BBQ
