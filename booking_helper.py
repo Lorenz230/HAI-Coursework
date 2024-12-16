@@ -1,5 +1,7 @@
 import nltk
 from nltk import word_tokenize, pos_tag
+from similarity import DocumentSimilarity, StopWords
+
 
 # Ensure the necessary data is downloaded
 nltk.download('punkt')
@@ -67,10 +69,12 @@ class SentenceParser:
 
 class DataStore:
     def __init__(self):
-        self.data = []
+        self.data = None
+        self.similarity = DocumentSimilarity()  # Create an instance of DocumentSimilarity
 
     def append_data(self, name=None, location=None, restaurant_type=None, group_size=None, date=None, time=None):
-        new_entry = {
+
+        self.data = {
             "name": name,
             "location": location,
             "restaurant_type": restaurant_type,
@@ -78,15 +82,19 @@ class DataStore:
             "date": date,
             "time": time
         }
-        self.data.append(new_entry)
 
     def get_data(self):
         return self.data
     
     def get_location(self):
-        for data in self.data:
-            while data['location'] is None:  # Check if the location is None
+        if self.data and self.data['location'] is None:
+            while self.data['location'] is None:  # Check if the location is None
                 location = input("Could you please confirm the location of where you want to book: ")
-                data['location'] = location  # Update the location in the entry
+                self.data['location'] = location  # Update the location in the entry
 
+    def get_restautant_type(self):
+        if self.data and self.data['restaurant_type'] is None:
+            while self.data['restaurant_type'] is None:  # Check if the location is None
+                location = input("Could you please confirm what type of food you would like to eat: ")
+                self.data['restaurant_type'] = location  # Update the location in the entry
 

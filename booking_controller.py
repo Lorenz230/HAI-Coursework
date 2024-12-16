@@ -1,5 +1,5 @@
 from booking_helper import SentenceParser, DataStore
-    
+from similarity import DocumentSimilarity
 
 def Controller(User_input):
     # this will run at the start when thre suer asks restaurant booking. 
@@ -11,4 +11,5 @@ def Controller(User_input):
 
     data.get_location()
     
-    
+    booking = data.get_data()
+    print("booking data:",booking)
