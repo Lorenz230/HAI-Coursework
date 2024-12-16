@@ -5,13 +5,13 @@ restaurantFinder = DocumentSimilarity(use_stemming= True)
 
 def find_restaurants(query):
     answers = restaurantFinder.main("Data/restaurants.csv", query)
-    ans = []
-    for item in answers:
-        if 'Answer' in item:  # Ensure the key exists
-            ans.append(item['Answer'])
-    for x in ans:
-        print(f"{x}\n")
+    numbered_answers = {i + 1: item['Answer'] for i, item in enumerate(answers) if 'Answer' in item}
 
+    print(f"Here are your top Choices:")
+    for key, value in numbered_answers.items():
+        print(f"{key}: {value}")
+
+    print("select the number of the option you want")
 
 def Controller(User_input):
     # this will run at the start when thre suer asks restaurant booking. 
@@ -27,7 +27,8 @@ def Controller(User_input):
     location = booking['location']
     restaurant_type = booking['restaurant_type']
     query = f"{location}, {restaurant_type}"
-
+    
+    #find restaurants after processing query. 
     find_restaurants(query)
 
     
