@@ -82,17 +82,11 @@ class DataStore:
 
     def get_data(self):
         return self.data
-
-
-
-parser = SentenceParser()
-parsed_data = parser.main("I want chinese food in Nottingham for 3 people")
-print(parsed_data)
-
-data = DataStore()
-data.append_data(location = parsed_data['location'], restaurant_type = parsed_data['restaurant_type'], group_size= parsed_data['group_size'])
-
-print(data.get_data())
-
+    
+    def get_location(self):
+        for data in self.data:
+            while data['location'] is None:  # Check if the location is None
+                location = input("Could you please confirm the location of where you want to book: ")
+                data['location'] = location  # Update the location in the entry
 
 
