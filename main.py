@@ -1,6 +1,7 @@
 from classifier import intentClassifier, TextClassifier
 from similarity import DocumentSimilarity, StopWords
 from identity_managment import identityManager
+from booking_helper import SentenceParser, DataStore
 
 classifier = intentClassifier(use_stemming= True)
 QAsimilarity = DocumentSimilarity(use_stemming= True)
@@ -29,7 +30,15 @@ def handle_identity(user_input):
     user_data_manager.check_name()
 
 def handle_booking(user_input):
-    print("booking")
+    parser = SentenceParser()
+    parsed_data = parser.main(user_input)
+    print(parsed_data)
+
+    data = DataStore()
+    data.append_data(location = parsed_data['location'], restaurant_type = parsed_data['restaurant_type'], group_size= parsed_data['group_size'])
+
+    print(data.get_data())
+
 
 def handle_mismatch(user_input):
     print("It seems we couldn't determine your intent. Please select from the following options:")
