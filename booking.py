@@ -1,3 +1,10 @@
+import nltk
+
+nltk.download('punkt')       # For word_tokenize
+nltk.download('stopwords')   # For stopwords list
+nltk.download('wordnet')     # For WordNet lemmatizer
+
+
 from booking_helper import SentenceParser, DataStore
 from similarity import DocumentSimilarity
 import random

@@ -1,3 +1,11 @@
+import nltk
+
+nltk.download('punkt')       # For word_tokenize
+nltk.download('stopwords')   # For stopwords list
+nltk.download('wordnet')     # For WordNet lemmatizer
+
+
+
 import pandas as pd
 
 class identityManager:

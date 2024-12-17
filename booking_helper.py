@@ -1,4 +1,11 @@
 import nltk
+
+nltk.download('punkt')       # For word_tokenize
+nltk.download('stopwords')   # For stopwords list
+nltk.download('wordnet')     # For WordNet lemmatizer
+
+
+import nltk
 from nltk import word_tokenize, pos_tag
 from similarity import DocumentSimilarity, StopWords
 
