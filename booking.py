@@ -217,15 +217,15 @@ class RestaurantBooking:
             while True:
                 choice = input(f"Do you want me to use '{booker}' or a different name? \n"
                             "Choice: a) use my name, b) pick a different one\n"
-                            "Type name: ").strip().lower()
+                            "Type choice: ").strip().lower()
                 if choice == 'a':
                     # Use the current name
                     print(f"Using the name: {booker}")
                     break
                 elif choice == 'b':
                     # Allow the user to change the name
-                    booker = self.IdentityManager.change_name()
-                    print(f"Name changed to: {booker}")
+                    self.IdentityManager.change_name()
+                    booker = self.IdentityManager.get_name()
                     break
                 else:
                     # Handle invalid input
@@ -236,24 +236,31 @@ class RestaurantBooking:
             booker = self.IdentityManager.change_name()
             print(f"Name set to: {booker}")
 
-
+        # Retrieve the current stored booking data
         booking_data = self.data_store.get_data()
         location = booking_data.get('location')  # Set location to current stored value
+        restaurant_name = booking_data.get('name')  # Name of the restaurant
         restaurant_type = booking_data.get('restaurant_type')
         date = booking_data.get('date')
-        answer = booking_data.get('name')
         time = booking_data.get('time')
         size = booking_data.get('group_size')
 
+        # Append data with the correct names
         self.data_store.append_data(
-            name=answer, 
-            location=location,  # Use current location
-            restaurant_type=restaurant_type, 
+            name=restaurant_name,  # Restaurant name
+            location=location,     # Use current location
+            restaurant_type=restaurant_type,
             date=date,
             time=time,
-            group_size = size,
-            booker = booker
+            group_size=size,
+            booker=booker  # Ensure the updated 'booker' is passed here
         )
+
+
+        # print("Booking confirmed with the following details:")
+        # print(f"Restaurant: {restaurant_name}, Booker: {booker}, Location: {location}, "
+        #     f"Type: {restaurant_type}, Date: {date}, Time: {time}, Group Size: {size}")
+
         
 
     def confirm_booking(self):
@@ -296,6 +303,11 @@ class RestaurantBooking:
                         print("Let's change the date.")
                         day, month = self.pick_date_and_time(booking_data['name'])
                         booking_data['date'] = f"{day}-{month}"
+
+                        print("sinece we changed the date, you must pick the time again")
+                        new_time = self.time_selector()
+                        booking_data['time'] = new_time
+
                     elif change_choice == 'b':
                         print("Let's change the time.")
                         new_time = self.time_selector()
@@ -350,7 +362,7 @@ class RestaurantBooking:
         # select name for booking
         self.confirm_booker()
 
-        print(self.data_store.get_data())
+        print("Data ====== ", self.data_store.get_data())
         
         
         # confirm the booking
