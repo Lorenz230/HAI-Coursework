@@ -49,7 +49,7 @@ class TextClassifier:
         X_test_tfidf = self.vectorizer.transform(X_test)
 
         # Train Logistic Regression Model
-        self.classifier = LogisticRegression(max_iter=1000, random_state=42)
+        self.classifier = LogisticRegression(max_iter=5000, random_state=42)
         self.classifier.fit(X_train_tfidf, y_train)
 
         # Evaluate on test data
@@ -91,12 +91,11 @@ class TextClassifier:
 
         # Step 5: Classify a new query
         predicted_label = self.predict(query)
-        print(f"Predicted Label for the query '{query}': {predicted_label}")
+        
         return predicted_label
     
-# only use when training and evaluating models
-# classifier = TextClassifier(use_stemming=False)
-# classifier.main("Data/intents_Class.csv", "book table")
+
+
 
 """
 subclasses - these are ones you will acctually use in code when not training
@@ -120,7 +119,6 @@ class identityClassifier(TextClassifier):
         predicted_label = self.predict(query)
         """
         """
-        print(f"Predicted Label for the query '{query}': {predicted_label}")
         return predicted_label
 
 class intentClassifier(TextClassifier):
@@ -130,17 +128,16 @@ class intentClassifier(TextClassifier):
             self.stemmer.stem(word) if self.use_stemming else self.lemmatizer.lemmatize(word)
             for word in tokens if word.isalnum() # and word not in self.stop_words
         ]
+        """
         print(processed_tokens)
+        """
         return processed_tokens
+    
 
-    def main(self,query):
-        # Step 1: Load the model and vectorizer
-        self.load_model('Data/intentVectorizer.pkl', 'Data/intentModel.pkl')
 
-        # Step 2: Classify the query
-        predicted_label = self.predict(query)
-        """
-        
-        """
-        print(f"Predicted Label for the query '{query}': {predicted_label}")
-        return predicted_label
+classifier = TextClassifier(use_stemming=False)
+classifier.main("Data/intents_Class.csv", "book table")
+
+intentsClass = intentClassifier(use_stemming= False)
+intentsClass.main("Data/intents_Class.csv", "book table")
+

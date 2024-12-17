@@ -83,7 +83,8 @@ def chatbot():
             print("Goodbye!")
             break
         else:
-            intent_prediction = classifier.main(user_input)
+            intent_prediction = classifier.main(csv_file= 'Data/intents_Class.csv', query=user_input)
+            print(f"Predicted Label for the query '{user_input}': {intent_prediction}")
             print(intent_prediction)
 
             # Small-talk loop
