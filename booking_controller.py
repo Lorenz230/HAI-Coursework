@@ -117,6 +117,7 @@ def time_selector():
         else:
             print("Invalid selection. Please choose a valid letter from the list.")
 
+
 def Controller(User_input):
 
     # When the booking option is chosen this will start processing of the query. 

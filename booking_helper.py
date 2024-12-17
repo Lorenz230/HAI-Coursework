@@ -37,29 +37,10 @@ class SentenceParser:
                     return word
         return None
 
-    def extract_group_size(self):
-        group_size = None
-        capturing = False
-        for word, tag in self.tags:
-            if tag == 'IN':  # Trigger capturing after "for"
-                capturing = True
-            elif capturing:
-                if tag == 'CD':  # Capture the number (e.g., "4", "2")
-                    group_size = word
-                elif tag in {'NN', 'NNS'}:  # Ensure it refers to group descriptor
-                    if word.lower() not in {'pm', 'am', 'oclock', "o'clock", 'Oclock', "O'clock"}:
-                        return group_size  # Return the number if descriptor matches
-                    else:
-                        capturing = False  # Stop capturing if unrelated descriptor
-                else:  # Stop if unrelated tags appear
-                    capturing = False
-        return None
-
     def parse(self):
         return {
             "location": self.extract_location(),
             "restaurant_type": self.extract_restaurant_type(),
-            "group_size": self.extract_group_size()
         }
 
     def main(self, sentence):
@@ -99,9 +80,9 @@ class DataStore:
                 self.data['restaurant_type'] = location  # Update the restaurant in the entry
 
     def change_location(self):
-        location = input("Could you please confirm the location of where you want to book: ")
+        location = input("Could you please confirm the location of where you want to boo -  ")
         self.data['location'] = location  # Update the location in the entry
         
     def change_restaurant_type(self):
-        location = input("Could you please confirm what type of food you would like to eat: ")
+        location = input("Could you please confirm what type of food you would like to eat -  ")
         self.data['restaurant_type'] = location  # Update the restaurant in the entry

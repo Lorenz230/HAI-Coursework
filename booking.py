@@ -44,7 +44,6 @@ class RestaurantBooking:
         self.data_store.append_data(
             location=parsed_data['location'], 
             restaurant_type=parsed_data['restaurant_type'], 
-            group_size=parsed_data['group_size']
         )
 
         while True:  # Loop until user confirms the query
@@ -57,19 +56,19 @@ class RestaurantBooking:
             # Ask user for confirmation
             confirmation = input(f"Confirm search query? Location: '{location}', Restaurant type: '{restaurant_type}' (yes/no): ").strip().lower()
 
-            if confirmation == 'yes':
+            if confirmation in ['yes', 'y']:
                 query = f"{location},{restaurant_type}"
                 print(f"Finalized Query: Searching for {restaurant_type} in {location}")
                 return query  # Return the finalized query
 
-            elif confirmation == 'no':
+            elif confirmation in ['no', 'n']:
                 # Allow user to modify location and restaurant type
                 change_location = input("Do you want to change the location? (yes/no): ").strip().lower()
-                if change_location == 'yes' or 'y':
+                if change_location in ['yes', 'y']:
                     self.data_store.change_location()
 
                 change_restaurant = input("Do you want to change the restaurant type? (yes/no): ").strip().lower()
-                if change_restaurant == 'yes' or 'n':
+                if change_restaurant in ['yes', 'y']:
                     self.data_store.change_restaurant_type()
 
             else:
@@ -149,19 +148,52 @@ class RestaurantBooking:
             else:
                 print("Invalid selection. Please choose a valid letter from the list.")
 
-    def pick_time(self, answer, day, month):
+    def pick_time(self):
         print("You're nearly done, now just pick a time")
         time = self.time_selector()
         booking_data = self.data_store.get_data()
         location = booking_data.get('location')  # Set location to current stored value
         restaurant_type = booking_data.get('restaurant_type')
+        date = booking_data.get('date')
+        answer = booking_data.get('name')
 
         self.data_store.append_data(
             name=answer, 
             location=location,  # Use current location
             restaurant_type=restaurant_type, 
-            date=f'{day}-{month}', 
+            date=date,
             time=time
+        )
+
+    def get_group_size(self):
+        while True:
+            try:
+                group_size = int(input("How many people is the table for? "))
+                if group_size > 0:
+                    print(f"Booking for {group_size} people confirmed.")
+                    return group_size
+                else:
+                    print("Please enter a valid number greater than 0.")
+            except ValueError:
+                print("Invalid input. Please enter a numeric value.")
+
+    def confirm_size(self):
+        print("Last step...")
+        size = self.get_group_size()
+        booking_data = self.data_store.get_data()
+        location = booking_data.get('location')  # Set location to current stored value
+        restaurant_type = booking_data.get('restaurant_type')
+        date = booking_data.get('date')
+        answer = booking_data.get('name')
+        time = booking_data.get('time')
+
+        self.data_store.append_data(
+            name=answer, 
+            location=location,  # Use current location
+            restaurant_type=restaurant_type, 
+            date=date,
+            time=time,
+            group_size = size
         )
 
 
@@ -175,12 +207,27 @@ class RestaurantBooking:
             return
         
         # select date and time
-        day, month = self.pick_date_and_time(answer)
+        self.pick_date_and_time(answer)
+        
 
         # select time
-        self.pick_time(answer = answer, day = day, month = month)
+        self.pick_time()
+        
 
-        # confirm the booking
+        #confirm group size
+        self.confirm_size()
+        print(self.data_store.get_data())
+
+        #select group size
+
+
+restaurantFinder = DocumentSimilarity(use_stemming=True)
+parser = SentenceParser()
+data_store = DataStore()
+booking_system = RestaurantBooking(restaurantFinder, parser, data_store)
+booking_system.controller("to eat indian food in Nottingham")
+
+        
         
 
 
