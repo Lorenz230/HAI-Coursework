@@ -60,7 +60,7 @@ class DataStore:
         self.data = None
         self.similarity = DocumentSimilarity()  # Create an instance of DocumentSimilarity
 
-    def append_data(self, name=None, location=None, restaurant_type=None, group_size=None, date=None, time=None):
+    def append_data(self, name=None, location=None, restaurant_type=None, group_size=None, date=None, time=None, booker = None):
 
         self.data = {
             "name": name,
@@ -68,7 +68,8 @@ class DataStore:
             "restaurant_type": restaurant_type,
             "group_size": group_size,
             "date": date,
-            "time": time
+            "time": time,
+            "booker": booker
         }
 
     def get_data(self):

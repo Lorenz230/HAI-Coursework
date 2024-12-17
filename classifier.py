@@ -135,9 +135,10 @@ class intentClassifier(TextClassifier):
     
 
 
-classifier = TextClassifier(use_stemming=False)
+classifier = TextClassifier(use_stemming= True)
 classifier.main("Data/intents_Class.csv", "book table")
 
-intentsClass = intentClassifier(use_stemming= False)
+intentsClass = intentClassifier(use_stemming= True)
 intentsClass.main("Data/intents_Class.csv", "book table")
 
+identitiyClass = identityClassifier(use_stemming= True)

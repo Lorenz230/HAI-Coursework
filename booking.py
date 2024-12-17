@@ -8,13 +8,18 @@ nltk.download('wordnet')     # For WordNet lemmatizer
 from booking_helper import SentenceParser, DataStore
 from similarity import DocumentSimilarity
 import random
+from identity_managment import identityManager
+
+
+
+
 
 class RestaurantBooking:
     def __init__(self, restaurant_finder, parser, data_store):
         self.restaurant_finder = restaurant_finder
         self.parser = parser
         self.data_store = data_store
-
+        self.IdentityManager = identityManager("Data/user_data.csv")
 
     def find_restaurants(self, query):
         while True:
@@ -185,7 +190,7 @@ class RestaurantBooking:
                 print("Invalid input. Please enter a numeric value.")
 
     def confirm_size(self):
-        print("Last step...")
+        print("So close...")
         size = self.get_group_size()
         booking_data = self.data_store.get_data()
         location = booking_data.get('location')  # Set location to current stored value
@@ -201,6 +206,53 @@ class RestaurantBooking:
             date=date,
             time=time,
             group_size = size
+        )
+
+
+
+    def confirm_booker(self):
+        print("Last step...")
+        booker = self.IdentityManager.get_name()
+        if booker is not None:
+            while True:
+                choice = input(f"Do you want me to use '{booker}' or a different name? \n"
+                            "Choice: a) use my name, b) pick a different one\n"
+                            "Type name: ").strip().lower()
+                if choice == 'a':
+                    # Use the current name
+                    print(f"Using the name: {booker}")
+                    break
+                elif choice == 'b':
+                    # Allow the user to change the name
+                    booker = self.IdentityManager.change_name()
+                    print(f"Name changed to: {booker}")
+                    break
+                else:
+                    # Handle invalid input
+                    print("Invalid choice. Please type 'a' to use the current name or 'b' to change it.")
+        else:
+            # Handle case where no name is found after all checks
+            print("No valid name was provided. Please set a name.")
+            booker = self.IdentityManager.change_name()
+            print(f"Name set to: {booker}")
+
+
+        booking_data = self.data_store.get_data()
+        location = booking_data.get('location')  # Set location to current stored value
+        restaurant_type = booking_data.get('restaurant_type')
+        date = booking_data.get('date')
+        answer = booking_data.get('name')
+        time = booking_data.get('time')
+        size = booking_data.get('size')
+
+        self.data_store.append_data(
+            name=answer, 
+            location=location,  # Use current location
+            restaurant_type=restaurant_type, 
+            date=date,
+            time=time,
+            group_size = size,
+            booker = booker
         )
 
 
@@ -221,11 +273,16 @@ class RestaurantBooking:
         self.pick_time()
         
 
-        #confirm group size
+        # confirm group size
         self.confirm_size()
+        
+        # select name for booking
+        self.confirm_booker()
+        
         print(self.data_store.get_data())
+        
 
-        #select group size
+
 
 
 # restaurantFinder = DocumentSimilarity(use_stemming=True)
@@ -233,15 +290,4 @@ class RestaurantBooking:
 # data_store = DataStore()
 # booking_system = RestaurantBooking(restaurantFinder, parser, data_store)
 # booking_system.controller("to eat indian food in Nottingham")
-
-        
-        
-
-
-        
-
-
-
-
-
 
