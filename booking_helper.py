@@ -97,3 +97,11 @@ class DataStore:
             while self.data['restaurant_type'] is None:  # Check if the restaurant type is None
                 location = input("Could you please confirm what type of food you would like to eat: ")
                 self.data['restaurant_type'] = location  # Update the restaurant in the entry
+
+    def change_location(self):
+        location = input("Could you please confirm the location of where you want to book: ")
+        self.data['location'] = location  # Update the location in the entry
+        
+    def change_restaurant_type(self):
+        location = input("Could you please confirm what type of food you would like to eat: ")
+        self.data['restaurant_type'] = location  # Update the restaurant in the entry
