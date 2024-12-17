@@ -93,7 +93,7 @@ class DocumentSimilarity:
                 """
                 
         else:
-            print("No results above the similarity threshold.")
+            print("I couldnt find what you were looking for, please rephrase:")
 
         
         return top_results_array

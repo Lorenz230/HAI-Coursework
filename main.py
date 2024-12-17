@@ -27,8 +27,19 @@ globalIdentityManager = identityManager("Data/user_data.csv")
 
 def handle_talk(user_input):
     answers = talkSimilarity.main("Data/small_talk.csv", user_input)
-    ans = answers['Answer']
-    print(ans)
+    # print("DEBUG: Answers returned by talkSimilarity:", answers)  # Debugging line
+
+    if answers:  # Check if there's a valid response
+        if isinstance(answers, list):
+            top_answer = answers[0]  # Access the first result
+            ans = top_answer['Answer']
+        elif isinstance(answers, dict):  # Handle a single dictionary response
+            ans = answers.get('Answer', "No answer found.")
+        else:
+            ans = "Invalid format for answers."
+        print(ans)
+    else:
+        print("Sorry, I couldn't find a relevant response.")
 
 def handle_QA(user_input):
     answers = QAsimilarity.main("Data/QA.csv", user_input)

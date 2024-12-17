@@ -42,7 +42,7 @@ class identityManager:
         """Clears all data in the CSV file."""
         self.df = pd.DataFrame(columns=['name'])  # Reset to an empty DataFrame with the 'name' column
         self.save_user_data()
-        print(f"The file '{self.file_path}' has been cleared.")
+        # print(f"The file '{self.file_path}' has been cleared.")
 
 # user_data_manager = identityManager("Data/user_data.csv")
 # user_data_manager.check_name()
