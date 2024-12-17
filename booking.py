@@ -243,7 +243,7 @@ class RestaurantBooking:
         date = booking_data.get('date')
         answer = booking_data.get('name')
         time = booking_data.get('time')
-        size = booking_data.get('size')
+        size = booking_data.get('group_size')
 
         self.data_store.append_data(
             name=answer, 
@@ -254,6 +254,76 @@ class RestaurantBooking:
             group_size = size,
             booker = booker
         )
+        
+
+    def confirm_booking(self):
+        print("\nPlease review your booking details:")
+        booking_data = self.data_store.get_data()
+
+        # Function to display booking summary
+        def display_booking_summary():
+            print("\n--- Booking Summary ---")
+            print(f"Name: {booking_data.get('booker', 'N/A')}")
+            print(f"Restaurant: {booking_data.get('name', 'N/A')}")
+            print(f"Location: {booking_data.get('location', 'N/A')}")
+            print(f"Restaurant Type: {booking_data.get('restaurant_type', 'N/A')}")
+            print(f"Date: {booking_data.get('date', 'N/A')}")
+            print(f"Time: {booking_data.get('time', 'N/A')}")
+            print(f"Group Size: {booking_data.get('group_size', 'N/A')} people")
+            print("-------------------------\n")
+
+        # Display initial booking summary
+        display_booking_summary()
+
+        # Ask for confirmation
+        while True:
+            choice = input("Do you want to confirm this booking? (yes/no): ").strip().lower()
+            if choice in ['yes', 'y']:
+                print("Booking confirmed! Thank you for choosing our service.")
+                return True  # Booking is confirmed
+            elif choice in ['no', 'n']:
+                print("Booking cancelled. Would you like to modify any of the details?")
+                print("Options:")
+                print("a) Date")
+                print("b) Time")
+                print("c) Group Size")
+                print("d) Booking Name")
+                print("e) Cancel Booking")
+                
+                while True:
+                    change_choice = input("Select an option to modify (a-f): ").strip().lower()
+                    if change_choice == 'a':
+                        print("Let's change the date.")
+                        day, month = self.pick_date_and_time(booking_data['name'])
+                        booking_data['date'] = f"{day}-{month}"
+                    elif change_choice == 'b':
+                        print("Let's change the time.")
+                        new_time = self.time_selector()
+                        booking_data['time'] = new_time
+                    elif change_choice == 'c':
+                        print("Let's change the group size.")
+                        new_size = self.get_group_size()
+                        booking_data['group_size'] = new_size
+                    elif change_choice == 'd':
+                        print("Let's change the booking name.")
+                        self.IdentityManager.change_name()
+                        new_name = self.IdentityManager.get_name()
+                        print("New name == ", new_name)
+                        booking_data['booker'] = new_name
+                    elif change_choice == 'e':
+                        print("Booking cancelled. Let us know if you need help again!")
+                        return False  # Booking is cancelled
+                    else:
+                        print("Invalid option. Please select a valid option (a-f).")
+                        continue
+
+                    print("Details updated. Here's the updated booking summary:")
+                    display_booking_summary()  # Show updated booking details
+                    break  # Exit modification loop and show updated summary
+            else:
+                print("Invalid input. Please type 'yes' to confirm or 'no' to modify/cancel.")
+
+
 
 
     def controller(self, user_input):
@@ -276,18 +346,22 @@ class RestaurantBooking:
         # confirm group size
         self.confirm_size()
         
+
         # select name for booking
         self.confirm_booker()
-        
+
         print(self.data_store.get_data())
         
+        
+        # confirm the booking
+        self.confirm_booking()
+    
 
 
 
-
-# restaurantFinder = DocumentSimilarity(use_stemming=True)
-# parser = SentenceParser()
-# data_store = DataStore()
-# booking_system = RestaurantBooking(restaurantFinder, parser, data_store)
-# booking_system.controller("to eat indian food in Nottingham")
+restaurantFinder = DocumentSimilarity(use_stemming=True)
+parser = SentenceParser()
+data_store = DataStore()
+booking_system = RestaurantBooking(restaurantFinder, parser, data_store)
+booking_system.controller("to eat indian food in Nottingham")
 
