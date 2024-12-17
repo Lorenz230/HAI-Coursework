@@ -1,11 +1,18 @@
 from classifier import intentClassifier, TextClassifier
 from similarity import DocumentSimilarity, StopWords
 from identity_managment import identityManager
-import booking_controller
+from booking import SentenceParser, DataStore, RestaurantBooking
 
 classifier = intentClassifier(use_stemming= True)
 QAsimilarity = DocumentSimilarity(use_stemming= True)
 talkSimilarity = StopWords(use_stemming= True)
+
+
+# booking variables
+restaurantFinder = DocumentSimilarity(use_stemming=True)
+parser = SentenceParser()
+data_store = DataStore()
+booking_system = RestaurantBooking(restaurantFinder, parser, data_store)
 
 
 globalIdentityManager = identityManager("Data/user_data.csv")
@@ -30,7 +37,7 @@ def handle_identity(user_input):
     user_data_manager.check_name()
 
 def handle_booking(user_input):
-    booking_controller.Controller(user_input)
+    booking_system.controller(user_input)
 
 
 def handle_mismatch(user_input):

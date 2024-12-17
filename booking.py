@@ -188,10 +188,6 @@ class RestaurantBooking:
 
 
 
-restaurantFinder = DocumentSimilarity(use_stemming=True)
-parser = SentenceParser()
-data_store = DataStore()
-booking_system = RestaurantBooking(restaurantFinder, parser, data_store)
-booking_system.controller("I want to eat Indian food in Nottingham")
+
 
 
