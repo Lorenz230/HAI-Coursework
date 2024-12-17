@@ -205,5 +205,6 @@ class NoStop(DocumentSimilarity):
             
             return []
         
-ds = NoStop(use_stemming=True)
-ds.main("Data/QA.csv", "stocks and bonds", similarity_threshold=0.45, top_n=5)
+# ds = NoStop(use_stemming=True)
+# ds.main("Data/QA.csv", "stocks and bonds", similarity_threshold=0.45, top_n=5)
+

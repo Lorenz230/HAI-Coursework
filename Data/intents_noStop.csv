@@ -1,0 +1,1608 @@
+QuestionID,Question,Answer,Document
+Q1,HOW AFRICAN AMERICANS WERE IMMIGRATED TO THE US,question_answering,African immigration to the United States
+Q2,how are glacier caves formed?,question_answering,Glacier cave
+Q3,how a water pump works,question_answering,Pump
+Q4,"how big is bmc software in houston, tx",question_answering,BMC Software
+Q5,"how big is bmc software in houston, tx",question_answering,BMC Software
+Q6,how much is 1 tablespoon of water,question_answering,Tablespoon
+Q7,how much is 1 tablespoon of water,question_answering,Tablespoon
+Q8,how much is 1 tablespoon of water,question_answering,Tablespoon
+Q9,how much are the harry potter movies worth,question_answering,Harry Potter
+Q10,how a rocket engine works,question_answering,Rocket engine
+Q11,how old was sue lyon when she made lolita,question_answering,Lolita (1962 film)
+Q12,how are cholera and typhus transmitted and prevented,question_answering,Cholera
+Q13,how did anne frank die,question_answering,Anne Frank
+Q14,how are aircraft radial engines built,question_answering,Radial engine
+Q15,how deep can be drill for deep underwater,question_answering,Deepwater drilling
+Q16,how old was monica lewinsky during the affair,question_answering,Monica Lewinsky
+Q17,how long was frank sinatra famous,question_answering,Frank Sinatra
+Q18,how are antibodies used in,question_answering,antibody
+Q19,how are antibodies used in,question_answering,antibody
+Q20,how are antibodies used in,question_answering,antibody
+Q21,how are antibodies used in,question_answering,antibody
+Q22,how much is jk rowling worth,question_answering,J. K. Rowling
+Q23,how big is auburndale florida,question_answering,"Auburndale, Florida"
+Q24,"how old is kirk douglas, the actor?",question_answering,Kirk Douglas
+Q25,how old is the singer bob seger,question_answering,Bob Seger
+Q26,how long was i love lucy on the air,question_answering,I Love Lucy
+Q27,how long was richard nixon a president,question_answering,Richard Nixon
+Q28,HOW MUCH IS CENTAVOS IN MEXICO,question_answering,Mexican peso
+Q29,How long was Mickie James with WWE?,question_answering,Mickie James
+Q30,how did armando christian perez become famous,question_answering,Pitbull (entertainer)
+Q31,how old were the twin towers when destroyed,question_answering,World Trade Center
+Q32,how are the # of electrons in each shell determined,question_answering,Electron shell
+Q33,how many presidents of the us,question_answering,List of Presidents of the United States
+Q34,how old is beatrice author,question_answering,Bea Arthur
+Q35,how are public schools funded,question_answering,state school
+Q36,how are public schools funded,question_answering,state school
+Q37,what happens  to the light independent reactions of photosynthesis?,question_answering,Light-independent reactions
+Q38,what happens  to the light independent reactions of photosynthesis?,question_answering,Light-independent reactions
+Q39,how does interlibrary loan work,question_answering,Interlibrary loan
+Q40,how does interlibrary loan work,question_answering,Interlibrary loan
+Q41,what did mia hamm do his work,question_answering,Mia Hamm
+Q42,what bacteria grow on macconkey agar,question_answering,MacConkey agar
+Q43,what countries are under the buddhism religion,question_answering,Buddhism by country
+Q44,how did wild bill's father die,question_answering,Wild Bill Hickok
+Q45,how many land rovers have landed on mars,question_answering,Mars rover
+Q46,how do forensic auditors examine financial reporting,question_answering,Financial audit
+Q47,how do forensic auditors examine financial reporting,question_answering,Financial audit
+Q48,how do forensic auditors examine financial reporting,question_answering,Financial audit
+Q49,what bird family is the owl,question_answering,Owl
+Q50,how did harmon killebrew get strong,question_answering,Harmon Killebrew
+Q51,What did the augurs use to interpret the will of the gods?,question_answering,Augur
+Q52,How much did Waterboy grossed,question_answering,The Waterboy
+Q53,"What county is Farmington Hills, MI in?",question_answering,"Farmington Hills, Michigan"
+Q54,what does a groundhog look for on groundhog day,question_answering,Groundhog Day
+Q55,What committees are joint committees,question_answering,Joint committee
+Q56,how many stripes on the flag,question_answering,Flag of the United States
+Q57,How many states and territories are within India?,question_answering,States and territories of India
+Q58,how is whooping cough distinguished from similar diseases,question_answering,Pertussis
+Q59,how is whooping cough distinguished from similar diseases,question_answering,Pertussis
+Q60,what county is galveston in texas,question_answering,"Galveston County, Texas"
+Q61,what cities are in the bahamas,question_answering,List of cities in the Bahamas
+Q62,what cities are in the bahamas,question_answering,List of cities in the Bahamas
+Q63,how many schools are in the big ten,question_answering,Big Ten Conference
+Q64,how is single malt scotch made,question_answering,Single malt Scotch
+Q65,how is single malt scotch made,question_answering,Single malt Scotch
+Q66,what composer used sound mass,question_answering,Sound mass
+Q67,what composer used sound mass,question_answering,Sound mass
+Q68,what composer used sound mass,question_answering,Sound mass
+Q69,what composer used sound mass,question_answering,Sound mass
+Q70,what composer used sound mass,question_answering,Sound mass
+Q71,what composer used sound mass,question_answering,Sound mass
+Q72,what composer used sound mass,question_answering,Sound mass
+Q73,How Do You Play Spades,question_answering,Spades
+Q74,what continent is australia,question_answering,Australia (continent)
+Q75,what causes heart disease,question_answering,Cardiovascular disease
+Q76,what countries did immigrants come from during the immigration,question_answering,History of immigration to the United States
+Q77,what countries did immigrants come from during the immigration,question_answering,History of immigration to the United States
+Q78,how many people live in atlanta georgia,question_answering,Atlanta
+Q79,how many people live in atlanta georgia,question_answering,Atlanta
+Q80,what does it mean to be a commonwealth state,question_answering,Commonwealth
+Q81,how long can you be in the supreme court,question_answering,Supreme Court of the United States
+Q82,what county in texas is conroe located in,question_answering,"Conroe, Texas"
+Q83,what can sql 2005 do,question_answering,Microsoft SQL Server
+Q84,how many people were killed in the oklahoma city bombing,question_answering,Oklahoma City bombing
+Q85,What group took home the award for best rock album at the Australian Recording Industry Association (ARIA) Music Awards?,question_answering,ARIA Music Awards
+Q86,how does a dredge work?,question_answering,Dredging
+Q87,how does a dredge work?,question_answering,Dredging
+Q88,how does a dredge work?,question_answering,Dredging
+Q89,how does a dredge work?,question_answering,Dredging
+Q90,how does a dredge work?,question_answering,Dredging
+Q91,what did benedict arnold die,question_answering,Benedict arnold
+Q92,how many world series did curt schilling have,question_answering,Curt Schilling
+Q93,how many ports are there in networking,question_answering,Port (computer networking)
+Q94,what area code is 479,question_answering,Area code 479
+Q95,what area code is 479,question_answering,Area code 479
+Q96,what does arraignment mean,question_answering,Arraignment
+Q97,what did chaucer do,question_answering,Geoffrey Chaucer
+Q98,what did chaucer do,question_answering,Geoffrey Chaucer
+Q99,what does am and pm stand for,question_answering,12-hour clock
+Q100,how is canada's health care,question_answering,Comparison of the health care systems in Canada and the United States
+Q101,how many xbox 360 games are there,question_answering,List of Xbox 360 games
+Q102,how do pineapples grow,question_answering,Pineapple
+Q103,what country did wine originate in,question_answering,History of wine
+Q104,how many district are in west bengal,question_answering,List of districts of West Bengal
+Q105,how many towns in new hampshire,question_answering,List of cities and towns in New Hampshire
+Q106,what does salesforce.com do?,question_answering,Salesforce.com
+Q107,what does 1 year mean to the planet,question_answering,Earth
+Q108,what is feedback mechanism in plants during respiration,question_answering,Cellular respiration
+Q109,how fire extinguisher works,question_answering,Fire extinguisher
+Q110,what does righteousness mean,question_answering,Righteousness
+Q111,what does righteousness mean,question_answering,Righteousness
+Q112,what countries are in central america?,question_answering,Central america
+Q113,how does a steam engine work,question_answering,Steam engine
+Q114,how does a steam engine work,question_answering,Steam engine
+Q115,what county is tacoma washington in,question_answering,"Tacoma, Washington"
+Q116,what county is chula vista ca in,question_answering,"Chula Vista, California"
+Q117,what did isaac newton do,question_answering,Isaac Newton
+Q118,what does the universal law of gravitation state,question_answering,Newton's law of universal gravitation
+Q119,how does a dim sum restaurant work,question_answering,Dim sum
+Q120,how does a dim sum restaurant work,question_answering,Dim sum
+Q121,how does a dim sum restaurant work,question_answering,Dim sum
+Q122,how many US soldiers killed in Iraq war,question_answering,Casualties of the Iraq War
+Q123,how many planets is jupiter away from the sun?,question_answering,Jupiter
+Q124,what city was the convention when gerald ford was nominated,question_answering,1976 Republican National Convention
+Q125,how many professional hockey teams in canada,question_answering,National Hockey League
+Q126,what county is northville mi,question_answering,"Northville, Michigan"
+Q127,what county is northville mi,question_answering,"Northville, Michigan"
+Q128,how many games did brett favre start in a row,question_answering,Brett Favre
+Q129,what does a vote to table a motion mean?,question_answering,Table (parliamentary procedure)
+Q130,What does the class mean for SDHC cards?,question_answering,Secure Digital
+Q131,what do porcupines eat,question_answering,Porcupine
+Q132,what did elijah mccoy invent,question_answering,Elijah McCoy
+Q133,how many apple store are there in total?,question_answering,Apple Store
+Q134,What does the idea of effective nuclear charge tell us,question_answering,Effective nuclear charge
+Q135,how is jerky made,question_answering,Jerky
+Q136,how is jerky made,question_answering,Jerky
+Q137,what domain is eu,question_answering,.eu
+Q138,"What does the name ""Meister"" mean in German",question_answering,Meister
+Q139,what happened on the moon during the period of Late Heavy Bombardment?,question_answering,Late Heavy Bombardment
+Q140,How did Edgar Allan Poe die?,question_answering,Edgar allan poe
+Q141,what did tycho brahe do,question_answering,Tycho Brahe
+Q142,what did tycho brahe do,question_answering,Tycho Brahe
+Q143,how many seasons heroes,question_answering,Heroes (TV series)
+Q144,what holiday is first weekend of september,question_answering,Labor day
+Q145,how old r Dylan and Cole Sprouse,question_answering,Dylan and Cole Sprouse
+Q146,what does life insurance cover?,question_answering,Life insurance
+Q147,what does life insurance cover?,question_answering,Life insurance
+Q148,what does life insurance cover?,question_answering,Life insurance
+Q149,how many days does the chinese new year last,question_answering,Chinese New Year
+Q150,what does s.h.i.e.l.d stand for,question_answering,S.H.I.E.L.D.
+Q151,how many consoles has xbox 360 sold,question_answering,Xbox 360
+Q152,how is a backpack made,question_answering,Backpack
+Q153,WHAT COUNTRY IS MEXICO IN,question_answering,Mexico
+Q154,how is slugging percentage calculated,question_answering,Slugging percentage
+Q155,what day is st. patricks day,question_answering,Saint Patrick's Day
+Q156,what cheese is made from goat's milk,question_answering,Goat cheese
+Q157,what does the federal reserve do,question_answering,Federal Reserve System
+Q158,what country is belize in,question_answering,Belize
+Q159,how many books are included in the protestant Bible?,question_answering,Books of the Bible
+Q160,how many stars on the first american flag,question_answering,Betsy Ross flag
+Q161,how does a cat purr,question_answering,Purr
+Q162,what became of rich on price is right,question_answering,Rich Fields
+Q163,what became of rich on price is right,question_answering,Rich Fields
+Q164,what county is St. Elizabeth MO in,question_answering,"St. Elizabeth, Missouri"
+Q165,what county is wilton ca in,question_answering,"Wilton, California"
+Q166,what happened to stevie ray vaughan,question_answering,Stevie Ray Vaughan
+Q167,how many gold gloves does barry larkin have,question_answering,Barry Larkin
+Q168,what caused ww,question_answering,Causes of World War I
+Q169,how did women's role change during the war,question_answering,Women's roles in the World Wars
+Q170,how many seasons were there of the wire,question_answering,The Wire
+Q171,what kind of legal remedy is it to ask someone to fulfill there promise,question_answering,Contract
+Q172,how is ASP.NET different from .NET,question_answering,ASP.NET
+Q173,how does lsd impact the human body,question_answering,Lysergic acid diethylamide
+Q174,how does lsd impact the human body,question_answering,Lysergic acid diethylamide
+Q175,how does lsd impact the human body,question_answering,Lysergic acid diethylamide
+Q176,how many people live in memphis tennessee,question_answering,"Memphis, Tennessee"
+Q177,how many muscles in the human body,question_answering,List of muscles of the human body
+Q178,how did seminole war end,question_answering,Seminole Wars
+Q179,what county is orono maine in,question_answering,"Orono, Maine"
+Q180,what it is a pilot study,question_answering,Pilot experiment
+Q181,how many humps on a camel,question_answering,Camel
+Q182,what can be powered by wind,question_answering,Wind power
+Q183,how many nature oceans are on earth,question_answering,Ocean
+Q184,what county is jacksonville florida in,question_answering,"Jacksonville, Florida"
+Q185,what chili wants wiki,question_answering,What Chilli Wants
+Q186,what does a liquid oxygen plant look like,question_answering,Liquid oxygen
+Q187,what division is boise state football,question_answering,Boise State Broncos football
+Q188,"What does the term ""mens rea"" mean",question_answering,Mens rea
+Q189,what do UA's detect,question_answering,Drug test
+Q190,how much caffeine is in a shot of espresso,question_answering,Espresso
+Q191,What does Human sperm consist of?,question_answering,Semen
+Q192,how did the penguins acquire sidney crosby,question_answering,Sidney Crosby
+Q193,what does add my two cents mean,question_answering,My two cents
+Q194,how much total wealth in USA,question_answering,Wealth in the United States
+Q195,what does a plus-minus sign mean,question_answering,Plus-minus sign
+Q196,what does a plus-minus sign mean,question_answering,Plus-minus sign
+Q197,how was the moon formed,question_answering,Moon
+Q198,how was the moon formed,question_answering,Moon
+Q199,what did ronald reagan do as president,question_answering,Ronald Reagan
+Q200,what does judgment as a matter of law mean,question_answering,Judgment as a matter of law
+Q201,how many presidents have been assassinated,question_answering,List of United States presidential assassination attempts and plots
+Q202,what does oklahoma produce,question_answering,Oklahoma
+Q203,how many redwall books are there,question_answering,Redwall
+Q204,what date did the american civil war start,question_answering,American Civil War
+Q205,what does bruce jenner do,question_answering,Bruce Jenner
+Q206,what does alkali do to liquids?,question_answering,Alkali
+Q207,what area code is 217,question_answering,Area code 217
+Q208,what area code is 217,question_answering,Area code 217
+Q209,how jameson irish whiskey is made,question_answering,Jameson Irish Whiskey
+Q210,what does gloria in excelsis deo mean,question_answering,Gloria in Excelsis Deo
+Q211,how many grams in a troy ounce of gold,question_answering,Troy weight
+Q212,how many grams in a troy ounce of gold,question_answering,Troy weight
+Q213,How many consecutive games did Ken Jennings win?,question_answering,Ken Jennings
+Q214,"what county is jennings, la",question_answering,"Jennings, Louisiana"
+Q215,how does nanotechnology affect health,question_answering,Nanotechnology
+Q216,how much does united states spend on health care,question_answering,Health care in the United States
+Q217,what does it take to start a lodge in freemason,question_answering,Masonic Lodge
+Q218,how does black pepper grow,question_answering,Black pepper
+Q219,how south african leaders are elected,question_answering,President of South Africa
+Q220,how was the phone invented,question_answering,Invention of the telephone
+Q221,how many died in hiroshima and nagasaki,question_answering,Atomic bombings of Hiroshima and Nagasaki
+Q222,what county is Holly Ridge nc in?,question_answering,"Holly Ridge, North Carolina"
+Q223,what forms seasons,question_answering,Season
+Q224,what forms seasons,question_answering,Season
+Q225,what forms seasons,question_answering,Season
+Q226,how did mohammed gandhi die,question_answering,Mahatma Gandhi
+Q227,how many users do twitter have,question_answering,Twitter
+Q228,what kind of books does debbie macomber writes,question_answering,Debbie Macomber
+Q229,what county is catonsville md in,question_answering,"Catonsville, Maryland"
+Q230,what kind of literature did john steinbeck writing,question_answering,John Steinbeck
+Q231,whatever happened clint walker,question_answering,Clint Walker
+Q232,what does the family leave act,question_answering,Family and Medical Leave Act of 1993
+Q233,what does the family leave act,question_answering,Family and Medical Leave Act of 1993
+Q234,how did the vietnam war end,question_answering,Vietnam War
+Q235,How is the pothole formed,question_answering,Pothole
+Q236,how much more time does chemo give to people with renal cancer,question_answering,Renal cell carcinoma
+Q237,what does estee lauder do,question_answering,EstÃ©e Lauder Companies
+Q238,how does a solid state drive work,question_answering,Solid-state drive
+Q239,how does a solid state drive work,question_answering,Solid-state drive
+Q240,how long did the roman empire last,question_answering,Roman Empire
+Q241,how much does U.S. pay on health care per person,question_answering,Comparison of the health care systems in Canada and the United States
+Q242,what creates sonic boom,question_answering,Sonic boom
+Q243,how is rfid tag powered,question_answering,Radio-frequency identification
+Q244,how is rfid tag powered,question_answering,Radio-frequency identification
+Q245,how is rfid tag powered,question_answering,Radio-frequency identification
+Q246,what city is oregon state university in,question_answering,Oregon State University
+Q247,how long have kanab ambersnail been endangered?,question_answering,Kanab ambersnail
+Q248,how many spanish speaking people are there in the us,question_answering,Spanish language in the United States
+Q249,what does (sic) mean?,question_answering,Sic
+Q250,how does sedimentary rock form,question_answering,Sedimentary rock
+Q251,how many bones are in the skeletal system is composed of 306 bones,question_answering,Human skeleton
+Q252,what did st.patrick do,question_answering,Saint Patrick
+Q253,how do you know if something is the golden ratio,question_answering,Golden ratio
+Q254,What county is NOrth Myrtle Beach in SC,question_answering,"North Myrtle Beach, South Carolina"
+Q255,how much of our universe does plasma make up,question_answering,Plasma (physics)
+Q256,How is a computer used?,question_answering,Computer
+Q257,what does barefoot and pregnant mean,question_answering,Barefoot and pregnant
+Q258,"what county is oakhurst, nj in",question_answering,"Oakhurst, New Jersey"
+Q259,What did Lawrence Joshua Chamberlain do?,question_answering,Joshua Chamberlain
+Q260,what circuit court is maryland,question_answering,Maryland Circuit Courts
+Q261,what causes a deficiency in adenosine deaminase,question_answering,Adenosine deaminase deficiency
+Q262,how often does ham station need to ID?,question_answering,Station identification
+Q263,how is human height measured,question_answering,Human height
+Q264,how many days are in a leap year,question_answering,Leap year
+Q265,what does a timing belt do,question_answering,Timing belt
+Q266,what county is bethlehem pa in,question_answering,"Bethlehem, Pennsylvania"
+Q267,what countries legalize marijuana,question_answering,Legality of cannabis
+Q268,how many albums has dmx sold to this date,question_answering,DMX (rapper)
+Q269,what channel is shopnbc on,question_answering,ShopNBC
+Q270,how post and lintels are used,question_answering,Post and lintel
+Q271,what do mucous membranes secrete,question_answering,Mucous membrane
+Q272,what company is cricket wireless by,question_answering,Cricket Wireless
+Q273,how many numbers on a credit card,question_answering,Bank card number
+Q274,what county is Cambria WI in,question_answering,"Cambria, Wisconsin"
+Q275,how is public policy created,question_answering,Public policy
+Q276,how many wives did henry the 8th have,question_answering,Henry VIII of England
+Q277,what country are bongo drums from?,question_answering,Bongo drum
+Q278,how many books in bible,question_answering,Books of the Bible
+Q279,HOW MANY STRIPES ARE ON THE AMERICAN FLAG,question_answering,Flag of the United States
+Q280,HOW MANY STRIPES ARE ON THE AMERICAN FLAG,question_answering,Flag of the United States
+Q281,what do biologists do,question_answering,Biologist
+Q282,what does base jumping stand for,question_answering,BASE jumping
+Q283,what does base jumping stand for,question_answering,BASE jumping
+Q284,What country is the largest stalagmite,question_answering,Stalagmite
+Q285,what does Gringo mean,question_answering,Gringo
+Q286,what does Gringo mean,question_answering,Gringo
+Q287,what does hair testing show,question_answering,Drug test
+Q288,what does freedom of speech cover,question_answering,Freedom of speech
+Q289,what hormones produce thyroid,question_answering,Thyroid hormone
+Q290,what does automatic paper feeder on printers mean,question_answering,Automatic Document Feeder
+Q291,what county is san jose in?,question_answering,"San Jose, California"
+Q292,what cars have smart key systems,question_answering,Smart key
+Q293,how old a child pedophile crime,question_answering,Pedophilia
+Q294,how many people were killed in the holocaust,question_answering,The Holocaust
+Q295,how did John F. Kennedy die?,question_answering,John F. Kennedy
+Q296,how many members are in the house of representatives,question_answering,United States House of Representatives
+Q297,what can silk be used for,question_answering,Silk
+Q298,what channel is letterman on,question_answering,Late Show with David Letterman
+Q299,what does uncle sam represent to the american people,question_answering,Uncle Sam
+Q300,what does karma mean in buddhism,question_answering,Karma in Buddhism
+Q301,what does karma mean in buddhism,question_answering,Karma in Buddhism
+Q302,what does karma mean in buddhism,question_answering,Karma in Buddhism
+Q303,what do cyberstalkers do,question_answering,Cyberstalking
+Q304,how do insulin syringes work,question_answering,Syringe
+Q305,what kind a is tilapia,question_answering,Tilapia
+Q306,how did david carradine die,question_answering,David Carradine
+Q307,how many grape farms in united states,question_answering,Agriculture in the United States
+Q308,what freezes faster? hot or cold water?,question_answering,Mpemba effect
+Q309,what causes a small bowel obstruction,question_answering,Bowel obstruction
+Q310,how many qfc stores are there,question_answering,QFC
+Q311,what affects the money supply,question_answering,Money supply
+Q312,how is today special?,question_answering,Today's Special
+Q313,What Causes Brain Freeze,question_answering,Ice-cream headache
+Q314,what does auld lang syne mean,question_answering,Auld Lang Syne
+Q315,what does leeroy jenkins mean,question_answering,Leeroy Jenkins
+Q316,how was the president involved in the gulf war,question_answering,Gulf War
+Q317,how many times has a player hit for the cycle,question_answering,Hitting for the cycle
+Q318,how many times has a player hit for the cycle,question_answering,Hitting for the cycle
+Q319,how many episodes of Lost were there,question_answering,List of Lost episodes
+Q320,what does it mean if i'm flat footed?,question_answering,Flat feet
+Q321,what age group is generation x,question_answering,Generation X
+Q322,how did James Dean die?,question_answering,James Dean
+Q323,what glows in the dark,question_answering,Glow-in-the-dark
+Q324,what did sparta do around 650 bc,question_answering,Sparta
+Q325,what fantasy american football means,question_answering,Fantasy football (American)
+Q326,how many muscles in the body,question_answering,List of muscles of the human body
+Q327,how many muscles in the body,question_answering,List of muscles of the human body
+Q328,how much does a gold bar weigh,question_answering,Gold bar
+Q329,how much does a gold bar weigh,question_answering,Gold bar
+Q330,what county is bolingbrook il in?,question_answering,"Bolingbrook, Illinois"
+Q331,how many kids does archie manning have,question_answering,Archie Manning
+Q332,what does an advocacy website promote?,question_answering,Advocacy
+Q333,what does the green mean on the mexican flag,question_answering,Flag of Mexico
+Q334,how often do elk have sex,question_answering,Elk
+Q335,how many amendments in us,question_answering,United States Constitution
+Q336,what city is george washington university,question_answering,George Washington University
+Q337,How many Muslims live in the United Kingdom?,question_answering,Islam in the United Kingdom
+Q338,How many Muslims live in the United Kingdom?,question_answering,Islam in the United Kingdom
+Q339,how many players on a side for a football game,question_answering,American football
+Q340,what does the temporal lobe part of the brain do,question_answering,Temporal lobe
+Q341,how many lungs does a human have,question_answering,Human lung
+Q342,how long to take iwo jima,question_answering,Battle of Iwo Jima
+Q343,What a Margarita contains,question_answering,Margarita
+Q344,what color is burgundy,question_answering,Burgundy (color)
+Q345,what color is burgundy,question_answering,Burgundy (color)
+Q346,what is the population of center tx,question_answering,"Center, Texas"
+Q347,what causes photo red eye,question_answering,Red-eye effect
+Q348,what creates a cloud,question_answering,Cloud
+Q349,how many students go to santa barbara,question_answering,"University of California, Santa Barbara"
+Q350,what day is the feast of st joseph's?,question_answering,Saint Joseph's Day
+Q351,what culture is mariah carey,question_answering,Mariah Carey
+Q352,how was color introduced in film?,question_answering,Color motion picture film
+Q353,how was color introduced in film?,question_answering,Color motion picture film
+Q354,what artist have song with ashanti?,question_answering,Ashanti (entertainer)
+Q355,what came first army or air force,question_answering,United States Army Air Forces
+Q356,what day is 2011 super bowl?,question_answering,Super Bowl XLV
+Q357,what does the FOIA apply to,question_answering,Freedom of Information Act (United States)
+Q358,how many countries are member of the eu?,question_answering,European Union
+Q359,how many vehicles are registered in the us,question_answering,Passenger vehicles in the United States
+Q360,what does a laboratory in a gynecologist office consist of,question_answering,Medical laboratory
+Q361,what cards do you need in poker to get a royal flush,question_answering,List of poker hands
+Q362,what does xylem transport,question_answering,Xylem
+Q363,how many mvps has kobe bryant won,question_answering,Kobe Bryant
+Q364,what do jehovah witnesses believe,question_answering,Jehovah's Witnesses
+Q365,what do jehovah witnesses believe,question_answering,Jehovah's Witnesses
+Q366,how old old is xp operating system,question_answering,Windows XP
+Q367,how many pawns in chess,question_answering,Pawn (chess)
+Q368,what countries allow gays to openly serve in the military,question_answering,Sexual orientation and military service
+Q369,How Works Diaphragm Pump,question_answering,Diaphragm pump
+Q370,how is hydrogen produced,question_answering,Hydrogen production
+Q371,how many percent is a basis point,question_answering,Basis point
+Q372,how many percent is a basis point,question_answering,Basis point
+Q373,how many percent is a basis point,question_answering,Basis point
+Q374,what genre is bloody beetroots,question_answering,The Bloody Beetroots
+Q375,what country is madrid spain in,question_answering,Madrid
+Q376,What causes rogue waves,question_answering,Rogue wave
+Q377,what happened to montgomery clift,question_answering,Montgomery Clift
+Q378,how many asian indians live in usa,question_answering,Indian American
+Q379,what caused the world war 2,question_answering,Causes of World War II
+Q380,what caused the world war 2,question_answering,Causes of World War II
+Q381,what happened to george o'malley on grey's anatomy?,question_answering,George O'Malley
+Q382,what happened to george o'malley on grey's anatomy?,question_answering,George O'Malley
+Q383,what happened to george o'malley on grey's anatomy?,question_answering,George O'Malley
+Q384,what happened to george o'malley on grey's anatomy?,question_answering,George O'Malley
+Q385,how many people die from myasthenia gravis per year,question_answering,Myasthenia Gravis
+Q386,how many rooms in borgata hotel,question_answering,The Borgata
+Q387,what country has the most muslims in the world,question_answering,Islam by country
+Q388,what country is dubai in,question_answering,Dubai
+Q389,how much of earth is covered ocean water,question_answering,Ocean
+Q390,how is root beer made?,question_answering,Root beer
+Q391,how much did yankee stadium cost,question_answering,Yankee Stadium
+Q392,what does informal logic mean,question_answering,Informal logic
+Q393,what country is turkey in,question_answering,Turkey
+Q394,what country is turkey in,question_answering,Turkey
+Q395,"what county is Augusta,GA located in?",question_answering,"Augusta, Georgia"
+Q396,"What happened to ""The Glades"" tv series",question_answering,The Glades (TV series)
+Q397,how many albums has eminem sold in his career,question_answering,Eminem
+Q398,what do pigs eat,question_answering,Pig
+Q399,what does a cutter do,question_answering,Cutter (baseball)
+Q400,what it takes aerosmith album,question_answering,What It Takes (song)
+Q401,what it takes aerosmith album,question_answering,What It Takes (song)
+Q402,what county is erie colorado,question_answering,"Erie, Colorado"
+Q403,What happened during the Starving Time in Jamestown?,question_answering,Starving Time
+Q404,What happened during the Starving Time in Jamestown?,question_answering,Starving Time
+Q405,What happened during the Starving Time in Jamestown?,question_answering,Starving Time
+Q406,what classes are considered humanities,question_answering,Humanities
+Q407,what classes are considered humanities,question_answering,Humanities
+Q408,what classes are considered humanities,question_answering,Humanities
+Q409,what classes are considered humanities,question_answering,Humanities
+Q410,what does the president of the usa do,question_answering,President of the United States
+Q411,what does the president of the usa do,question_answering,President of the United States
+Q412,what does the president of the usa do,question_answering,President of the United States
+Q413,what food is in afghan,question_answering,Afghan cuisine
+Q414,what food is in afghan,question_answering,Afghan cuisine
+Q415,how kimberlite pipes form,question_answering,Volcanic pipe
+Q416,how many seasons of grey's anatomy are there,question_answering,Grey's Anatomy
+Q417,how is schizophrenia diagnosed?,question_answering,Schizophrenia
+Q418,what kind of cut is tri tip,question_answering,Tri-tip
+Q419,what kind of cut is tri tip,question_answering,Tri-tip
+Q420,what county is willmar mn in?,question_answering,"Willmar, Minnesota"
+Q421,what kind of company is Microsoft?,question_answering,Microsoft
+Q422,how does weather happen,question_answering,Weather
+Q423,how many countries have english as an official language,question_answering,List of countries where English is an official language
+Q424,what countries are in cono sur,question_answering,Southern Cone
+Q425,what countries are in cono sur,question_answering,Southern Cone
+Q426,how many innings makes an official game,question_answering,Official game
+Q427,what branch of the military is delta force,question_answering,Delta Force
+Q428,what causes the seasons,question_answering,Season
+Q429,what does 3g network mean,question_answering,3G
+Q430,what does Mazel tov! mean,question_answering,Mazel tov
+Q431,How Do You Get Hepatitis C,question_answering,Hepatitis C
+Q432,how does flexible spending account work,question_answering,Flexible spending account
+Q433,how tennessee became a state,question_answering,Tennessee
+Q434,how many baseball teams usa,question_answering,Major league baseball
+Q435,what county is coatesville indiana located in,question_answering,"Coatesville, Indiana"
+Q436,how does Delaware support its claim to being the first state?,question_answering,Delaware
+Q437,how many amendments in the US constitution,question_answering,List of amendments to the United States Constitution
+Q438,what does fidelity do,question_answering,Fidelity Investments
+Q439,what causes thunder sound,question_answering,Thunder
+Q440,what causes thunder sound,question_answering,Thunder
+Q441,what day is the federal holiday for Martin Luther King Jr.,question_answering,"Martin Luther King, Jr. Day"
+Q442,what area code is 949,question_answering,Area code 949
+Q443,what does continuous improvement mean,question_answering,Continual improvement process
+Q444,what area code is 810,question_answering,Area code 810
+Q445,how many babies are in a typical raccoon litter,question_answering,Raccoon
+Q446,what kind of earthquake was haiti,question_answering,2010 Haiti earthquake
+Q447,what kind of horse was mr ed,question_answering,Mister Ed
+Q448,What does Rapture meaning in a theological sense?,question_answering,Rapture
+Q449,who does chris humphries play for,question_answering,Kris Humphries
+Q450,what are corporation balance,question_answering,Balance sheet
+Q451,what is .17 hmr caliber,question_answering,.17 HMR
+Q452,what made the civil war different from others,question_answering,American Civil War
+Q453,where to buy potato bread made without wheat,question_answering,Potato bread
+Q454,what year was the 8 track invented,question_answering,8-track tape
+Q455,what are points on a mortgage,question_answering,Point (mortgage)
+Q456,who killed julius caesar,question_answering,Julius caesar
+Q457,what are  the  official languages of nigeria,question_answering,Languages of Nigeria
+Q458,"who played guitar on the kiss album, creatures of the night",question_answering,Creatures of the Night
+Q459,who wrote white christmas,question_answering,White Christmas (song)
+Q460,what are the different types of cross country skiing,question_answering,Cross-country skiing
+Q461,what are use taxes?,question_answering,Use tax
+Q462,what are use taxes?,question_answering,Use tax
+Q463,what are use taxes?,question_answering,Use tax
+Q464,WHAT IS A FY QUARTER,question_answering,Fiscal year
+Q465,who pulmonary hypertension,question_answering,Pulmonary hypertension
+Q466,what is an array in programming,question_answering,Array programming
+Q467,what is an array in programming,question_answering,Array programming
+Q468,who wrote a rose is a rose is a rose,question_answering,Rose is a rose is a rose is a rose
+Q469,what is a notary for,question_answering,Notary public
+Q470,what is a notary for,question_answering,Notary public
+Q471,when did the cold war start,question_answering,Cold War
+Q472,what state is pike's peak in?,question_answering,Pikes Peak State Park
+Q473,what state is jakarta in?,question_answering,Jakarta
+Q474,what song is sung in 6 foot 7 foot,question_answering,6 Foot 7 Foot
+Q475,what is a book index,question_answering,Index (publishing)
+Q476,who sings the song never ending story,question_answering,The NeverEnding Story (song)
+Q477,who can file suspicious activity report,question_answering,Suspicious activity report
+Q478,who created facebook,question_answering,Facebook
+Q479,what are the sulfas,question_answering,Sulfonamide (medicine)
+Q480,what are risk for infections,question_answering,Risk of infection
+Q481,who owns joe's crab shack,question_answering,Joe's Crab Shack
+Q482,where do cruises dock in new york city,question_answering,New York Passenger Ship Terminal
+Q483,what is a right wing christian,question_answering,Christian right
+Q484,who played the lead roles in the movie leaving las vegas,question_answering,Leaving Las Vegas
+Q485,what is a CMM machine,question_answering,Coordinate-measuring machine
+Q486,what percentage of water in in the body,question_answering,Body water
+Q487,what percentage of water in in the body,question_answering,Body water
+Q488,what type of batteries are 357 (LR44),question_answering,LR44 battery
+Q489,where did hurricane katrina begin,question_answering,Hurricane Katrina
+Q490,where did hurricane katrina begin,question_answering,Hurricane Katrina
+Q491,what is an assist in basketball,question_answering,Assist (basketball)
+Q492,what is 1 mil guaranies in united states dollars,question_answering,Mill (currency)
+Q493,where did the persian war take place,question_answering,Greco-Persian Wars
+Q494,where did the persian war take place,question_answering,Greco-Persian Wars
+Q495,where did the persian war take place,question_answering,Greco-Persian Wars
+Q496,where did the persian war take place,question_answering,Greco-Persian Wars
+Q497,where did the persian war take place,question_answering,Greco-Persian Wars
+Q498,where did the persian war take place,question_answering,Greco-Persian Wars
+Q499,where did the persian war take place,question_answering,Greco-Persian Wars
+Q500,what is a day care for?,question_answering,Day care
+Q501,who discovered neptune the planet,question_answering,Discovery of Neptune
+Q502,what separates me from you album,question_answering,What Separates Me from You
+Q503,when did thomson make the plum-pudding model,question_answering,Plum pudding model
+Q504,what part of the pig is bacon,question_answering,Bacon
+Q505,where did erisa come from,question_answering,Employee Retirement Income Security Act
+Q506,where did erisa come from,question_answering,Employee Retirement Income Security Act
+Q507,what percent of illegal immigrants are from mexico and europe,question_answering,Illegal immigration to the United States
+Q508,what school district is alvin in?,question_answering,Alvin Independent School District
+Q509,what are the houses of hogwarts,question_answering,Hogwarts
+Q510,when us subprime mortgage market collapse,question_answering,Subprime mortgage crisis
+Q511,What kind of personality test is the MBTI,question_answering,Myers-Briggs Type Indicator
+Q512,What kind of personality test is the MBTI,question_answering,Myers-Briggs Type Indicator
+Q513,What kind of personality test is the MBTI,question_answering,Myers-Briggs Type Indicator
+Q514,what type of game is heavy rain,question_answering,Heavy Rain
+Q515,what are superannuation contributions?,question_answering,Superannuation in Australia
+Q516,where does a flea live,question_answering,Flea
+Q517,what is a group of deer called,question_answering,Deer
+Q518,what state was john mccain a senator in during the 2008 election,question_answering,"United States presidential election, 2008"
+Q519,when does the electoral college votes,question_answering,Electoral College (United States)
+Q520,when barack obama was born,question_answering,Barack Obama
+Q521,who wrote rhythm of the ancient mariner,question_answering,The Rime of the Ancient Mariner
+Q522,when did freddie mercury die,question_answering,Freddie Mercury
+Q523,what is a .PAC file,question_answering,Proxy auto-config
+Q524,what is a .PAC file,question_answering,Proxy auto-config
+Q525,what are spoilers for,question_answering,Spoiler (automotive)
+Q526,who sings i am a man of constant sorrow,question_answering,Man of Constant Sorrow
+Q527,who kill franz ferdinand ww1,question_answering,Assassination of Archduke Franz Ferdinand of Austria
+Q528,what year did disney's animal kingdom lodge open,question_answering,Disney's Animal Kingdom Lodge
+Q529,what are two languages in Nigeria?,question_answering,Languages of Nigeria
+Q530,what war led to Pearl Harbor,question_answering,Events leading to the attack on Pearl Harbor
+Q531,what is a mms message,question_answering,Multimedia Messaging Service
+Q532,where in the world are smallpox common,question_answering,Smallpox
+Q533,what year did the beatles came out with the song i wanna hold your hand,question_answering,I Want to Hold Your Hand
+Q534,what year did the beatles came out with the song i wanna hold your hand,question_answering,I Want to Hold Your Hand
+Q535,what is a gasser car,question_answering,Gasser (car)
+Q536,what tensions preceded the berlin blockade,question_answering,Berlin Blockade
+Q537,who sang proud mary,question_answering,Proud Mary
+Q538,who sang that song-a change is going to come,question_answering,A Change Is Gonna Come
+Q539,where do crocodiles live,question_answering,Crocodile
+Q540,what percentage of the human body is water,question_answering,Body water
+Q541,what relates to erosion,question_answering,Erosion
+Q542,what relates to erosion,question_answering,Erosion
+Q543,what is a form of legal ownership,question_answering,Ownership
+Q544,where in oregon is albany,question_answering,"Albany, Oregon"
+Q545,where in oregon is albany,question_answering,"Albany, Oregon"
+Q546,who wrote what's my name rihanna,question_answering,What's My Name? (Rihanna song)
+Q547,what year did isaac newton die,question_answering,Isaac Newton
+Q548,what is a constant in math?,question_answering,Mathematical constant
+Q549,when did abraham lincoln write the emancipation proclamation??,question_answering,Emancipation Proclamation
+Q550,what part of the pre-world war 1 arms race was the most intense?,question_answering,Causes of World War I
+Q551,who owns land rover,question_answering,Land Rover
+Q552,what states have legalized prostitution,question_answering,Prostitution in the United States
+Q553,what states are on the east coast,question_answering,East Coast of the United States
+Q554,when president nixon resigns,question_answering,Richard Nixon
+Q555,when did sertraline come on the market,question_answering,Sertraline
+Q556,where fourth of july came from,question_answering,Independence Day (United States)
+Q557,when did secretariat win,question_answering,Secretariat (horse)
+Q558,what are batteries made up of,question_answering,Automotive battery
+Q559,what are batteries made up of,question_answering,Automotive battery
+Q560,what is a full job time??,question_answering,Full-time
+Q561,what are the three primary colors in the subtractive color model,question_answering,Subtractive color
+Q562,what are layers of the ionosphere,question_answering,Ionosphere
+Q563,what people used mayan numeral system,question_answering,Maya numerals
+Q564,what is a newsgroup message,question_answering,Usenet newsgroup
+Q565,who plays as big bird,question_answering,Big Bird
+Q566,who plays as big bird,question_answering,Big Bird
+Q567,who accompanied King louis the VII of France on the second crusade,question_answering,Second Crusade
+Q568,who founded walmart,question_answering,Walmart
+Q569,what are some legal uses of meth,question_answering,Methamphetamine
+Q570,when did gary moore die,question_answering,Gary Moore
+Q571,what is 6 pin din connector,question_answering,Mini-DIN connector
+Q572,what is a hosting company on a website,question_answering,Web hosting service
+Q573,Where does the word baptism come from,question_answering,Baptism
+Q574,what school did Zach Thomas play for before making it in to the NFL,question_answering,Zach Thomas
+Q575,what order is the moth,question_answering,Moth
+Q576,what are the uses for gui,question_answering,Graphical user interface
+Q577,who won antm cycle 12,question_answering,"America's Next Top Model, Cycle 12"
+Q578,who owns exxon mobil,question_answering,ExxonMobil
+Q579,who built the globe,question_answering,Globe Theatre
+Q580,what are warehouse spreadsheets used for,question_answering,Data warehouse
+Q581,what are warehouse spreadsheets used for,question_answering,Data warehouse
+Q582,what are warehouse spreadsheets used for,question_answering,Data warehouse
+Q583,what is a rock quarry,question_answering,Quarry
+Q584,what kind of school is MIT,question_answering,MIT Sloan School of Management
+Q585,Who Started the Mormon Church,question_answering,Mormons
+Q586,what are banana plugs for,question_answering,Banana connector
+Q587,what part of the earth's structure is believed to consist of tectonic plates,question_answering,Plate tectonics
+Q588,when did the trojan war take place,question_answering,Trojan War
+Q589,what is a letterbox movie,question_answering,Letterboxing (filming)
+Q590,what is a letterbox movie,question_answering,Letterboxing (filming)
+Q591,who won the 2009 super bowl,question_answering,Super Bowl XLIII
+Q592,what is a popular people meter,question_answering,People meter
+Q593,what are the characteristics of bryophytes,question_answering,Bryophyte
+Q594,when to use semicolon,question_answering,Semicolon
+Q595,when did xbox release,question_answering,Xbox
+Q596,what is a roll play games,question_answering,Role-playing game
+Q597,when did the civil war start and where,question_answering,American Civil War
+Q598,What are the busiest airports in the world,question_answering,World's busiest airport
+Q599,where the streets have no name filming location,question_answering,Where the Streets Have No Name
+Q600,where did the mayflower land,question_answering,Mayflower
+Q601,what is a forward in soccer,question_answering,Forward (association football)
+Q602,WHO QUALIFIES AS A DOMESTIC PARTNER IN CA,question_answering,Domestic partnership in California
+Q603,where did mark jackson play pro basketball?,question_answering,Mark Jackson (basketball)
+Q604,what languages are spoken in south africa,question_answering,Languages of South Africa
+Q605,what languages are spoken in south africa,question_answering,Languages of South Africa
+Q606,Who controlled Alaska before US?,question_answering,Alaska
+Q607,what are stink bombs made of,question_answering,Stink bomb
+Q608,what are stink bombs made of,question_answering,Stink bomb
+Q609,who sang black velvet,question_answering,Black Velvet (song)
+Q610,"who said ""A picture is worth a thousand words""?",question_answering,A picture is worth a thousand words
+Q611,who produced loyal to the game?,question_answering,Loyal to the Game
+Q612,WHAT ARE HERITABLE TRAITS,question_answering,Heritability
+Q613,who does afge represent,question_answering,American Federation of Government Employees
+Q614,what teams won super bowl,question_answering,List of Super Bowl champions
+Q615,what year was christianity introduced to sub-saharan africa,question_answering,Christianity in Africa
+Q616,who wrote puff the magic dragon,question_answering,"Puff, the Magic Dragon"
+Q617,when did expos become nationals,question_answering,Washington Nationals
+Q618,what is a contingent fee with an attorney,question_answering,Contingent fee
+Q619,what is a D.O. stand for medical doctor,question_answering,Doctor of Osteopathic Medicine
+Q620,what is a vetting process,question_answering,Vetting
+Q621,when did the free soilers party start?,question_answering,Free Soil Party
+Q622,who reports the consumer price index,question_answering,Consumer Price Index
+Q623,"where does the expression ""knocking on wood"" come from",question_answering,Knocking on wood
+Q624,what are rocker arms?,question_answering,Rocker arm
+Q625,who sang the nights the lights went out,question_answering,The Night the Lights Went Out in Georgia
+Q626,who sang the nights the lights went out,question_answering,The Night the Lights Went Out in Georgia
+Q627,where does the return address go on mail,question_answering,Return address
+Q628,where does the return address go on mail,question_answering,Return address
+Q629,when did steven adler play for guns and roses,question_answering,Steven Adler
+Q630,what is a synthetic conduit,question_answering,Nerve guidance conduit
+Q631,what is a wwII theater,question_answering,European Theatre of World War II
+Q632,what is amoxicillin for?,question_answering,Amoxicillin
+Q633,what state was the civil war in,question_answering,American Civil War
+Q634,where did the early humans live?,question_answering,Human evolution
+Q635,where did the early humans live?,question_answering,Human evolution
+Q636,who invaded north africa during ww2,question_answering,Operation Torch
+Q637,WHAT YEARS WAS THE C5 VETTE PRODUCED,question_answering,Chevrolet Corvette (C5)
+Q638,what year was gulf war,question_answering,Gulf War
+Q639,What U.S. President's head has been featured on the nickel (five-cent coin) since 1938?,question_answering,Nickel (United States coin)
+Q640,who sings stand by me,question_answering,Stand by Me (song)
+Q641,When did F15s first fly,question_answering,McDonnell Douglas F-15 Eagle
+Q642,what year was elvis born,question_answering,Elvis Presley
+Q643,what are the arb medications,question_answering,ARB
+Q644,where did columbus really land in 1492?,question_answering,Christopher Columbus
+Q645,what is a brindle boxer,question_answering,Boxer (dog)
+Q646,what are SATA Power Connector,question_answering,Serial ATA
+Q647,what are SATA Power Connector,question_answering,Serial ATA
+Q648,who invented the internet,question_answering,History of the Internet
+Q649,"What kind of poem is ""This is Just to Say""",question_answering,This Is Just To Say
+Q650,when does the royal standard fly?,question_answering,Royal Standard of the United Kingdom
+Q651,when does the royal standard fly?,question_answering,Royal Standard of the United Kingdom
+Q652,who played dumbledore in harry potter,question_answering,Albus Dumbledore
+Q653,who played dumbledore in harry potter,question_answering,Albus Dumbledore
+Q654,what produces calcitonin,question_answering,Calcitonin
+Q655,who hit the first home run at riverfront stadium?,question_answering,Riverfront Stadium
+Q656,Who Makes Nexen Tires,question_answering,Nexen Tire
+Q657,who did richard nixon refer to as the  silent majority,question_answering,Silent majority
+Q658,who did richard nixon refer to as the  silent majority,question_answering,Silent majority
+Q659,what the atmosphere on mercury,question_answering,Atmosphere of Mercury
+Q660,What are the lateral and median apertures of the brain?,question_answering,Lateral aperture
+Q661,what year did the last monkeys go into space,question_answering,Monkeys in space
+Q662,what part of the pig do pork chops come from,question_answering,Pork chop
+Q663,what are grits made from,question_answering,Grits
+Q664,what religion is westminster abbey,question_answering,Westminster Abbey
+Q665,when did coca cola first come out,question_answering,Coca-Cola
+Q666,what role do ombudsman play in the swedish government?,question_answering,Ombudsman
+Q667,what state is new england in,question_answering,New England
+Q668,who played batman in dark knight,question_answering,The Dark Knight (film)
+Q669,what are stanzas in poetry,question_answering,Stanza
+Q670,what are stanzas in poetry,question_answering,Stanza
+Q671,who shot franz ferdinand,question_answering,Assassination of Archduke Franz Ferdinand of Austria
+Q672,who won the super in xl1,question_answering,Super Bowl XLI
+Q673,what are the three ossicles,question_answering,Ossicles
+Q674,what are the parts of plant stems?,question_answering,Plant stem
+Q675,what is an army specialist,question_answering,Specialist (rank)
+Q676,what year did martin luther king die,question_answering,"Martin Luther King, Jr."
+Q677,what to make with linen,question_answering,Linen
+Q678,what spanish speaking countries have the most world cup titles,question_answering,FIFA World Cup
+Q679,who composed the Singapore national anthem,question_answering,Majulah Singapura
+Q680,what south dakota county is wakonda in,question_answering,"Wakonda, South Dakota"
+Q681,what are american people of japanese descent called,question_answering,Japanese American
+Q682,what are american people of japanese descent called,question_answering,Japanese American
+Q683,when does v start,question_answering,V (2009 TV series)
+Q684,when did spongebob first air,question_answering,SpongeBob SquarePants
+Q685,what are d.o. of medicine,question_answering,Doctor of Osteopathic Medicine
+Q686,what are d.o. of medicine,question_answering,Doctor of Osteopathic Medicine
+Q687,what is a bus adapter in a computer?,question_answering,Host adapter
+Q688,where does cashmere come from,question_answering,Cashmere wool
+Q689,Who invented egg rolls,question_answering,Egg roll
+Q690,what westerners include in pain and suffering,question_answering,Pain and suffering
+Q691,what westerners include in pain and suffering,question_answering,Pain and suffering
+Q692,what is a medallion guarantee,question_answering,Medallion signature guarantee
+Q693,what is a medallion guarantee,question_answering,Medallion signature guarantee
+Q694,who won the 2010 world cup,question_answering,2010 FIFA World Cup
+Q695,who wrote the song in the mood,question_answering,In the Mood
+Q696,what is active learning strategies,question_answering,Active learning
+Q697,"what is ""thin film"" technology",question_answering,Thin film
+Q698,who sang I want to dance with somebody,question_answering,I Wanna Dance with Somebody (Who Loves Me)
+Q699,what zones are tropical,question_answering,Tropics
+Q700,what type of business is walmart,question_answering,Walmart
+Q701,what part of the plant are avocados,question_answering,Avocado
+Q702,when does air bag deploy,question_answering,Airbag
+Q703,what are some chinese inventions,question_answering,List of Chinese inventions
+Q704,what are some chinese inventions,question_answering,List of Chinese inventions
+Q705,who sung the banana boat song,question_answering,Day-O (The Banana Boat Song)
+Q706,when did wwi begin,question_answering,World War I
+Q707,what year did keeping up with the kardashians begin,question_answering,Keeping Up with the Kardashians
+Q708,what two empires fought to control afghanistan,question_answering,Afghanistan
+Q709,what triggered the civil war,question_answering,American Civil War
+Q710,what is a store confectioner,question_answering,Confectionery store
+Q711,what is a store confectioner,question_answering,Confectionery store
+Q712,when did qing dynasty begin,question_answering,Qing Dynasty
+Q713,who owns youtube,question_answering,Youtube
+Q714,what are tires made of,question_answering,Tire
+Q715,who killed general warren in bunker hill,question_answering,Joseph Warren
+Q716,where do women ejeculation exactly coming from,question_answering,Female ejaculation
+Q717,who won the women's world cup,question_answering,FIFA Women's World Cup
+Q718,when did texas become a state,question_answering,Texas
+Q719,who owns smirnoff,question_answering,Smirnoff
+Q720,who made the matrix,question_answering,The Matrix
+Q721,what are some six sigma tools used,question_answering,Six sigma
+Q722,who wrote serenity prayer,question_answering,Serenity Prayer
+Q723,what are the Declaration and Resolves of the First Continental Congress about,question_answering,Declaration and Resolves of the First Continental Congress
+Q724,what are the Declaration and Resolves of the First Continental Congress about,question_answering,Declaration and Resolves of the First Continental Congress
+Q725,what are the Declaration and Resolves of the First Continental Congress about,question_answering,Declaration and Resolves of the First Continental Congress
+Q726,what is a bad beat in poker,question_answering,Bad beat
+Q727,what part of beef are rouladen cut from?,question_answering,Rouladen
+Q728,where does cellular respiration occur,question_answering,Cellular respiration
+Q729,who created massey ferguson,question_answering,Massey Ferguson
+Q730,what is a lapping machine,question_answering,Lapping
+Q731,who plays ethan in my babysitter's a vampire,question_answering,My Babysitter's a Vampire (TV series)
+Q732,where do the mohawks live,question_answering,Mohawk people
+Q733,where do the mohawks live,question_answering,Mohawk people
+Q734,where do the mohawks live,question_answering,Mohawk people
+Q735,when did proof die,question_answering,Proof (rapper)
+Q736,when did proof die,question_answering,Proof (rapper)
+Q737,what is a base SI unit,question_answering,SI base unit
+Q738,when did ww1 end?,question_answering,World War I
+Q739,what state is area code 419,question_answering,Area codes 419 and 567
+Q740,what is 9/11 bombings,question_answering,September 11 attacks
+Q741,what are social security taxes,question_answering,Social Security (United States)
+Q742,what town is laurel hollow ny in,question_answering,"Laurel Hollow, New York"
+Q743,when did charles dickens live,question_answering,Charles dickens
+Q744,when did the civil rights movement begin,question_answering,Civil rights movement
+Q745,who won fifa world cup 2010,question_answering,2010 FIFA World Cup
+Q746,when did egg mcmuffin get invented,question_answering,McMuffin
+Q747,who shot john lennon?,question_answering,Death of John Lennon
+Q748,what state is new orleans in,question_answering,New Orleans
+Q749,what where the most important factors that led to the defeat of the democrates in 1968?,question_answering,"United States presidential election, 1968"
+Q750,when did kurt cobain kill himself,question_answering,Kurt Cobain
+Q751,who starred in the original true grit,question_answering,True Grit (1969 film)
+Q752,what is a millwright worker,question_answering,Millwright
+Q753,what the names of destiny's child,question_answering,Destiny's Child
+Q754,who created the tourbillon movement?,question_answering,Tourbillon
+Q755,what is an .msi file,question_answering,Windows Installer
+Q756,what year did mexico gain independence from spain,question_answering,Mexican War of Independence
+Q757,What are procedure codes terms in coding?,question_answering,Procedure codes
+Q758,what is a Four Lokos,question_answering,Four Loko
+Q759,what is a fret on a guitar,question_answering,Fret
+Q760,what year was smokey the bear invented,question_answering,Smokey Bear
+Q761,who said tv is a vast wasteland,question_answering,Newton N. Minow
+Q762,what is a duvet cover used for,question_answering,Duvet
+Q763,who did mr bojangles,question_answering,Mr. Bojangles (song)
+Q764,what is an agents job role in film,question_answering,Talent agent
+Q765,what is an agents job role in film,question_answering,Talent agent
+Q766,"who discovered the 2 moons of mars,Phobos and Deimos",question_answering,Moons of Mars
+Q767,WHAT IS A LAW ENFORCEMENT MURDER BOOK,question_answering,Murder book
+Q768,where does angela davis currently work,question_answering,Angela Davis
+Q769,when album love always released,question_answering,Love Always
+Q770,who wrote west side story,question_answering,West Side Story
+Q771,who killed robert kennedy,question_answering,Assassination of Robert F. Kennedy
+Q772,when Harry met Sally case,question_answering,When Harry Met Sally...
+Q773,who owns hamburger helper,question_answering,Hamburger Helper
+Q774,what makes a dwarf planet,question_answering,Dwarf planet
+Q775,what makes a dwarf planet,question_answering,Dwarf planet
+Q776,when did jack lalanne die,question_answering,Jack LaLanne
+Q777,who made the original care bears,question_answering,Care Bears
+Q778,what states does interstate 70 travel through,question_answering,Interstate 70
+Q779,when do solar eclipses happen?,question_answering,Solar eclipse
+Q780,where do mangos come from,question_answering,Mango
+Q781,what latitude is tropic of cancer,question_answering,Tropic of cancer
+Q782,what video format will play in a DVD player,question_answering,DVD-Video
+Q783,what part of the government governs the US post office?,question_answering,United States Postal Service
+Q784,what state is the capital in,question_answering,List of capitals in the United States
+Q785,what are square diamonds called?,question_answering,Princess cut
+Q786,what motor does a 2001 monte carlo,question_answering,Chevrolet Monte Carlo
+Q787,where scottsdale?,question_answering,"Scottsdale, Arizona"
+Q788,who has brad pitt dated,question_answering,Brad Pitt
+Q789,what is a dogs classification,question_answering,Dog
+Q790,what year was President kennedy president?,question_answering,John F. Kennedy
+Q791,who owns popeyes chicken,question_answering,Popeyes Louisiana Kitchen
+Q792,what nationality is wendy williams,question_answering,Wendy Williams
+Q793,who said give me liberty or give me death,question_answering,"Give me Liberty, or give me Death!"
+Q794,who said give me liberty or give me death,question_answering,"Give me Liberty, or give me Death!"
+Q795,what president was theodore roosevelt,question_answering,Theodore Roosevelt
+Q796,who starred in webster,question_answering,Webster (TV series)
+Q797,what are the most known sports in america,question_answering,Sports in the United States
+Q798,what are the most known sports in america,question_answering,Sports in the United States
+Q799,what is a monarch to a monarchy,question_answering,Monarchy
+Q800,"what is an ""N.M?",question_answering,Newton metre
+Q801,what is adem disease,question_answering,Acute disseminated encephalomyelitis
+Q802,what is adem disease,question_answering,Acute disseminated encephalomyelitis
+Q803,what year did john adams become  president?,question_answering,John Adams
+Q804,who created bing,question_answering,Bing
+Q805,who made hubble telescope,question_answering,Hubble Space Telescope
+Q806,what are anti inflammatories,question_answering,Anti-inflammatory
+Q807,who sang momma told me not to come,question_answering,Mama Told Me Not to Come
+Q808,when did andrea doria sink,question_answering,SS Andrea Doria
+Q809,what are dialysis tubes,question_answering,Dialysis tubing
+Q810,who designed the statue of liberty,question_answering,Statue of Liberty
+Q811,what is am 2201,question_answering,AM-2201
+Q812,who wrote second corinthians,question_answering,Second Epistle to the Corinthians
+Q813,who first synthesized heroin,question_answering,Heroin
+Q814,when did george washington died?,question_answering,George Washington
+Q815,when did george washington died?,question_answering,George Washington
+Q816,what is a wiki platform,question_answering,Wiki
+Q817,what are four thirds cameras,question_answering,Four Thirds system
+Q818,who plays dumbledore in harry potter 6,question_answering,Albus Dumbledore
+Q819,what type of land is savannah,question_answering,Savanna
+Q820,who wrote  nature boy,question_answering,Nature Boy
+Q821,who set the world record for women for high jump,question_answering,High jump
+Q822,when did playstation 3 first launch,question_answering,PlayStation 3 launch
+Q823,where does ground pepper come from,question_answering,Black pepper
+Q824,where does ground pepper come from,question_answering,Black pepper
+Q825,where does ground pepper come from,question_answering,Black pepper
+Q826,what type of ecosystem does stingrays live in,question_answering,Stingray
+Q827,who wrote the song cocaine,question_answering,Cocaine (song)
+Q828,when did pearl harbor get bombed,question_answering,Attack on Pearl Harbor
+Q829,what religion is primary in africa?,question_answering,Religion in Africa
+Q830,who won season 2 of project runway,question_answering,Project Runway (season 2)
+Q831,when did marlins start,question_answering,Miami Marlins
+Q832,what is a mule in coins,question_answering,Mule (coin)
+Q833,where do dungeness crab live,question_answering,Dungeness crab
+Q834,who plays mary poppins in the movie,question_answering,Mary Poppins (film)
+Q835,what is an arc in a story plot,question_answering,Story arc
+Q836,What are the different translations for the Bible,question_answering,Bible translations
+Q837,What are the different translations for the Bible,question_answering,Bible translations
+Q838,when does black friday start for christmas,question_answering,Black Friday (shopping)
+Q839,when does black friday start for christmas,question_answering,Black Friday (shopping)
+Q840,when does black friday start for christmas,question_answering,Black Friday (shopping)
+Q841,who sang what a wonderful world,question_answering,What a Wonderful World
+Q842,what month is the president inaugurated,question_answering,United States presidential inauguration
+Q843,when did Emperor Justinian die,question_answering,Justinian I
+Q844,what movement was elizabeth cady stanton a part of,question_answering,Elizabeth Cady Stanton
+Q845,what movement was elizabeth cady stanton a part of,question_answering,Elizabeth Cady Stanton
+Q846,what radio station are the boston bruins on?,question_answering,Boston Bruins Radio Network
+Q847,what radio station are the boston bruins on?,question_answering,Boston Bruins Radio Network
+Q848,when did ms .drgs go into effect,question_answering,Diagnosis-related group
+Q849,what are the characteristics of an ethnic group,question_answering,Ethnic group
+Q850,what are the characteristics of an ethnic group,question_answering,Ethnic group
+Q851,what are the characteristics of an ethnic group,question_answering,Ethnic group
+Q852,what mountains are on appalachian trail,question_answering,Appalachian Trail
+Q853,what are add ons,question_answering,Add-on
+Q854,what are add ons,question_answering,Add-on
+Q855,what are add ons,question_answering,Add-on
+Q856,what are add ons,question_answering,Add-on
+Q857,what are add ons,question_answering,Add-on
+Q858,what are add ons,question_answering,Add-on
+Q859,what would be the deliverables,question_answering,Deliverable
+Q860,what are club seats,question_answering,Club seating
+Q861,what are club seats,question_answering,Club seating
+Q862,what school did oprah winfrey help,question_answering,Oprah Winfrey Leadership Academy for Girls
+Q863,when did scott pilgrim come out,question_answering,Scott Pilgrim vs. the World
+Q864,what is a google in math,question_answering,Googol
+Q865,what structure is disulfide bonds,question_answering,Disulfide bond
+Q866,what is a redshirt freshman football player,question_answering,Redshirt (college sports)
+Q867,who rules communism government,question_answering,Communist state
+Q868,who makes skittles?,question_answering,Skittles (confectionery)
+Q869,what year did South Africa become a team in rugby,question_answering,South Africa national rugby union team
+Q870,what is a discipline of study,question_answering,List of academic disciplines
+Q871,what is a discipline of study,question_answering,List of academic disciplines
+Q872,who did john f kennedy run against?,question_answering,John F. Kennedy
+Q873,who wrote stand by me,question_answering,Stand by Me (song)
+Q874,what are metaphors used for,question_answering,Metaphor
+Q875,what are metaphors used for,question_answering,Metaphor
+Q876,what season is  dexter on,question_answering,Dexter (TV series)
+Q877,What are context effects of memory?,question_answering,Context-dependent memory
+Q878,what are the names of the ll divos,question_answering,Il Divo
+Q879,who won the 1998 world cup,question_answering,1998 FIFA World Cup
+Q880,where did the vietnamese settle in america,question_answering,Vietnamese American
+Q881,What is a 28 day cycle?,question_answering,Menstrual cycle
+Q882,when did hitler kill himself,question_answering,Death of Adolf Hitler
+Q883,when did world war 2 end,question_answering,World War II
+Q884,what is a llc company?,question_answering,Limited liability company
+Q885,what is a llc company?,question_answering,Limited liability company
+Q886,what are k cups,question_answering,K-Cup
+Q887,what is a chronograph watch,question_answering,Chronograph
+Q888,what is a PCI port used for,question_answering,Conventional PCI
+Q889,who won the 1967 nba championship,question_answering,1967 NBA Finals
+Q890,who make airbus,question_answering,Airbus
+Q891,who invented the television,question_answering,History of television
+Q892,what are the side effects for lyme disease,question_answering,Lyme disease
+Q893,what are the side effects for lyme disease,question_answering,Lyme disease
+Q894,when did the movie deep blue sea come out,question_answering,Deep Blue Sea
+Q895,when did the movie deep blue sea come out,question_answering,Deep Blue Sea
+Q896,who wrote the song for star wars,question_answering,Star Wars music
+Q897,what are a and r reps,question_answering,Artists and repertoire
+Q898,what measurement is a furlong,question_answering,Furlong
+Q899,where does ray lamontagne live,question_answering,Ray lamontagne
+Q900,when the wind blows james patterson,question_answering,When the Wind Blows (James Patterson novel)
+Q901,who made facebook,question_answering,Facebook
+Q902,what are the catholic gifts of the holy spirit,question_answering,Seven gifts of the Holy Spirit
+Q903,what are the catholic gifts of the holy spirit,question_answering,Seven gifts of the Holy Spirit
+Q904,where do you find iodine,question_answering,Iodine
+Q905,what are lobbying groups,question_answering,Lobbying
+Q906,what are lobbying groups,question_answering,Lobbying
+Q907,what kind of people are on the show skins,question_answering,Skins (UK TV series)
+Q908,who played the drums in the band cream back in 1968,question_answering,Cream (band)
+Q909,what president made decision to buy louisiana,question_answering,Louisiana Purchase
+Q910,who sang cool jerk,question_answering,Cool Jerk
+Q911,what is a league in the sea,question_answering,League (unit)
+Q912,what nationality is kris jenner,question_answering,Kris Jenner
+Q913,when will ie9 be released,question_answering,Internet Explorer 9
+Q914,when did classification of races begin,question_answering,Race (human classification)
+Q915,when did lucy stone died,question_answering,Lucy Stone
+Q916,what are stocks and bonds,question_answering,Bond (finance)
+Q917,what are stocks and bonds,question_answering,Bond (finance)
+Q918,what are the boundaries of the pelvic outlet,question_answering,Pelvic outlet
+Q919,what states has the electric chair,question_answering,Electric chair
+Q920,what are private labels,question_answering,Private label
+Q921,when did germans enter paris in ww2,question_answering,Liberation of Paris
+Q922,who wrote the song feelin alright,question_answering,Feelin' Alright
+Q923,what is a neuro tract,question_answering,Neural pathway
+Q924,when did dr.carter g woodson die,question_answering,Carter G. Woodson
+Q925,what are loan originations,question_answering,Loan origination
+Q926,what are loan originations,question_answering,Loan origination
+Q927,When did the New Deal start,question_answering,New Deal
+Q928,what year did aerosmith i dont want to miss a thing,question_answering,I Don't Want to Miss a Thing
+Q929,when did daylight savings time start,question_answering,Daylight saving time
+Q930,What region of France is Montargis in?,question_answering,Montargis
+Q931,what year lord of rings made?,question_answering,The Lord of the Rings
+Q932,what time will the world end on may 21,question_answering,2011 end times prediction
+Q933,what is  file based system,question_answering,File system
+Q934,who makes triumph motorcycles,question_answering,Triumph Motorcycles
+Q935,who makes triumph motorcycles,question_answering,Triumph Motorcycles
+Q936,What political conflicts marked the presidency of William Howard Taft?,question_answering,William Howard Taft
+Q937,what temperature is a salt ice bath,question_answering,Cooling bath
+Q938,when slavery abolished,question_answering,Slavery in the United States
+Q939,when slavery abolished,question_answering,Slavery in the United States
+Q940,what produces primary xylem?,question_answering,Xylem
+Q941,what is a ti 82?,question_answering,TI-82
+Q942,what is a ti 82?,question_answering,TI-82
+Q943,what makes of the united states,question_answering,United States
+Q944,what makes of the united states,question_answering,United States
+Q945,what makes of the united states,question_answering,United States
+Q946,what makes of the united states,question_answering,United States
+Q947,what are circumpolar constellations,question_answering,Circumpolar constellation
+Q948,where do sesame seeds come from,question_answering,Sesame
+Q949,who owned kansas before it became a state,question_answering,Kansas
+Q950,where did the olmecs come from,question_answering,Olmec
+Q951,what states allow same sex marriage,question_answering,Same-sex marriage in the United States
+Q952,when did thomas jefferson become president,question_answering,Thomas Jefferson
+Q953,when did thomas jefferson become president,question_answering,Thomas Jefferson
+Q954,who sang sun city,question_answering,Sun City (song)
+Q955,who won the most nba championships,question_answering,List of NBA players with most championships
+Q956,when did the word fuck begin,question_answering,Fuck
+Q957,what are the 7 continents,question_answering,Continent
+Q958,what state is milwaukee in,question_answering,Milwaukee
+Q959,who wrote the song hallelujah,question_answering,Hallelujah (Leonard Cohen song)
+Q960,what are garnishments,question_answering,Garnishment
+Q961,what years was the 18th century,question_answering,18th century
+Q962,what year was the eiffel tower made,question_answering,Eiffel Tower
+Q963,when monopoly came out,question_answering,History of the board game Monopoly
+Q964,what are land parcels,question_answering,Parcel
+Q965,what state is Mn,question_answering,Minnesota
+Q966,what naturally occurring isotopes does cobalt have,question_answering,Isotopes of cobalt
+Q967,Who Moved My Cheese Synopsis,question_answering,Who Moved My Cheese?
+Q968,who replaced nikita khrushchev,question_answering,Nikita Khrushchev
+Q969,What Are Mnemonic Devices,question_answering,Mnemonic
+Q970,who passed no child left behind,question_answering,No Child Left Behind Act
+Q971,what are the charges against Casey Anthony,question_answering,Death of Caylee Anthony
+Q972,What is a surveyors wheel,question_answering,Surveyor's wheel
+Q973,where did world war 1 start,question_answering,World War I
+Q974,what species is a spider,question_answering,Spider
+Q975,what year was girls just want to have fun release,question_answering,Girls Just Want to Have Fun
+Q976,when can you use a defibulator,question_answering,Defibrillation
+Q977,who created the cato institute,question_answering,Cato Institute
+Q978,what are the players in Quidditch?,question_answering,Quidditch
+Q979,who wrote the song a little more country than that>,question_answering,A Little More Country Than That
+Q980,who makes blackberry,question_answering,BlackBerry
+Q981,when does a demand curve shift?,question_answering,Demand curve
+Q982,what are arizona's symbols,question_answering,List of Arizona state symbols
+Q983,what are arizona's symbols,question_answering,List of Arizona state symbols
+Q984,what is adoration catholic church,question_answering,Eucharistic adoration
+Q985,when the body is systemic,question_answering,Systemic
+Q986,what are SLR cameras,question_answering,Single-lens reflex camera
+Q987,what is a vm server,question_answering,Virtual machine
+Q988,Where Elephants Live,question_answering,Elephant
+Q989,what are the quad muscles,question_answering,Quadriceps femoris muscle
+Q990,when did the titanic sink,question_answering,RMS Titanic
+Q991,where is the human thigh located?,question_answering,Human leg
+Q992,what is considered a large car,question_answering,Full-size car
+Q993,who is flo from progressive,question_answering,Flo (Progressive Insurance)
+Q994,who is flo from progressive,question_answering,Flo (Progressive Insurance)
+Q995,who is flo from progressive,question_answering,Flo (Progressive Insurance)
+Q996,who is flo from progressive,question_answering,Flo (Progressive Insurance)
+Q997,when was james madison in the house of representatives,question_answering,James Madison
+Q998,What is and where is hydraulic fluid found and used for,question_answering,Hydraulic fluid
+Q999,Where Are Mahindra Tractors Made,question_answering,Mahindra Tractors
+Q1000,Where Are Mahindra Tractors Made,question_answering,Mahindra Tractors
+Q1001,what is petit lemans,question_answering,Petit Le Mans
+Q1002,what is middle class in the us,question_answering,American middle class
+Q1003,what is middle class in the us,question_answering,American middle class
+Q1004,what is middle class in the us,question_answering,American middle class
+Q1005,what is the scientific name of the eastern tiger salamander?,question_answering,Tiger Salamander
+Q1006,what is considered to be a disasters,question_answering,Disaster
+Q1007,What is firebird server,question_answering,Firebird (database server)
+Q1008,What is firebird server,question_answering,Firebird (database server)
+Q1009,What is caused by the human immunodeficiency virus?,question_answering,HIV
+Q1010,what was the steelworkers strike,question_answering,Steel strike of 1919
+Q1011,When was the first Mary Poppins book written,question_answering,Mary Poppins
+Q1012,what is sims language,question_answering,Simlish
+Q1013,what is the function of the vas deferens?,question_answering,Vas deferens
+Q1014,What is Ischemia or infarction?,question_answering,Ischemia
+Q1015,What is Ischemia or infarction?,question_answering,Ischemia
+Q1016,What is Ischemia or infarction?,question_answering,Ischemia
+Q1017,where is humboldt ks,question_answering,"Humboldt, Kansas"
+Q1018,what was nixon accused of,question_answering,Watergate scandal
+Q1019,what was nixon accused of,question_answering,Watergate scandal
+Q1020,who is elizabeth from general hospital who are the boys fathers,question_answering,Elizabeth Webber
+Q1021,what is reagan known for,question_answering,Presidency of Ronald Reagan
+Q1022,what is reagan known for,question_answering,Presidency of Ronald Reagan
+Q1023,what is reagan known for,question_answering,Presidency of Ronald Reagan
+Q1024,what is evoked otoacoustic emissions,question_answering,Otoacoustic emission
+Q1025,what is chep pallet,question_answering,CHEP
+Q1026,who is victoria jackson from saturday night live,question_answering,Victoria Jackson
+Q1027,what was the post modernist era in literature?,question_answering,Postmodern literature
+Q1028,who is the group enigma,question_answering,Enigma (musical project)
+Q1029,who is the group enigma,question_answering,Enigma (musical project)
+Q1030,when was scooby doo created,question_answering,Scooby-Doo
+Q1031,what is the federal death tax,question_answering,Estate tax in the United States
+Q1032,when was raphael born,question_answering,Raphael
+Q1033,who is the CEO OF FACEBOOK,question_answering,Mark Zuckerberg
+Q1034,What Is the Largest Whale,question_answering,Blue whale
+Q1035,What Is Range in Math,question_answering,Range (mathematics)
+Q1036,where is the seed located in an artichoke,question_answering,Artichoke
+Q1037,who is on the hundred dollar bill,question_answering,United States one hundred-dollar bill
+Q1038,what is the ingredient in mustard,question_answering,Mustard (condiment)
+Q1039,who are the members of the climax blues band?,question_answering,Climax Blues Band
+Q1040,when was the web invented,question_answering,World Wide Web
+Q1041,WHAT IS PARESTHESIAS OF HANDS,question_answering,Paresthesia
+Q1042,WHAT IS PARESTHESIAS OF HANDS,question_answering,Paresthesia
+Q1043,what is kathmandu known for,question_answering,Kathmandu
+Q1044,where is mark sanchez from,question_answering,Mark Sanchez
+Q1045,who is paul avery to the zodiac killings,question_answering,Paul Avery
+Q1046,what is sump pump  used for,question_answering,Sump pump
+Q1047,when was bloody kansas in,question_answering,Bleeding Kansas
+Q1048,What Is Benzene Used For,question_answering,Benzene
+Q1049,what is homebrew for wii?,question_answering,Wii homebrew
+Q1050,where is cougar town filmed,question_answering,Cougar Town
+Q1051,who was bush's national security advisor,question_answering,Stephen Hadley
+Q1052,who was bush's national security advisor,question_answering,Stephen Hadley
+Q1053,what is another name for the large intestine,question_answering,Large intestine
+Q1054,where is green bay packers from,question_answering,Green Bay Packers
+Q1055,where is the valley at in los angeles,question_answering,San Fernando Valley
+Q1056,when was the world of coca cola built,question_answering,World of Coca-Cola
+Q1057,when is susan smith eligible for parole,question_answering,Susan Smith
+Q1058,what is the highest mountain in america and where is is located?,question_answering,Mount McKinley
+Q1059,what was the first honda car,question_answering,Honda S600
+Q1060,what was the first honda car,question_answering,Honda S600
+Q1061,when was everybody hates chris made,question_answering,Everybody Hates Chris
+Q1062,what is lung effusion,question_answering,Pleural effusion
+Q1063,what is the population of san francisco,question_answering,San Francisco
+Q1064,who is the writer of the beowulf poem?,question_answering,Beowulf
+Q1065,who is shem in the bible,question_answering,Shem
+Q1066,who is shem in the bible,question_answering,Shem
+Q1067,what is go daddy.com?,question_answering,Go Daddy
+Q1068,where is andy whitfield from?,question_answering,Andy Whitfield
+Q1069,where is the country andorra located,question_answering,Andorra
+Q1070,what is the highest point in oahu,question_answering,Oahu
+Q1071,what is spelt flour,question_answering,Spelt
+Q1072,what is spelt flour,question_answering,Spelt
+Q1073,what is sherlock holmes job,question_answering,Sherlock Holmes
+Q1074,what is sherlock holmes job,question_answering,Sherlock Holmes
+Q1075,where is kennywood in pittsburgh,question_answering,Kennywood
+Q1076,what is social security card used for,question_answering,Social Security number
+Q1077,what is the minimalist trend,question_answering,Minimalism
+Q1078,Who is the rap singer in right round with kesha in the background? *(dancer)*,question_answering,Right Round
+Q1079,who is the current Chief Justice of the U.S. supreme court?,question_answering,Chief Justice of the United States
+Q1080,what is rock of ages about,question_answering,Rock of Ages (musical)
+Q1081,when was the american labor union formed,question_answering,Labor unions in the United States
+Q1082,what is the largest credit union,question_answering,Navy Federal Credit Union
+Q1083,what is the singer Stevie Wonders full name,question_answering,Stevie wonder
+Q1084,what is definition of psychotic,question_answering,Psychosis
+Q1085,Who is General Grievous of Star Wars,question_answering,General Grievous
+Q1086,where is scotty mccreery from,question_answering,Scotty McCreery
+Q1087,what is general chu chicken,question_answering,General Tso's chicken
+Q1088,where is david ortiz from,question_answering,David Ortiz
+Q1089,what is an irregular heartbeat pvc,question_answering,Premature ventricular contraction
+Q1090,what is an irregular heartbeat pvc,question_answering,Premature ventricular contraction
+Q1091,what is flour made from,question_answering,Flour
+Q1092,what is my resting heart rate at age 24,question_answering,Heart rate
+Q1093,what is the name for an old horse-drawn vehicle,question_answering,Carriage
+Q1094,where was the tsunami in 2005,question_answering,2004 Indian Ocean earthquake and tsunami
+Q1095,what is the source of geothermal energy,question_answering,Geothermal energy
+Q1096,what is cubic ft,question_answering,Cubic foot
+Q1097,when was kirstie alley on cheers,question_answering,Kirstie Alley
+Q1098,who was ho chi minh in vietnam war,question_answering,Ho chi minh
+Q1099,what is another name for cpu,question_answering,Central processing unit
+Q1100,who was charged with murder after the massacre at My lai,question_answering,My Lai Massacre
+Q1101,what was the city of Mithridates,question_answering,Mithridates VI of Pontus
+Q1102,what is metal music about,question_answering,Heavy metal music
+Q1103,what is metal music about,question_answering,Heavy metal music
+Q1104,what is extreme right wing,question_answering,Far-right politics
+Q1105,what is extreme right wing,question_answering,Far-right politics
+Q1106,what is the title of Hobbes main work,question_answering,Thomas Hobbes
+Q1107,what is high emotional intelligence?,question_answering,Emotional intelligence
+Q1108,what is the role of heredity,question_answering,Heredity
+Q1109,what is the role of heredity,question_answering,Heredity
+Q1110,what is prefix phone number,question_answering,Telephone prefix
+Q1111,what is metformin used for,question_answering,Metformin
+Q1112,what is metformin used for,question_answering,Metformin
+Q1113,what is the cabin pressure of us airlines,question_answering,Cabin pressurization
+Q1114,what is the cabin pressure of us airlines,question_answering,Cabin pressurization
+Q1115,what is it like at mount rushmore?,question_answering,Mount Rushmore
+Q1116,what is buttoned-down shirt?,question_answering,Dress shirt
+Q1117,when is administrative assistant day,question_answering,Administrative Professionals' Day
+Q1118,where is keith whitley from,question_answering,Keith Whitley
+Q1119,who is basketball star antoine walker,question_answering,Antoine Walker
+Q1120,where are the internal and external iliac arteries,question_answering,External iliac artery
+Q1121,what is steam by valve corporation,question_answering,Steam (software)
+Q1122,where is the Rhine river located on a map,question_answering,Rhine
+Q1123,what is sanskrit shri,question_answering,Sri
+Q1124,what is civil engineering aBOUT,question_answering,Civil engineering
+Q1125,WHere is a famous alluvial plain,question_answering,Mississippi Alluvial Plain
+Q1126,Where is South Beach in Miami,question_answering,South Beach
+Q1127,who was john f kennedy up against,question_answering,"United States presidential election, 1960"
+Q1128,what is the controlled substance act known as,question_answering,Controlled Substances Act
+Q1129,what is the si unit of pressure,question_answering,Pressure
+Q1130,what is the great basin area,question_answering,Great Basin
+Q1131,when was fdr elected as president,question_answering,Franklin D. Roosevelt
+Q1132,where was ms-13 originally from,question_answering,MS-13
+Q1133,what is bones job,question_answering,Bones (TV series)
+Q1134,where was the super bowl in 1991,question_answering,Super Bowl XXV
+Q1135,when was malcolm x assassinated,question_answering,Malcolm X
+Q1136,when was malcolm x assassinated,question_answering,Malcolm X
+Q1137,who are the characters in 90210 in season 3,question_answering,90210 (season 3)
+Q1138,when was queen elizabeth ii married,question_answering,Elizabeth II
+Q1139,where is penn state stadium,question_answering,Beaver Stadium
+Q1140,what is in a tequila sunrise?,question_answering,Tequila Sunrise (cocktail)
+Q1141,where are facial sinuses,question_answering,Paranasal sinuses
+Q1142,what is lean manufacturing and who developed,question_answering,Lean manufacturing
+Q1143,what is lean manufacturing and who developed,question_answering,Lean manufacturing
+Q1144,who is is the singer westlife,question_answering,Westlife
+Q1145,what is vitamin a for,question_answering,Vitamin A
+Q1146,what is vitamin a for,question_answering,Vitamin A
+Q1147,what is the capital city of california.,question_answering,"Sacramento, California"
+Q1148,when is it memorial day,question_answering,Memorial Day
+Q1149,"What was ""Freedom Summer""?",question_answering,Freedom Summer
+Q1150,"What was ""Freedom Summer""?",question_answering,Freedom Summer
+Q1151,what is the function of the liver,question_answering,Liver
+Q1152,what is the function of the liver,question_answering,Liver
+Q1153,what is the formula for calcium nitrate,question_answering,Calcium nitrate
+Q1154,where is dia de los muertos celebrated,question_answering,Day of the Dead
+Q1155,where is the 2011 mlb all star game location,question_answering,2011 Major League Baseball All-Star Game
+Q1156,what was the Name the first electronic handheld calculator,question_answering,Sumlock ANITA calculator
+Q1157,when was washington elected president,question_answering,George Washington
+Q1158,where is the island New Guinea?,question_answering,New Guinea
+Q1159,what is in milk,question_answering,Milk
+Q1160,what is in milk,question_answering,Milk
+Q1161,What is motorcycle speedway racing,question_answering,Motorcycle speedway
+Q1162,what is customary at shiva,question_answering,Shiva (Judaism)
+Q1163,what is customary at shiva,question_answering,Shiva (Judaism)
+Q1164,what is customary at shiva,question_answering,Shiva (Judaism)
+Q1165,who is the guy in the wheelchair who is smart,question_answering,Stephen Hawking in popular culture
+Q1166,what is in a hot toddy,question_answering,Hot toddy
+Q1167,what is honey bee propolis,question_answering,Propolis
+Q1168,what is honey bee propolis,question_answering,Propolis
+Q1169,when was steven tyler born,question_answering,Steven Tyler
+Q1170,what is name of national anthem song of switzerland,question_answering,Swiss Psalm
+Q1171,what is blood urea,question_answering,Blood urea nitrogen
+Q1172,what is blood urea,question_answering,Blood urea nitrogen
+Q1173,where are the most concentration of jews living,question_answering,Jews
+Q1174,what is corpus christi holiday,question_answering,Corpus Christi (feast)
+Q1175,who was the first european in the americas,question_answering,European colonization of the Americas
+Q1176,where is testosterone produced,question_answering,Testosterone
+Q1177,where is testosterone produced,question_answering,Testosterone
+Q1178,where is testosterone produced,question_answering,Testosterone
+Q1179,what is the difference between multistage and cluster sampling,question_answering,Cluster sampling
+Q1180,where is jamestown north carolina,question_answering,"Jamestown, North Carolina"
+Q1181,what is cu the element,question_answering,Copper
+Q1182,what was the parthenon used for,question_answering,Parthenon
+Q1183,what is stepwise linear regression,question_answering,Stepwise regression
+Q1184,when was jamestown colonized,question_answering,"Jamestown, Virginia"
+Q1185,what was the first year of kentucky derby,question_answering,Kentucky Derby
+Q1186,who is on the $10. bill,question_answering,United States ten-dollar bill
+Q1187,when was andy griffith born,question_answering,Andy Griffith
+Q1188,what is the definition of a hung jury,question_answering,Hung jury
+Q1189,who is norah jones parents,question_answering,Norah Jones
+Q1190,what is the capacity of the cowboy stadium,question_answering,Cowboys Stadium
+Q1191,what is the capacity of the cowboy stadium,question_answering,Cowboys Stadium
+Q1192,what is Carbon 14 dating is a type of ?,question_answering,Carbon-14
+Q1193,what is the color puce,question_answering,Puce
+Q1194,when was the battle at tombstone fought,question_answering,Gunfight at the O.K. Corral
+Q1195,where was jfk buried,question_answering,State funeral of John F. Kennedy
+Q1196,what is the population of algoma wi for 2010,question_answering,"Algoma, Wisconsin"
+Q1197,what is renaissance english,question_answering,English Renaissance
+Q1198,Who is the husband of Betty Ford,question_answering,Betty Ford
+Q1199,what was Coco Chanel's real first name?,question_answering,Coco Chanel
+Q1200,what is grist mill stone,question_answering,Gristmill
+Q1201,who is Dr. JB Danquah,question_answering,J. B. Danquah
+Q1202,where is big pokey from,question_answering,Big Pokey
+Q1203,what is baklava recipe,question_answering,Baklava
+Q1204,what is the rule of the 9s,question_answering,Total body surface area
+Q1205,where  is kj 52 from,question_answering,KJ-52
+Q1206,what is the sign for degrees,question_answering,Degree symbol
+Q1207,what is the sign for degrees,question_answering,Degree symbol
+Q1208,what is the prognosis of stomach cancer,question_answering,Stomach cancer
+Q1209,who is carlos pena on big time rush,question_answering,Big Time Rush
+Q1210,what is el mate,question_answering,Mate (beverage)
+Q1211,what is dave batista doing now,question_answering,Dave Batista
+Q1212,WHO IS HENRY SAMPSON JR.,question_answering,Henry Sampson (inventor)
+Q1213,where is the arctic circle located on the earth,question_answering,Arctic circle
+Q1214,what is the erb/heart,question_answering,Erb's point (cardiology)
+Q1215,when was pokemon first started,question_answering,PokÃ©mon
+Q1216,where are colors on stoplight,question_answering,Traffic light
+Q1217,where are colors on stoplight,question_answering,Traffic light
+Q1218,where are colors on stoplight,question_answering,Traffic light
+Q1219,where are colors on stoplight,question_answering,Traffic light
+Q1220,what is the fundamental theorem of calculus used for,question_answering,Fundamental theorem of calculus
+Q1221,what is the fundamental theorem of calculus used for,question_answering,Fundamental theorem of calculus
+Q1222,what is nicki minaj real name,question_answering,Nicki Minaj
+Q1223,what is the disease osteonecrosis of the jaw?,question_answering,Osteonecrosis of the jaw
+Q1224,what is the disease osteonecrosis of the jaw?,question_answering,Osteonecrosis of the jaw
+Q1225,what is mincemeat made of,question_answering,Mincemeat
+Q1226,who is suicide tna,question_answering,Suicide (character)
+Q1227,where is hickory located nc,question_answering,"Hickory, North Carolina"
+Q1228,what is Polyester in packaging PET,question_answering,Polyethylene terephthalate
+Q1229,what was the GE building in rockefeller plaza called before.,question_answering,GE Building
+Q1230,who are the two senators of louisiana,question_answering,List of United States Senators from Louisiana
+Q1231,who is director jack smight,question_answering,Jack Smight
+Q1232,what is dmitri mendeleev 4,question_answering,Dmitri Mendeleev
+Q1233,what is dmitri mendeleev 4,question_answering,Dmitri Mendeleev
+Q1234,where is modesto california,question_answering,"Modesto, California"
+Q1235,what is the female symbol called,question_answering,Gender symbol
+Q1236,who is st patty?,question_answering,Saint Patrick's Day
+Q1237,what is leasehold; real estate,question_answering,Leasehold estate
+Q1238,when was Mary Anderson born,question_answering,Mary Anderson (inventor)
+Q1239,WHO WAS IN THE MOVIE I CONFESS WITH MONTGOMERY CLIFT,question_answering,I Confess (film)
+Q1240,WHAT IS THE LENGTH OF A NAUTICAL MILE,question_answering,Nautical mile
+Q1241,what is black hairy tongue disease,question_answering,Black hairy tongue
+Q1242,what is firewire used for,question_answering,IEEE 1394
+Q1243,when was srv born,question_answering,Stevie Ray Vaughan
+Q1244,what is stent surgery,question_answering,Stent
+Q1245,what is ethernet gigabit,question_answering,Gigabit Ethernet
+Q1246,where is the tibia location,question_answering,Tibia
+Q1247,what is tofu made of,question_answering,Tofu
+Q1248,Where is Bubbles the Chimp now,question_answering,Bubbles (chimpanzee)
+Q1249,what is muse's lead singer's name,question_answering,Muse (band)
+Q1250,where is bloemfontein in africa,question_answering,Bloemfontein
+Q1251,What is the prostate for?,question_answering,Prostate
+Q1252,what is in the preamble of the constitution,question_answering,Preamble to the United States Constitution
+Q1253,when was the internet started,question_answering,History of the Internet
+Q1254,where is rolling rock brewed,question_answering,Rolling Rock
+Q1255,when was Pope Benedict XVI elected?,question_answering,Pope Benedict XVI
+Q1256,Who was John Adam's children,question_answering,John Adams
+Q1257,who was on the 10 dollar bill,question_answering,United States ten-dollar bill
+Q1258,what is water jet propulsion,question_answering,Jetboat
+Q1259,where is the sermon on the mount in the bible,question_answering,Sermon on the Mount
+Q1260,who is E from entourage,question_answering,Eric Murphy
+Q1261,what is article 5 about,question_answering,Article Five of the United States Constitution
+Q1262,what is the political tea party,question_answering,Tea Party movement
+Q1263,what is puerto rico currency,question_answering,Currencies of Puerto Rico
+Q1264,What is the function of albumin?,question_answering,Human serum albumin
+Q1265,who is ezekiel in the bible,question_answering,Book of Ezekiel
+Q1266,where are the ten commandments in the bible,question_answering,Ten Commandments
+Q1267,what is endodontic dentistry,question_answering,Endodontics
+Q1268,who is the junior senator of nc,question_answering,Kay Hagan
+Q1269,who is heisman trophy named after,question_answering,Heisman Trophy
+Q1270,what is sado masochism,question_answering,Sadomasochism
+Q1271,where are Giant Panda Bears found?,question_answering,Giant Panda
+Q1272,where is loxahatchee fl at,question_answering,"Loxahatchee, Florida"
+Q1273,where is loxahatchee fl at,question_answering,"Loxahatchee, Florida"
+Q1274,what is the format of the canadian citizenship test,question_answering,Canadian Citizenship Test
+Q1275,what is chicken chow mein,question_answering,Chow mein
+Q1276,What is up with Kent Hovind,question_answering,Kent Hovind
+Q1277,what is the oath of allegiance of the united states,question_answering,Oath of Allegiance (United States)
+Q1278,what is that dot on the forehead of indian women\,question_answering,Bindi (decoration)
+Q1279,where is good morning america studio,question_answering,Times Square Studios
+Q1280,what is primary medicine,question_answering,Primary care
+Q1281,what is primary medicine,question_answering,Primary care
+Q1282,where is Desmanthus Illinoensis found,question_answering,Desmanthus illinoensis
+Q1283,when was the first super bowl,question_answering,Super Bowl
+Q1284,what is the origin of fiona,question_answering,Fiona
+Q1285,what is the official language of america?,question_answering,Languages of the United States
+Q1286,what is auto quarter panel,question_answering,Quarter panel
+Q1287,"where is shropshire, uk",question_answering,Shropshire
+Q1288,when was pearl harbor bombed,question_answering,Attack on Pearl Harbor
+Q1289,what is the la tour de france,question_answering,Tour de France
+Q1290,what is the social norm approach?,question_answering,Social Norms Approach
+Q1291,what is associates arts degree,question_answering,Associate degree
+Q1292,what is vat tax?,question_answering,Value added tax
+Q1293,what is high sticking in hockey,question_answering,High-Sticking
+Q1294,what is an sd memory card reader,question_answering,Memory card reader
+Q1295,"What was Captain Ahab's Ship in the novel ""Moby Dick""",question_answering,Moby-Dick
+Q1296,when was the trogan war,question_answering,Trojan War
+Q1297,where is the palatine canal,question_answering,Greater palatine canal
+Q1298,what is the lowest temperature ever recorded in antarctica,question_answering,Climate of Antarctica
+Q1299,what is oregon institute of technology like,question_answering,Oregon Institute of Technology
+Q1300,When Is Passover Over,question_answering,Passover
+Q1301,when is halley's comet next,question_answering,Halley's Comet
+Q1302,what is soy made from,question_answering,Soybean
+Q1303,what is linkedin used for,question_answering,LinkedIn
+Q1304,"WHERE IS ROUGH AND READY, CA",question_answering,"Rough and Ready, California"
+Q1305,"WHERE IS ROUGH AND READY, CA",question_answering,"Rough and Ready, California"
+Q1306,where is rashard lewis from???,question_answering,Rashard Lewis
+Q1307,what is doxycycline hyclate used for,question_answering,Doxycycline
+Q1308,what is sodium hypochlorite solution,question_answering,Sodium hypochlorite
+Q1309,what is sodium hypochlorite solution,question_answering,Sodium hypochlorite
+Q1310,what is captcha code,question_answering,CAPTCHA
+Q1311,when was jacques cousteau born,question_answering,Jacques Cousteau
+Q1312,where was the fugitive slave law made,question_answering,Fugitive Slave Act of 1850
+Q1313,who is in the group trinity 5 7,question_answering,Trin-i-tee 5:7
+Q1314,what is eic earned income credit,question_answering,Earned Income Tax Credit
+Q1315,when is international men's day,question_answering,International Men's Day
+Q1316,where is valley village ca,question_answering,"Valley Village, Los Angeles"
+Q1317,What is sign of cancer,question_answering,Cancer (astrology)
+Q1318,when was the patriot act enacted,question_answering,Patriot Act
+Q1319,when was the tacoma bridge collapse?,question_answering,Tacoma Narrows Bridge
+Q1320,what is brown flax,question_answering,Flax
+Q1321,what is a gsm cell phone,question_answering,GSM
+Q1322,what was the cash and carry lend lease,question_answering,Lend-Lease
+Q1323,what was the cash and carry lend lease,question_answering,Lend-Lease
+Q1324,what is el morro in puerto rico,question_answering,Castillo San Felipe del Morro
+Q1325,where are poison dart frog seen,question_answering,Poison dart frog
+Q1326,where were the Winter Olympics in 2006,question_answering,2006 Winter Olympics
+Q1327,when was the lady gaga judas song released,question_answering,Judas (song)
+Q1328,when was the lady gaga judas song released,question_answering,Judas (song)
+Q1329,what is mpeg4  avc or sp/asp,question_answering,H.264/MPEG-4 AVC
+Q1330,WHAT IS NON BINDING?,question_answering,Non-binding arbitration
+Q1331,who was mr big on sex and the city,question_answering,Mr. Big (Sex and the City)
+Q1332,what is the actresses name that played in walk that line?,question_answering,Walk the Line
+Q1333,what is the definition of a map,question_answering,Map
+Q1334,where is university of nelson mandela metropolitan located,question_answering,Nelson Mandela Metropolitan University
+Q1335,when was How the west was won filmed?,question_answering,How the West Was Won (film)
+Q1336,who is on blink 182 album cover,question_answering,Enema of the State
+Q1337,What is the name of the late Major League  old professor,question_answering,Casey Stengel
+Q1338,when was the constitution written,question_answering,Constitution
+Q1339,what is the use of a sales invoice?,question_answering,Invoice
+Q1340,what was the actress who played the pink power ranger,question_answering,Kimberly Hart
+Q1341,what is squash the sport,question_answering,Squash (sport)
+Q1342,where is the world cup in 2010,question_answering,2010 FIFA World Cup
+Q1343,when was the great fire in chicago,question_answering,Great Chicago Fire
+Q1344,what is hosting a website,question_answering,Web hosting service
+Q1345,when was the first nfl madden game released,question_answering,Madden NFL
+Q1346,what is pci Interface,question_answering,Conventional PCI
+Q1347,what is jagger bombs,question_answering,JÃ¤gerbomb
+Q1348,what is the name of mountains along california,question_answering,California Coast Ranges
+Q1349,who is the author of tree grows in brooklyn,question_answering,A Tree Grows in Brooklyn (novel)
+Q1350,where is al jazeera based,question_answering,Al Jazeera
+Q1351,what is the purpose of child support?,question_answering,Child support
+Q1352,where was martin luther king shot?,question_answering,"Martin Luther King, Jr."
+Q1353,who is the mayor of chicago 2011,question_answering,"Chicago mayoral election, 2011"
+Q1354,when is the wv state fair,question_answering,State Fair of West Virginia
+Q1355,when was the state of utah established,question_answering,Utah
+Q1356,what is the location of coldwater ms,question_answering,"Coldwater, Mississippi"
+Q1357,what is the location of coldwater ms,question_answering,"Coldwater, Mississippi"
+Q1358,what is the function of the hard palate,question_answering,Hard palate
+Q1359,where is Chayanne from?,question_answering,Chayanne
+Q1360,when is world war hulk movie come,question_answering,World War Hulk
+Q1361,WHERE WAS JOHN WAYNE BORN,question_answering,John Wayne
+Q1362,what is the difference between alpha lipoic acid and lipoic acid,question_answering,Lipoic acid
+Q1363,what is the organic layer in an amoled screen,question_answering,OLED
+Q1364,what is eggnog made of,question_answering,Eggnog
+Q1365,what is gravy made of,question_answering,Gravy
+Q1366,what is gravy made of,question_answering,Gravy
+Q1367,what is bourbon made of,question_answering,Bourbon whiskey
+Q1368,what is cta used for,question_answering,Computed tomography angiography
+Q1369,what is vitamin b12 used for,question_answering,Vitamin B12
+Q1370,what is vitamin b12 used for,question_answering,Vitamin B12
+Q1371,What is the the North American Free Trade Agreement?,question_answering,North American Free Trade Agreement
+Q1372,what is tmz stand for,question_answering,TMZ (website)
+Q1373,what is impingement of the shoulder,question_answering,Impingement syndrome
+Q1374,where is La Palma africa,question_answering,La Palma
+Q1375,where was hillary clinton born,question_answering,Hillary Rodham Clinton
+Q1376,who was the first one to invent medicine,question_answering,History of medicine
+Q1377,When was 27th amendment proposed,question_answering,Twenty-seventh Amendment to the United States Constitution
+Q1378,what is singapore's currency,question_answering,Singapore dollar
+Q1379,Who was Daniel J Daly?,question_answering,Daniel Daly
+Q1380,where was paul revere born,question_answering,Paul Revere
+Q1381,what is the plot of the shawshank redemption?,question_answering,The Shawshank Redemption
+Q1382,what is an information technology manager,question_answering,Information technology management
+Q1383,what is the scientific name of a cardinal bird,question_answering,Northern Cardinal
+Q1384,where are kenworth trucks built,question_answering,Kenworth
+Q1385,what is the type of democracy in which all citizens have the right to make  government decisions,question_answering,Democracy
+Q1386,when is the feast of St. Rita,question_answering,Rita of Cascia
+Q1387,where is j.cole from,question_answering,J. Cole
+Q1388,what is ratchet from ratchet and clank,question_answering,Ratchet & Clank
+Q1389,where was the first real roller coaster,question_answering,roller coaster
+Q1390,what is in a will,question_answering,Will and testament
+Q1391,what is the gdp for greenland 2010?,question_answering,Economy of Greenland
+Q1392,What is hydrogen in,question_answering,Hydrogen
+Q1393,where is UWA on world list of universities,question_answering,University of Western Australia
+Q1394,what is bracketing in photography,question_answering,Bracketing
+Q1395,What is the disk defragmenter tool,question_answering,Defragmentation
+Q1396,what is level of agreement mean,question_answering,Service-level agreement
+Q1397,when was purple haze by jimi hendrix made?,question_answering,Purple haze
+Q1398,where was martin luther born,question_answering,Martin Luther
+Q1399,who is the actor that plays harry potter,question_answering,List of Harry Potter cast members
+Q1400,"what is the concept of ""wellness"" ?",question_answering,Wellness (alternative medicine)
+Q1401,what is the mortality rate of sepsis,question_answering,Septic shock
+Q1402,where is kos from?,question_answering,K-os
+Q1403,what is the defensive line in football called,question_answering,American football positions
+Q1404,what is the measurements of saturn's moons,question_answering,Moons of Saturn
+Q1405,what is the @ sign called?,question_answering,At sign
+Q1406,who is the book the catcher in the rye by?,question_answering,The Catcher in the Rye
+Q1407,who are the girls from the bad girls club?,question_answering,Bad Girls Club
+Q1408,what is prince williams last name,question_answering,"Prince William, Duke of Cambridge"
+Q1409,what is IBRIX,question_answering,IBRIX Fusion
+Q1410,what is bilirubin total,question_answering,Bilirubin
+Q1411,what was bernie madoff selling,question_answering,Bernard Madoff
+Q1412,what is quasi judicial agency,question_answering,Quasi-judicial body
+Q1413,who is inventor of the radio,question_answering,Invention of radio
+Q1414,who is the founder of twitter,question_answering,Twitter
+Q1415,what is scurvy disease,question_answering,Scurvy
+Q1416,what is google openid,question_answering,OpenID
+Q1417,who is bj's wholesale club,question_answering,BJ's Wholesale Club
+Q1418,what is atherosclerotic heart disease,question_answering,Atherosclerosis
+Q1419,what is atherosclerotic heart disease,question_answering,Atherosclerosis
+Q1420,what is atherosclerotic heart disease,question_answering,Atherosclerosis
+Q1421,what is atherosclerotic heart disease,question_answering,Atherosclerosis
+Q1422,what was the name of the uss john kennedy before,question_answering,USS John F. Kennedy (CV-67)
+Q1423,what is the name of the wizard of oz,question_answering,Wizard of Oz (character)
+Q1424,what is the name of the wizard of oz,question_answering,Wizard of Oz (character)
+Q1425,what were 3 important things that douglas MacArthur did?,question_answering,Douglas MacArthur
+Q1426,what is homebrew for wii,question_answering,Wii homebrew
+Q1427,what is homebrew for wii,question_answering,Wii homebrew
+Q1428,what is santa's wife's name,question_answering,Mrs. Claus
+Q1429,when was Saddle Creek founded,question_answering,Saddle Creek Records
+Q1430,what is korean money called,question_answering,South Korean won
+Q1431,what is three phase electrical,question_answering,Three-phase electric power
+Q1432,What is the significance of Good Friday?,question_answering,Good Friday
+Q1433,What is the significance of Good Friday?,question_answering,Good Friday
+Q1434,What is the significance of Good Friday?,question_answering,Good Friday
+Q1435,Who is the highest scoring NBA player,question_answering,List of National Basketball Association season scoring leaders
+Q1436,where is the great basin located on a us map,question_answering,Great Basin
+Q1437,what is direct marketing channel,question_answering,Direct Marketing
+Q1438,what was the date of pearl harbor,question_answering,Attack on Pearl Harbor
+Q1439,what is disney's magic kingdom,question_answering,Magic Kingdom
+Q1440,what is the kanji for language,question_answering,Kanji
+Q1441,what is in fruitcake,question_answering,Fruit cake
+Q1442,what is the name of the family who own the biltmore estates in nc,question_answering,Biltmore Estate
+Q1443,who was the congressman who was caught with an escort in ny,question_answering,Eliot Spitzer prostitution scandal
+Q1444,where are the kidneys in your body,question_answering,Kidney
+Q1445,what is lockton affinity,question_answering,Lockton Companies
+Q1446,what is lockton affinity,question_answering,Lockton Companies
+Q1447,what is white chocolate made of,question_answering,White chocolate
+Q1448,what is the latest season of psych,question_answering,Psych
+Q1449,what is the main component of vaccines,question_answering,vaccine
+Q1450,what is the name of chris cornell's band?,question_answering,Chris Cornell
+Q1451,what is preciosa crystal?,question_answering,Preciosa (corporation)
+Q1452,where is the chupacabra found,question_answering,Chupacabra
+Q1453,What is the purpose of North American Free Trade Agreement,question_answering,North American Free Trade Agreement
+Q1454,who are all of the jonas brothers,question_answering,Jonas Brothers
+Q1455,what is in the alpine mountain systems,question_answering,Alps
+Q1456,what is in the alpine mountain systems,question_answering,Alps
+Q1457,who is mary matalin married to,question_answering,Mary Matalin
+Q1458,where is basque spoken,question_answering,Basque language
+Q1459,where is the brisket from,question_answering,Brisket
+Q1460,what is human chorionic,question_answering,Human chorionic gonadotropin
+Q1461,where is dear john filmed at,question_answering,Dear John (2010 film)
+Q1462,what is busiest airport in US,question_answering,List of the busiest airports in the United States
+Q1463,where is osaka japan,question_answering,Osaka
+Q1464,where is osaka japan,question_answering,Osaka
+Q1465,what is surname and given name,question_answering,Given name
+Q1466,what is melissa and joey about,question_answering,Melissa & Joey
+Q1467,What is an economic feature?,question_answering,Economics
+Q1468,What is an economic feature?,question_answering,Economics
+Q1469,What is an economic feature?,question_answering,Economics
+Q1470,what is the average american income,question_answering,Household income in the United States
+Q1471,When was Apple Computer founded,question_answering,Apple Inc.
+Q1472,what is section eight housing,question_answering,Section 8 (housing)
+Q1473,what is section eight housing,question_answering,Section 8 (housing)
+
+
+
+Q1474,How do I book a restaurant for a birthday dinner?,restaurant_booking,book restaurant birthday dinner
+Q1475,What time slots are available for booking at restaurants?,restaurant_booking,time slots booking restaurants
+Q1476,Can I book a restaurant for 10 people online?, restaurant_booking,book restaurant 10 people online
+Q1477,How can I find restaurants that allow reservations for couples?, restaurant_booking,find restaurants reservations couples
+Q1478,What are the steps to reserve a table at a Michelin-starred restaurant?, restaurant_booking,reserve table Michelin-starred restaurant
+Q1479,How to book a restaurant for a business lunch?, restaurant_booking,book restaurant business lunch
+Q1480,Are there any fees for booking a table at a fine-dining restaurant?, restaurant_booking,fees booking table fine-dining restaurant
+Q1481,What restaurants near me take bookings?, restaurant_booking,restaurants near me take bookings
+Q1482,How do I know if my restaurant booking was successful?, restaurant_booking,restaurant booking successful
+Q1483,Can I book a table at a restaurant for a specific time?,restaurant_booking,book table restaurant specific time
+Q1484,What happens if I don’t show up for a restaurant booking?,restaurant_booking,no show restaurant booking
+Q1485,How can I reserve a rooftop table at a restaurant?,restaurant_booking,reserve rooftop table restaurant
+Q1486,What is the best app for making restaurant reservations?,restaurant_booking,best app restaurant reservations
+Q1487,Do restaurants confirm bookings via email or SMS?,restaurant_booking,restaurants confirm bookings email SMS
+Q1488,Can I book a table at a restaurant for tomorrow evening?,restaurant_booking,book table restaurant tomorrow evening
+Q1489,How do I book a romantic table for an anniversary?,restaurant_booking,book romantic table anniversary
+Q1490,Is it possible to book an outdoor table at a restaurant?,restaurant_booking,book outdoor table restaurant
+Q1491,Can I book a restaurant for a group dinner during holidays?,restaurant_booking,book restaurant group dinner holidays
+Q1492,How do I find restaurants offering discounts for bookings?,restaurant_booking,find restaurants discounts bookings
+Q1493,What details are needed to book a table at a high-end restaurant?,restaurant_booking,details book table high-end restaurant
+
+Q1494,How can I find a place to eat for a birthday dinner?,restaurant_booking,eat birthday dinner
+Q1495,What time slots are available to eat at restaurants?,restaurant_booking,time slots eat restaurants
+Q1496,Can I book a restaurant to eat with 10 people online?,restaurant_booking,book eat 10 people online
+Q1497,How can I find places to eat that allow reservations for couples?,restaurant_booking,eat reservations couples
+Q1498,What are the steps to reserve a table to eat at a Michelin-starred restaurant?,restaurant_booking,reserve eat table Michelin-starred restaurant
+Q1499,How to book a restaurant to eat during a business lunch?,restaurant_booking,book eat business lunch
+Q1500,Are there any fees for booking a table to eat at a fine-dining restaurant?,restaurant_booking,fees eat fine-dining restaurant
+Q1501,What places to eat near me take bookings?,restaurant_booking,places eat near me bookings
+Q1502,How do I know if my eat-and-drink booking was successful?,restaurant_booking,eat drink booking successful
+Q1503,Can I book a table to eat at a restaurant for a specific time?,restaurant_booking,book table eat specific time
+Q1504,What happens if I don’t show up to eat after making a booking?,restaurant_booking,no show eat booking
+Q1505,How can I reserve a rooftop table to eat and drink at a restaurant?,restaurant_booking,reserve rooftop table eat drink
+Q1506,What is the best app for making reservations to eat at restaurants?,restaurant_booking,best app eat reservations
+Q1507,Do restaurants confirm eat-and-drink bookings via email or SMS?,restaurant_booking,restaurants confirm eat drink bookings email SMS
+Q1508,Can I book a table to eat tomorrow evening at a restaurant?,restaurant_booking,book eat tomorrow evening
+Q1509,How do I book a romantic table to eat for an anniversary?,restaurant_booking,book romantic eat anniversary
+Q1510,Is it possible to book an outdoor table to eat or drink at a restaurant?,restaurant_booking,book outdoor eat drink restaurant
+Q1511,Can I book a place to eat for a group dinner during the holidays?,restaurant_booking,book eat group dinner holidays
+Q1512,How do I find places to eat offering discounts for bookings?,restaurant_booking,find eat discounts bookings
+Q1513,What details are needed to book a table to eat at a high-end restaurant?,restaurant_booking,details book eat high-end restaurant
+
+Q1514,Where can I eat nearby?,restaurant_booking,eat nearby
+Q1515,How do I book a table?,restaurant_booking,book table
+Q1516,What restaurants allow bookings?,restaurant_booking,restaurants bookings
+Q1517,Can I book a spot to eat?,restaurant_booking,book spot eat
+Q1518,Where can I drink with a reservation?,restaurant_booking,drink reservation
+Q1519,How do I reserve a table to eat?,restaurant_booking,reserve table eat
+Q1520,Can I book a drink table?,restaurant_booking,book drink table
+Q1521,What’s the best way to book a restaurant?,restaurant_booking,best way book restaurant
+Q1522,How do I find a place to eat?,restaurant_booking,find place eat
+Q1523,Can I make a booking to drink with friends?,restaurant_booking,booking drink friends
+Q1524,Where can I book a restaurant nearby?,restaurant_booking,book restaurant nearby
+Q1525,What time can I eat at this restaurant?,restaurant_booking,time eat restaurant
+Q1526,How to book a spot for dinner?,restaurant_booking,book spot dinner
+Q1527,Where can I drink and eat with a reservation?,restaurant_booking,drink eat reservation
+Q1528,How do I book a dinner table?,restaurant_booking,book dinner table
+Q1529,What restaurants take online bookings?,restaurant_booking,restaurants online bookings
+Q1530,Can I eat without a booking?,restaurant_booking,eat without booking
+Q1531,How do I cancel a booking to eat?,restaurant_booking,cancel booking eat
+Q1532,What’s the best time to book a restaurant?,restaurant_booking,best time book restaurant
+Q1533,Can I book for drinks and snacks?,restaurant_booking,book drinks snacks
+Q1534,How do I find available restaurants to eat?,restaurant_booking,find available restaurants eat
+Q1535,Where can I eat outdoors?,restaurant_booking,eat outdoors
+Q1536,Can I book a table for two?,restaurant_booking,book table two
+Q1537,What’s the best time to eat at restaurants?,restaurant_booking,best time eat restaurants
+Q1538,Can I make a last-minute booking to eat?,restaurant_booking,last-minute booking eat
+Q1539,Where can I book drinks near me?,restaurant_booking,book drinks near me
+Q1540,How do I book a lunch spot?,restaurant_booking,book lunch spot
+
+Q1541,Where can I eat?,restaurant_booking,eat
+Q1542,How do I book?,restaurant_booking,book
+Q1543,What restaurants are available?,restaurant_booking,restaurants available
+Q1544,Can I drink here?,restaurant_booking,drink here
+Q1545,How do I reserve?,restaurant_booking,reserve
+Q1546,Where can I eat and drink?,restaurant_booking,eat drink
+Q1547,Can I book now?,restaurant_booking,book now
+Q1548,What’s the best place to eat?,restaurant_booking,best place eat
+Q1549,Can I make a booking?,restaurant_booking,make booking
+Q1550,How to find a restaurant?,restaurant_booking,find restaurant
+Q1551,Where can I drink?,restaurant_booking,drink
+Q1552,Can I eat without booking?,restaurant_booking,eat without booking
+Q1553,What’s available to eat?,restaurant_booking,available eat
+Q1554,Where to book?,restaurant_booking,book
+Q1555,How do I find a place to drink?,restaurant_booking,find place drink
+Q1556,Can I eat here?,restaurant_booking,eat here
+Q1557,Where to eat near me?,restaurant_booking,eat near me
+Q1558,What time can I book?,restaurant_booking,book time
+Q1559,How do I book food?,restaurant_booking,book food
+Q1560,Can I reserve now?,restaurant_booking,reserve now
+Q1561,Where can I book a table?,restaurant_booking,book table
+Q1562,Where to drink nearby?,restaurant_booking,drink nearby
+Q1563,Can I eat with friends?,restaurant_booking,eat friends
+Q1564,What’s open to eat?,restaurant_booking,open eat
+Q1565,Where do I book?,restaurant_booking,where book
+Q1566,Can I drink without a booking?,restaurant_booking,drink without booking
+Q1567,How do I find food?,restaurant_booking,find food
+Q1568,What’s available to drink?,restaurant_booking,available drink
+Q1569,Can I book for dinner?,restaurant_booking,book dinner
+Q1570,Where can I book now?,restaurant_booking,book now
+
+Q1571,Where is a good restaurant to eat?,restaurant_booking,restaurant good eat
+Q1572,How do I book a restaurant?,restaurant_booking,book restaurant
+Q1573,What restaurants are open now?,restaurant_booking,restaurants open now
+Q1574,Can I book a restaurant online?,restaurant_booking,book restaurant online
+Q1575,Where can I find a restaurant near me?,restaurant_booking,restaurant near me
+Q1576,Can I book a restaurant for dinner?,restaurant_booking,book restaurant dinner
+Q1577,How do I find restaurants for lunch?,restaurant_booking,find restaurants lunch
+Q1578,What restaurant serves drinks?,restaurant_booking,restaurant serves drinks
+Q1579,Where is the nearest restaurant?,restaurant_booking,nearest restaurant
+Q1580,Can I reserve a table at a restaurant?,restaurant_booking,reserve table restaurant
+Q1581,What restaurants take reservations?,restaurant_booking,restaurants take reservations
+Q1582,Where can I book a restaurant quickly?,restaurant_booking,book restaurant quickly
+Q1583,Can I book a table at this restaurant?,restaurant_booking,book table restaurant
+Q1584,Where are family-friendly restaurants?,restaurant_booking,family-friendly restaurants
+Q1585,What restaurants are open for bookings?,restaurant_booking,restaurants open bookings
+Q1586,Can I drink at this restaurant?,restaurant_booking,drink restaurant
+Q1587,How do I find a romantic restaurant?,restaurant_booking,find romantic restaurant
+Q1588,What’s the best restaurant to eat at?,restaurant_booking,best restaurant eat
+Q1589,Can I book a large table at a restaurant?,restaurant_booking,book large table restaurant
+Q1590,Where can I eat at a rooftop restaurant?,restaurant_booking,rooftop restaurant eat
+Q1591,What restaurants are best for groups?,restaurant_booking,restaurants best groups
+Q1592,Can I book a restaurant for brunch?,restaurant_booking,book restaurant brunch
+Q1593,Where can I find a restaurant with outdoor seating?,restaurant_booking,restaurant outdoor seating
+Q1594,What restaurants allow late-night bookings?,restaurant_booking,restaurants late-night bookings
+Q1595,Can I eat at this restaurant without booking?,restaurant_booking,eat restaurant without booking
+Q1596,Where can I book a private restaurant area?,restaurant_booking,book private restaurant
+Q1597,How do I find fine-dining restaurants?,restaurant_booking,find fine-dining restaurants
+Q1598,What restaurants are open for reservations?,restaurant_booking,restaurants open reservations
+Q1599,Where can I book a restaurant for lunch?,restaurant_booking,book restaurant lunch
+Q1600,Can I book drinks at a restaurant bar?,restaurant_booking,book drinks restaurant bar

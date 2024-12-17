@@ -1,0 +1,62 @@
+QuestionID,Question,Answer,Document
+Q1,hi,small_talk,hi
+Q2,hello,small_talk,hello
+Q3,How are you?,small_talk,how are you?
+Q4,Tell me a joke.,small_talk,joke
+Q5,Tell me something funny.,small_talk,something funny
+Q6,What's up?,small_talk,whats up?
+Q7,Good morning!,small_talk,good morning
+Q8,How are you?,small_talk,how are you
+Q9,Tell me a joke.,small_talk,joke
+Q10,Tell me something funny.,small_talk,something funny
+Q11,What's up?,small_talk,whts up
+Q12,Good morning!,small_talk,morning
+Q13,How are you doing?,small_talk,how you doing
+Q14,What's going on?,small_talk,whats going on
+Q15,How's your day?,small_talk,hows your day
+Q16,Hi how are things?,small_talk,how are things
+Q17,What's up today?,small_talk,up today
+Q18,Tell me a funny story.,small_talk,funny story
+Q19,What are you up to?,small_talk,what you up to
+Q20,Any jokes for me?,small_talk,jokes for me
+Q21,What can we talk about?,small_talk,talk about
+Q22,How’s it going?,small_talk,it going
+
+Q23,Who am I?,identity_management,who am i
+Q24,Can you show my profile?,identity_management,show my profile
+Q56,What is my nme?, identity_management, what is my name?
+
+
+Q25,What is AI?,question_answering,what ai
+Q26,Can you explain artificial intelligence?,question_answering,explain artificial intelligence
+Q27,What do you know about AI?,question_answering,you know about ai
+Q28,Tell me about machine learning.,question_answering,machine learning
+Q29,Explain neural networks.,question_answering,neural networks
+Q30,What is quantum computing?,question_answering,quantum computing
+Q31,Can you explain blockchain?,question_answering,blockchain
+Q32,What is the difference between AI and machine learning?,question_answering,difference between ai machine learning
+Q33,How does a neural network work?,question_answering,neural networks
+Q34,What are the applications of deep learning?,question_answering,deep learning applications
+Q35,Can you tell me about natural language processing?,question_answering,natural language processing
+Q36,What is reinforcement learning?,question_answering,reinforcement learning
+Q37,How do recommendation systems work?,question_answering,recommendation systems
+Q38,What is a convolutional neural network?,question_answering,convolutional neural networks
+Q39,How is AI used in healthcare?,question_answering,ai in healthcare
+
+
+Q40,What can you do?,small_talk,what can you do?
+Q41,How can you help me?,small_talk,help me?
+Q42,What services do you provide?,small_talk,services provide
+Q43,Can you tell me about your features?,small_talk,your features
+Q44,What do you offer?,small_talk,you offer
+Q45,What do you do?,small_talk,you do
+Q46,Tell me about your features.,small_talk,features
+Q47,How can you assist me?,small_talk,assist me
+Q48,What tasks can you help with?,small_talk,tasks help me
+Q49,Can you help me with anything?,small_talk,help with anything
+Q50,How can I use your features?,small_talk,use your features
+Q51,What kind of assistance do you offer?,small_talk,assistance do you offer
+Q52,Can you describe your capabilities?,small_talk,your capabilities
+Q53,capabilities,small_talk,capabilities
+Q54,capability,small_talk,capabilities
+Q55,Do you offer any support?,small_talk,support

@@ -256,11 +256,6 @@ class RestaurantBooking:
             booker=booker  # Ensure the updated 'booker' is passed here
         )
 
-
-        # print("Booking confirmed with the following details:")
-        # print(f"Restaurant: {restaurant_name}, Booker: {booker}, Location: {location}, "
-        #     f"Type: {restaurant_type}, Date: {date}, Time: {time}, Group Size: {size}")
-
         
 
     def confirm_booking(self):
@@ -371,9 +366,9 @@ class RestaurantBooking:
 
 
 
-restaurantFinder = DocumentSimilarity(use_stemming=True)
-parser = SentenceParser()
-data_store = DataStore()
-booking_system = RestaurantBooking(restaurantFinder, parser, data_store)
-booking_system.controller("to eat indian food in Nottingham")
+# restaurantFinder = DocumentSimilarity(use_stemming=True)
+# parser = SentenceParser()
+# data_store = DataStore()
+# booking_system = RestaurantBooking(restaurantFinder, parser, data_store)
+# booking_system.controller("to eat indian food in Nottingham")
 
