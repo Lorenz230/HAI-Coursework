@@ -334,6 +334,9 @@ class RestaurantBooking:
 
 
     def controller(self, user_input):
+
+        
+    
         # refine the query the user has given.
         query = self.refine_query(user_input)
         

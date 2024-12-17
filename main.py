@@ -111,7 +111,23 @@ def chatbot():
                 elif intent_prediction.strip() == "identity_management":
                     handle_identity(user_input)
                 elif intent_prediction == "restaurant_booking":
-                    handle_booking(user_input)
+                    while True:  # Loop until valid input is received
+                        intent_confirm = input(
+                            "Did you want to make a restaurant reservation?\n"
+                            "  y) Yes\n"
+                            "  n) No\n"
+                            "Your choice: "
+                        ).strip().lower()
+
+                        if intent_confirm in ["y", "yes"]:
+                            handle_booking(user_input)
+                            break  # Exit the loop for confirmation input
+                        elif intent_confirm in ["n", "no"]:
+                            handle_mismatch(user_input)
+                            break  # Exit the loop for confirmation input
+                        else:
+                            handle_input(user_input)  # Inform user and retry
+                    
                 
             else:
                 answer = dsStop.main("Data/intents_Stop.csv", user_input, similarity_threshold= 0.65)
@@ -124,12 +140,34 @@ def chatbot():
 
                     if intent_prediction == "question_answering":
                         handle_QA(user_input)
+
+
                     elif intent_prediction == "small_talk":
                         handle_talk(user_input)
+
+
                     elif intent_prediction.strip() == "identity_management":
                         handle_identity(user_input)
+
+
                     elif intent_prediction == "restaurant_booking":
-                        handle_booking(user_input)
+                        while True:  # Loop until valid input is received
+                            intent_confirm = input(
+                                "Did you want to make a restaurant reservation?\n"
+                                "  y) Yes\n"
+                                "  n) No\n"
+                                "Your choice: "
+                            ).strip().lower()
+
+                            if intent_confirm in ["y", "yes"]:
+                                handle_booking(user_input)
+                                break  # Exit the loop for confirmation input
+                            elif intent_confirm in ["n", "no"]:
+                                handle_mismatch(user_input)
+                                break  # Exit the loop for confirmation input
+                            else:
+                                handle_input(user_input)  # Inform user and retry
+                        
                     
 
                 else:
