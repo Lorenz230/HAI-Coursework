@@ -1,0 +1,113 @@
+text,intent
+Who am I?,identify
+What's my name?,identify
+What is my identity?,identify
+Can you tell me who I am?,identify
+Do you know my name?,identify
+Remind me of my name.,identify
+What name do you have for me?,identify
+Identify me.,identify
+Who are you talking to?,identify
+What do you know about me?,identify
+Tell me my name.,identify
+Am I in your system?,identify
+Do you remember me?,identify
+What details do you have on me?,identify
+What do you call me?,identify
+Who do you think I am?,identify
+Can you identify me?,identify
+What is my username?,identify
+What profile do you have for me?,identify
+Is this my account?,identify
+What account am I logged into?,identify
+Am I registered?,identify
+What user is this?,identify
+Can you confirm my identity?,identify
+Is this my profile?,identify
+What’s my account name?,identify
+Who is this?,identify
+Who am I logged in as?,identify
+Am I recognized?,identify
+What do you recognize me as?,identify
+Which account is this?,identify
+How do you know me?,identify
+Do you have my name?,identify
+What user am I using?,identify
+What’s my saved name?,identify
+Do you have my identity saved?,identify
+What identity is active?,identify
+Am I known to you?,identify
+What name did I give you?,identify
+What identity are you tracking?,identify
+Which profile is active?,identify
+What name is linked to this?,identify
+Is my identity saved here?,identify
+Which user am I signed in as?,identify
+Who does this account belong to?,identify
+What do you have on file for me?,identify
+Who do you know me as?,identify
+What’s the registered name?,identify
+What do I go by here?,identify
+What's my name?,identify
+Can you tell me my name?,identify
+Do you remember my name?,identify
+What is my name again?,identify
+Who am I?,identify
+Identify me please.,identify
+Could you identify me?,identify
+Remind me of my name.,identify
+My name is?,identify
+Tell me who I am.,identify
+
+text,intent
+I want to change my name.,identity_change
+Can you change my name?,identity_change
+How do I update my name?,identity_change
+I need to update my name.,identity_change
+Change my name.,identity_change
+Can I modify my name?,identity_change
+I want a different name.,identity_change
+How can I change my name?,identity_change
+Update my name to something else.,identity_change
+I’d like to change my name.,identity_change
+How do I edit my name?,identity_change
+Change the name you have for me.,identity_change
+Can you update my name in your system?,identity_change
+Please update my name.,identity_change
+Modify my name.,identity_change
+How do I rename myself?,identity_change
+Change the name on my account.,identity_change
+Can I set a new name?,identity_change
+I want to rename myself.,identity_change
+Switch my name.,identity_change
+Can I have a new name?,identity_change
+What’s the process to change my name?,identity_change
+Change my identity name.,identity_change
+Can I update my profile name?,identity_change
+I need to correct my name.,identity_change
+Change my saved name.,identity_change
+I’d like to edit my name details.,identity_change
+Can you fix my name?,identity_change
+How do I change the name linked to me?,identity_change
+Set a new name for me.,identity_change
+Update my identity name.,identity_change
+I’d like a new name.,identity_change
+Replace my current name.,identity_change
+Change my account name.,identity_change
+Change my display name.,identity_change
+I want to change my username.,identity_change
+Can you help me update my name?,identity_change
+I need to edit my registered name.,identity_change
+What’s the way to change my name here?,identity_change
+Let me update my name.,identity_change
+How can I correct my name?,identity_change
+Change my name to something else.,identity_change
+I want to reset my name.,identity_change
+Update the name you have for me.,identity_change
+Can I revise my name?,identity_change
+How can I fix my name?,identity_change
+Change the profile name you have.,identity_change
+How do I replace my name?,identity_change
+Help me update my name.,identity_change
+Make my name different.,identity_change
+I need to modify my name.,identity_change

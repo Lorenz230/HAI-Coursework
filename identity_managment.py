@@ -70,5 +70,7 @@ class identityManager:
         else:
             print("Invalid input. Name was not updated.")
 
+
+
 # user_data_manager = identityManager("Data/user_data.csv")
 # user_data_manager.check_name()

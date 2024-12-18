@@ -5,7 +5,7 @@ nltk.download('stopwords')   # For stopwords list
 nltk.download('wordnet')     # For WordNet lemmatizer
 
 
-from classifier import intentClassifier, TextClassifier
+from classifier import intentClassifier, TextClassifier, identityClassifier
 from similarity import DocumentSimilarity, StopWords, NoStop
 from identity_managment import identityManager
 from booking import SentenceParser, DataStore, RestaurantBooking
@@ -54,8 +54,12 @@ def handle_QA(user_input):
         print(f"{x}\n")
 
 def handle_identity(user_input):
-    user_data_manager = identityManager("Data/user_data.csv")
-    user_data_manager.check_name()
+    userClassifier = identityClassifier(use_stemming=False)
+    identity_prediction = userClassifier.main(csv_file= 'Data/identity.csv', query=user_input)   
+    print(identity_prediction)
+
+    # user_data_manager = identityManager("Data/user_data.csv")
+    # user_data_manager.check_name()
 
 def handle_booking(user_input):
     booking_system.controller(user_input)

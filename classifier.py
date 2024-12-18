@@ -111,14 +111,22 @@ class identityClassifier(TextClassifier):
         ]
         return processed_tokens
 
-    def main(self,query):
-        # Step 1: Load the model and vectorizer
+    def main(self, csv_file, query):
+        # Step 1: Read the CSV file
+        texts, labels = self.read_csv_file(csv_file)
+
+        # Step 2: Train the classifier
+        self.train(texts, labels)
+
+        # Step 3: Save the model and vectorizer
+        self.save_model('Data/identityVectorizer.pkl', 'Data/identityModel.pkl')
+
+        # Step 4: Load the model and vectorizer (for testing purposes)
         self.load_model('Data/identityVectorizer.pkl', 'Data/identityModel.pkl')
 
-        # Step 2: Classify the query
+        # Step 5: Classify a new query
         predicted_label = self.predict(query)
-        """
-        """
+        
         return predicted_label
 
 class intentClassifier(TextClassifier):
@@ -133,7 +141,23 @@ class intentClassifier(TextClassifier):
         """
         return processed_tokens
     
+    def main(self, csv_file, query):
+        # Step 1: Read the CSV file
+        texts, labels = self.read_csv_file(csv_file)
 
+        # Step 2: Train the classifier
+        self.train(texts, labels)
+
+        # Step 3: Save the model and vectorizer
+        self.save_model('Data/intentVectorizer.pkl', 'Data/intentModel.pkl')
+
+        # Step 4: Load the model and vectorizer (for testing purposes)
+        self.load_model('Data/intentVectorizer.pkl', 'Data/intentModel.pkl')
+
+        # Step 5: Classify a new query
+        predicted_label = self.predict(query)
+        
+        return predicted_label
 
 classifier = TextClassifier(use_stemming= True)
 classifier.main("Data/intents_Class.csv", "book table")
@@ -141,4 +165,6 @@ classifier.main("Data/intents_Class.csv", "book table")
 intentsClass = intentClassifier(use_stemming= True)
 intentsClass.main("Data/intents_Class.csv", "book table")
 
-identitiyClass = identityClassifier(use_stemming= True)
+identityClass = identityClassifier(use_stemming= True)
+predicted_label = identityClass.main("Data/identity.csv", "what is my name?")
+print(predicted_label)
