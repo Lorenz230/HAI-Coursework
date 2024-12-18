@@ -70,7 +70,17 @@ class identityManager:
         else:
             print("Invalid input. Name was not updated.")
 
-
+    def main(self, predicted_label):
+        predicted_label = predicted_label.strip().lower()
+        if predicted_label == 'identify':
+            name = self.get_name()
+            if name == None:
+                self.check_name()
+            else:
+                print("your name is ", name)
+                
+        elif predicted_label == 'identity_change':
+            self.change_name()
 
 # user_data_manager = identityManager("Data/user_data.csv")
-# user_data_manager.check_name()
+# user_data_manager.main(predicted_label='identity_change')

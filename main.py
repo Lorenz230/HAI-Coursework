@@ -17,15 +17,16 @@ talkSimilarity = StopWords(use_stemming= True)
 
 dsNoStop = NoStop(use_stemming= True)
 dsStop = StopWords(use_stemming= True)
+globalIdentityManager = identityManager("Data/user_data.csv")
 
 # booking variables
 restaurantFinder = DocumentSimilarity(use_stemming=True)
 parser = SentenceParser()
 data_store = DataStore()
-booking_system = RestaurantBooking(restaurantFinder, parser, data_store)
+booking_system = RestaurantBooking(restaurantFinder, parser, data_store,globalIdentityManager)
 
 
-globalIdentityManager = identityManager("Data/user_data.csv")
+
 
 
 def handle_talk(user_input):
@@ -56,7 +57,8 @@ def handle_QA(user_input):
 def handle_identity(user_input):
     userClassifier = identityClassifier(use_stemming=False)
     identity_prediction = userClassifier.main(csv_file= 'Data/identity.csv', query=user_input)   
-    print(identity_prediction)
+    globalIdentityManager.main(predicted_label= identity_prediction)
+    
 
     # user_data_manager = identityManager("Data/user_data.csv")
     # user_data_manager.check_name()
