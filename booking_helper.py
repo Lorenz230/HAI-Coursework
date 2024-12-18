@@ -14,12 +14,14 @@ from similarity import DocumentSimilarity, StopWords
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
 
+# Parses user query when finding restaurants to identify location and restaurany type
 class SentenceParser:
     def __init__(self):
         self.sentence = None
         self.tokens = []
         self.tags = []
 
+    # 
     def set_sentence(self, sentence):
         self.sentence = sentence
         self.tokens = word_tokenize(sentence)

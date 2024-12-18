@@ -121,7 +121,7 @@ def handle_mismatch(user_input):
     print("  d) Restaurant Booking")
     
     # Loop until a valid intent is picked
-    while True
+    while True:
         user_choice = input("Your choice (a, b, c, d): ").strip().lower()
         
         if user_choice == 'a':
