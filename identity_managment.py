@@ -37,39 +37,39 @@ class identityManager:
         return name
 
 
-
+    # Saves the updated user data back to the CSV file 
     def save_user_data(self):
-        """Saves the updated user data back to the CSV file."""
         self.df.to_csv(self.file_path, index=False)
     
 
-
+    # Clears all data in csv file 
     def clear_user_data(self):
-        """Clears all data in the CSV file."""
         self.df = pd.DataFrame(columns=['name'])  # Reset to an empty DataFrame with the 'name' column
         self.save_user_data()
         print(f"The file '{self.file_path}' has been cleared.")
 
 
-
+    # Returns the name if it is present in the DataFrame.
     def get_name(self):
-        """Returns the name if it is present in the DataFrame."""
+        
         if 'name' in self.df.columns and not self.df['name'].dropna().empty:
             return self.df['name'].iloc[0]
         return None  # Return None if the name is not present
 
 
-
+    # Changes the stored name to a new value
     def change_name(self):
-        #Changes the stored name to a new value
+        # Gets input for new name
         new_name = input("What would you like to change your name to? ").strip()
-        if new_name:
+        if new_name: # loops until a name is given
             self.df.at[0, 'name'] = new_name
             self.save_user_data()
             print(f"Your name has been updated to {new_name}.")
         else:
             print("Invalid input. Name was not updated.")
 
+
+    # view all the bookings the user has made
     def view_bookings(self):
         try:
             # Load the CSV file
@@ -94,21 +94,24 @@ class identityManager:
             print(f"Error: File not found.")
 
 
-
+    # Responsible for predicting user intent when identity managment is chosen
     def main(self, predicted_label):
+
+        # formats the predicted label properly
         predicted_label = predicted_label.strip().lower()
+
+        # Handles if user wnts to know their name
         if predicted_label == 'identify':
             name = self.get_name()
             if name == None:
                 self.check_name()
             else:
                 print("your name is ", name)
-                
+        
+        # Handles if user wnats to change thier name
         elif predicted_label == 'identity_change':
             self.change_name()
 
+        # Handles if user wants to view bookings
         elif predicted_label == 'view_bookings':
             self.view_bookings()
-
-# user_data_manager = identityManager("Data/user_data.csv")
-# user_data_manager.main(predicted_label='identity_change')

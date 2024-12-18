@@ -13,6 +13,8 @@ from nltk.stem import PorterStemmer, WordNetLemmatizer
 from nltk.tokenize import word_tokenize
 
 class DocumentSimilarity:
+
+    # Initialises 
     def __init__(self, use_stemming=True):
         self.use_stemming = use_stemming
         self.stemmer = PorterStemmer()
@@ -24,23 +26,35 @@ class DocumentSimilarity:
         self.all_files = []
         self.df = None
 
+    # Used to preprocesses text data by tokenizing and normalizing it. 
+    # It ensures consistent formatting for the text before analysis
     def custom_tokenizer(self, text):
+        # Tokenize the text into individual words (converted to lowercase)
         tokens = word_tokenize(text.lower())
-        processed_tokens = [
-            self.stemmer.stem(word) if self.use_stemming else self.lemmatizer.lemmatize(word)
-            for word in tokens if word.isalnum() and word not in self.stop_words
-        ]
-        """
-        print(f"Processed tokens: {processed_tokens}")
-        """
+        
+        # Process tokens: apply stemming or lemmatization, and filter out stop words
+        processed_tokens = []
+        for word in tokens:
+            if word.isalnum() and word not in self.stop_words:  # Uncomment this if you want to filgter stop words
+                if self.use_stemming:
+                    processed_tokens.append(self.stemmer.stem(word))  # Apply stemming
+                else:
+                    processed_tokens.append(self.lemmatizer.lemmatize(word))  # Apply lemmatization
         
         return processed_tokens
 
+        
+        
+    # This method loads data from a CSV file into the class for processing
     def read_csv_file(self, csv_file):
         self.df = pd.read_csv(csv_file)
         self.raw_documents = self.df['Document'].tolist()
         self.all_files = self.df['QuestionID'].tolist()
 
+
+
+    # This method converts the documents into TF-IDF vectors. 
+    # TF-IDF measures the importance of words in a document relative to a collection (corpus) of documents.
     def fit_tfidf_vectorizer(self):
         self.vectorizer = TfidfVectorizer(
             tokenizer=self.custom_tokenizer,
@@ -50,31 +64,26 @@ class DocumentSimilarity:
             use_idf=True
         )
         self.tfidf_matrix = self.vectorizer.fit_transform(self.raw_documents)
-        """
-        print("TF-IDF vectorizer fitted. Shape of TF-IDF matrix:", self.tfidf_matrix.shape)
-        """
         
+
+    # Calls process_query_and_find_similarities(query) to get a ranked list of (QuestionID, similarity) 
+    # pairs using TF-IDF representations.
+    # This list contains all documents in descending order of similarity to the query
     def process_query_and_find_similarities(self, query):
         if not self.vectorizer or self.tfidf_matrix.size == 0:
             raise ValueError("TF-IDF vectorizer has not been fitted. Call fit_tfidf_vectorizer() first.")
 
         query_vector = self.vectorizer.transform([query])
         similarities = cosine_similarity(query_vector, self.tfidf_matrix).flatten()
-        """
-        print(f"Calculated similarities: {similarities}")
-        """
+
         return sorted(zip(self.all_files, similarities), key=lambda x: x[1], reverse=True)
 
-
+    # Calls process_query_and_find_similarities(query) to get a ranked list of (QuestionID, similarity_score) pairs.
     def get_top_results(self, query, similarity_threshold=0.5, top_n=5):
         results = self.process_query_and_find_similarities(query)
-        """
-        print(f"All results: {results}")
-        """
+
+        # Filters out results where the similarity score is less than or equal to similarity_threshold.
         filtered_results = [(question_id, similarity) for question_id, similarity in results if similarity > similarity_threshold]
-        """
-        print(f"Filtered results (threshold > {similarity_threshold}): {filtered_results}")
-        """
 
         top_results_array = []
         if filtered_results:
@@ -87,15 +96,14 @@ class DocumentSimilarity:
                     "Similarity": similarity,
                     "Answer": answer
                 })
-                """
-                print(f"Added to top results: {top_results_array[-1]}")
-                """
-                
+
         else:
+            # If filtered_results is empty (i.e., no documents meet the threshold), prints:
             print("I couldnt find what you were looking for, please rephrase:")
         
         return top_results_array
 
+    # Reads csv file, fits the vectoriser and return the results
     def main(self, csv_file, query, similarity_threshold=0.5, top_n=5):
         self.read_csv_file(csv_file)
         self.fit_tfidf_vectorizer()
@@ -107,31 +115,29 @@ class DocumentSimilarity:
 """
 Subclasses
 """
-# ds = DocumentSimilarity(use_stemming=True)
-# ds.main("Data/QA.csv", "stocks and bonds", similarity_threshold=0.45, top_n=5)
 
+# subclass that only returns one result rather than multiple
 class StopWords(DocumentSimilarity):
     def custom_tokenizer(self, text):
+        # Tokenize the text into individual words (converted to lowercase)
         tokens = word_tokenize(text.lower())
-        processed_tokens = [
-            self.stemmer.stem(word) if self.use_stemming else self.lemmatizer.lemmatize(word)
-            for word in tokens if word.isalnum() 
-        ]
-        """
-        print(f"Processed tokens: {processed_tokens}")
-        """
+        
+        # Process tokens: apply stemming or lemmatization, and filter out stop words
+        processed_tokens = []
+        for word in tokens:
+            if word.isalnum(): # and word not in self.stop_words - uncomment this if you want to filgter stop words
+                if self.use_stemming:
+                    processed_tokens.append(self.stemmer.stem(word))  # Apply stemming
+                else:
+                    processed_tokens.append(self.lemmatizer.lemmatize(word))  # Apply lemmatization
         
         return processed_tokens
 
     def get_top_results(self, query, similarity_threshold=0.5, top_n=5):
         results = self.process_query_and_find_similarities(query)
-        """
-        print(f"All results: {results}")
-        """
+
         filtered_results = [(question_id, similarity) for question_id, similarity in results if similarity > similarity_threshold]
-        """
-        print(f"Filtered results (threshold > {similarity_threshold}): {filtered_results}")
-        """
+
 
         top_results_array = []
         if filtered_results:
@@ -144,40 +150,34 @@ class StopWords(DocumentSimilarity):
                     "Similarity": similarity,
                     "Answer": answer
                 })
-                """
-                print(f"Added to top results: {top_results_array[-1]}")
-                """
             return top_results_array[0]
                 
         else:
-            """
-            print("No results above the similarity threshold.")
-            """
-            
             return []
 
+
+# Subclass that only returns one result
 class NoStop(DocumentSimilarity):
     def custom_tokenizer(self, text):
+        # Tokenize the text into individual words (converted to lowercase)
         tokens = word_tokenize(text.lower())
-        processed_tokens = [
-            self.stemmer.stem(word) if self.use_stemming else self.lemmatizer.lemmatize(word)
-            for word in tokens if word.isalnum() and word not in self.stop_words
-        ]
-        """
-        print(f"Processed tokens: {processed_tokens}")
-        """
+        
+        # Process tokens: apply stemming or lemmatization, and filter out stop words
+        processed_tokens = []
+        for word in tokens:
+            if word.isalnum() and word not in self.stop_words:  # Uncomment this if you want to filgter stop words
+                if self.use_stemming:
+                    processed_tokens.append(self.stemmer.stem(word))  # Apply stemming
+                else:
+                    processed_tokens.append(self.lemmatizer.lemmatize(word))  # Apply lemmatization
         
         return processed_tokens
 
     def get_top_results(self, query, similarity_threshold=0.8, top_n=5):
         results = self.process_query_and_find_similarities(query)
-        """
-        print(f"All results: {results}")
-        """
+
         filtered_results = [(question_id, similarity) for question_id, similarity in results if similarity > similarity_threshold]
-        """
-        print(f"Filtered results (threshold > {similarity_threshold}): {filtered_results}")
-        """
+
 
         top_results_array = []
         if filtered_results:
@@ -190,19 +190,10 @@ class NoStop(DocumentSimilarity):
                     "Similarity": similarity,
                     "Answer": answer
                 })
-                """
-                print(f"Added to top results: {top_results_array[-1]}")
-                """
-                
+
+        
             return top_results_array[0]
-                
         else:
-            """
-            print("No results above the similarity threshold.")
-            """
             
             return []
-        
-# ds = NoStop(use_stemming=True)
-# ds.main("Data/QA.csv", "stocks and bonds", similarity_threshold=0.45, top_n=5)
 
