@@ -93,7 +93,6 @@ class DocumentSimilarity:
                 
         else:
             print("I couldnt find what you were looking for, please rephrase:")
-
         
         return top_results_array
 
