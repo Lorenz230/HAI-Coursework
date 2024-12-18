@@ -70,6 +70,31 @@ class identityManager:
         else:
             print("Invalid input. Name was not updated.")
 
+    def view_bookings(self):
+        try:
+            # Load the CSV file
+            df = pd.read_csv('Data/booking_info.csv')
+            
+            # Get the name to filter bookings
+            name = self.get_name()
+            
+            # Filter the DataFrame for rows where the 'booker' matches the name
+            filtered_df = df[df['booker'] == name]
+            
+            # Check if any bookings match the name
+            if not filtered_df.empty:  # Corrected: no parentheses here
+                print("Bookings Data for:", name)
+                print(filtered_df)
+            else:
+                print(f"No bookings found for booker: {name}")
+            
+            # Return the filtered DataFrame for further use if needed
+            return filtered_df
+        except FileNotFoundError:
+            print(f"Error: File not found.")
+
+
+
     def main(self, predicted_label):
         predicted_label = predicted_label.strip().lower()
         if predicted_label == 'identify':
@@ -81,6 +106,9 @@ class identityManager:
                 
         elif predicted_label == 'identity_change':
             self.change_name()
+
+        elif predicted_label == 'view_bookings':
+            self.view_bookings()
 
 # user_data_manager = identityManager("Data/user_data.csv")
 # user_data_manager.main(predicted_label='identity_change')

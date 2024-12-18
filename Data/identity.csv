@@ -111,3 +111,55 @@ How do I replace my name?,identity_change
 Help me update my name.,identity_change
 Make my name different.,identity_change
 I need to modify my name.,identity_change
+
+
+text,intent
+I want to see my bookings,view_bookings
+Can I view my booking?,view_bookings
+How can I check my bookings?,view_bookings
+Show me my bookings,view_bookings
+Where can I find my bookings?,view_bookings
+I need to review my bookings,view_bookings
+Can you show me my booking details?,view_bookings
+I’d like to look at my bookings,view_bookings
+Help me see my bookings,view_bookings
+What bookings do I have?,view_bookings
+Can I access my booking history?,view_bookings
+I need to check the status of my booking,view_bookings
+Am I able to view my reservations?,view_bookings
+Please show my recent bookings,view_bookings
+Is there a way to look at my past bookings?,view_bookings
+How can I find out about my bookings?,view_bookings
+Tell me about my bookings,view_bookings
+Do I have any upcoming bookings?,view_bookings
+Can I verify my booking details?,view_bookings
+Retrieve my bookings,view_bookings
+Can you help me check my bookings?,view_bookings
+How do I find my bookings?,view_bookings
+Show me all my reservations,view_bookings
+Where can I look up my bookings?,view_bookings
+Let me see my bookings,view_bookings
+Can I see details of my bookings?,view_bookings
+Help me retrieve my bookings,view_bookings
+Do I have any bookings right now?,view_bookings
+What are my current bookings?,view_bookings
+Where are my booking details?,view_bookings
+Can you check my booking for me?,view_bookings
+Can I review my reservations?,view_bookings
+Do I have any reservations?,view_bookings
+Show me the bookings I’ve made,view_bookings
+I want to look at my past bookings,view_bookings
+List all my bookings,view_bookings
+Are there any bookings under my name?,view_bookings
+Provide details of my bookings,view_bookings
+What are my upcoming reservations?,view_bookings
+Let me view my booking history,view_bookings
+Can I get my booking summary?,view_bookings
+Find my booking details,view_bookings
+Access my booking list,view_bookings
+What bookings are active?,view_bookings
+Do I have any future bookings?,view_bookings
+How can I locate my bookings?,view_bookings
+Tell me about my reservations,view_bookings
+How do I access my booking info?,view_bookings
+Show me bookings in my account,view_bookings

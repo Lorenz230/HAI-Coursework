@@ -30,7 +30,6 @@ def handle_talk(user_input):
     answers = talkSimilarity.main("Data/small_talk.csv", user_input)
     # print("DEBUG: Answers returned by talkSimilarity:", answers)  # Debugging line
     name = globalIdentityManager.get_name()
-    print(name)
 
     if answers:  # Check if there's a valid response
         if isinstance(answers, list):

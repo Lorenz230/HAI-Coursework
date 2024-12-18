@@ -1,9 +1,9 @@
 import nltk
-
+import pandas as pd
 nltk.download('punkt')       # For word_tokenize
 nltk.download('stopwords')   # For stopwords list
 nltk.download('wordnet')     # For WordNet lemmatizer
-
+import os
 
 from booking_helper import SentenceParser, DataStore
 from similarity import DocumentSimilarity
@@ -370,7 +370,23 @@ class RestaurantBooking:
 
         # confirm the booking
         self.confirm_booking()
-        print("Data ====== ", self.data_store.get_data())
+
+        data = self.data_store.get_data()
+
+        df = pd.DataFrame([data])  # Convert the data to a DataFrame
+        print(df)
+
+        # CSV file path
+        csv_file_path = 'Data/booking_info.csv'
+
+        # Check if the file exists
+        if not os.path.exists(csv_file_path):
+            # If the file doesn't exist, write the DataFrame with the header
+            df.to_csv(csv_file_path, index=False, mode='w', header=True)
+        else:
+            # If the file exists, append the data without writing the header
+            df.to_csv(csv_file_path, index=False, mode='a', header=False)
+
 
 
 
