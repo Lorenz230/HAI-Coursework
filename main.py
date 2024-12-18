@@ -11,7 +11,7 @@ from booking import SentenceParser, DataStore, RestaurantBooking
 
 """
 
-This is the main file responsible for identify user intentions and guiding them to complete tasks
+IMPORTANT: This is the main file responsible for identify user intentions and guiding them to complete tasks
 
 """
 

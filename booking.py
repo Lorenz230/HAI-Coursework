@@ -11,6 +11,7 @@ import random
 from identity_managment import identityManager
 
 
+
 class RestaurantBooking:
     def __init__(self, restaurant_finder, parser, data_store, IdentityManager):
         self.restaurant_finder = restaurant_finder
