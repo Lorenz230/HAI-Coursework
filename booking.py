@@ -348,8 +348,6 @@ class RestaurantBooking:
 
     def controller(self, user_input):
 
-        
-    
         # refine the query the user has given.
         query = self.refine_query(user_input)
         
@@ -360,32 +358,26 @@ class RestaurantBooking:
         
         # select date and time
         self.pick_date_and_time(answer)
-        
 
         # select time
         self.pick_time()
-        
 
         # confirm group size
         self.confirm_size()
         
-
         # select name for booking
         self.confirm_booker()
 
-        
-        
-        
         # confirm the booking
         self.confirm_booking()
         print("Data ====== ", self.data_store.get_data())
-        
 
 
-IDmanager = identityManager("Data/user_data.csv")
-restaurantFinder = DocumentSimilarity(use_stemming=True)
-parser = SentenceParser()
-data_store = DataStore()
-booking_system = RestaurantBooking(restaurantFinder, parser, data_store, IDmanager)
-booking_system.controller("to eat indian food in Nottingham")
+
+# IDmanager = identityManager("Data/user_data.csv")
+# restaurantFinder = DocumentSimilarity(use_stemming=True)
+# parser = SentenceParser()
+# data_store = DataStore()
+# booking_system = RestaurantBooking(restaurantFinder, parser, data_store, IDmanager)
+# booking_system.controller("to eat indian food in Nottingham")
 
