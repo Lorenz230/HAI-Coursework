@@ -33,6 +33,7 @@ class RestaurantBooking:
             if answers:  # If answers are found, proceed
                 numbered_answers = {i + 1: item['Answer'] for i, item in enumerate(answers) if 'Answer' in item}
 
+                print("-------------------------\n")
                 print("Here are your top choices:")
                 for key, value in numbered_answers.items():
                     print(f"{key}: {value}")
@@ -41,6 +42,8 @@ class RestaurantBooking:
                     try:
                         selection = int(input("Select the number of the option you want: "))
                         if selection in numbered_answers:
+
+                            print("-------------------------\n")
                             print(f"You selected: {numbered_answers[selection]}")
                             return numbered_answers[selection]  # Return the selected answer
                         else:
@@ -64,6 +67,7 @@ class RestaurantBooking:
             location = booking_data.get('location')
             restaurant_type = booking_data.get('restaurant_type')
 
+            print("-------------------------\n")
             print(f"Searching for {restaurant_type} in {location}")
 
             # Ask user for confirmation
@@ -102,6 +106,8 @@ class RestaurantBooking:
             try:
                 choice = int(input("Select the number of the month (1-12): "))
                 if 1 <= choice <= 12:
+
+                    print("-------------------------\n")
                     print(f"You selected: {months[choice - 1]}")
                     return months[choice - 1]
                 else:
@@ -111,7 +117,7 @@ class RestaurantBooking:
 
     def day_selector(self):
         print("Select the day of the month you want to make a reservation for:")
-        days = sorted(random.sample(range(1, 29), min(15, 28)))
+        days = sorted(random.sample(range(1, 29), min(10, 28)))
         print("Available days:")
 
         keys = [chr(97 + i) for i in range(len(days))]
@@ -122,6 +128,7 @@ class RestaurantBooking:
             user_choice = input("Enter the letter corresponding to your choice: ").strip().lower()
             if user_choice in keys:
                 selected_day = days[keys.index(user_choice)]
+                print("-------------------------\n")
                 print(f"You have selected Day {selected_day}.")
                 return selected_day
             else:
@@ -156,6 +163,8 @@ class RestaurantBooking:
         while True:
             selection = input("Select the letter corresponding to your preferred time: ").strip().lower()
             if selection in lettered_times:
+
+                print("-------------------------\n")
                 print(f"You selected: {lettered_times[selection]}")
                 return lettered_times[selection]
             else:
@@ -183,6 +192,8 @@ class RestaurantBooking:
             try:
                 group_size = int(input("How many people is the table for? "))
                 if group_size > 0:
+
+                    print("-------------------------\n")
                     print(f"Booking for {group_size} people confirmed.")
                     return group_size
                 else:
@@ -221,9 +232,11 @@ class RestaurantBooking:
                             "Type choice: ").strip().lower()
                 if choice == 'a':
                     # Use the current name
+                    print("-------------------------\n")
                     print(f"Using the name: {booker}")
                     break
                 elif choice == 'b':
+                    print("-------------------------\n")
                     # Allow the user to change the name
                     self.IdentityManager.change_name()
                     booker = self.IdentityManager.get_name()
@@ -316,7 +329,6 @@ class RestaurantBooking:
                         print("Let's change the booking name.")
                         self.IdentityManager.change_name()
                         new_name = self.IdentityManager.get_name()
-                        print("New name == ", new_name)
                         booking_data['booker'] = new_name
                     elif change_choice == 'e':
                         print("Booking cancelled. Let us know if you need help again!")
@@ -361,18 +373,19 @@ class RestaurantBooking:
         # select name for booking
         self.confirm_booker()
 
-        print("Data ====== ", self.data_store.get_data())
+        
         
         
         # confirm the booking
         self.confirm_booking()
-    
+        print("Data ====== ", self.data_store.get_data())
+        
 
 
-
-# restaurantFinder = DocumentSimilarity(use_stemming=True)
-# parser = SentenceParser()
-# data_store = DataStore()
-# booking_system = RestaurantBooking(restaurantFinder, parser, data_store)
-# booking_system.controller("to eat indian food in Nottingham")
+IDmanager = identityManager("Data/user_data.csv")
+restaurantFinder = DocumentSimilarity(use_stemming=True)
+parser = SentenceParser()
+data_store = DataStore()
+booking_system = RestaurantBooking(restaurantFinder, parser, data_store, IDmanager)
+booking_system.controller("to eat indian food in Nottingham")
 
