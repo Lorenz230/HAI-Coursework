@@ -1,3 +1,5 @@
 name,location,restaurant_type,group_size,date,time,booker
 Crimson Thyme,Manchester,fast-food,3,24-April,20:00,Lorenz
 Amber Thyme,Nottingham,chinese,4,23-August,16:00,Lorenz
+The Jade Olive,Northampton,food,3,15-April,12:00,Marlon
+Golden Bamboo,Nottingham,Filipino,3,16-June,19:00,Marlon
