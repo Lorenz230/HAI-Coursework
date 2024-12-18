@@ -26,12 +26,11 @@ data_store = DataStore()
 booking_system = RestaurantBooking(restaurantFinder, parser, data_store,globalIdentityManager)
 
 
-
-
-
 def handle_talk(user_input):
     answers = talkSimilarity.main("Data/small_talk.csv", user_input)
     # print("DEBUG: Answers returned by talkSimilarity:", answers)  # Debugging line
+    name = globalIdentityManager.get_name()
+    print(name)
 
     if answers:  # Check if there's a valid response
         if isinstance(answers, list):
@@ -41,9 +40,23 @@ def handle_talk(user_input):
             ans = answers.get('Answer', "No answer found.")
         else:
             ans = "Invalid format for answers."
+
+        # Modify the answer if conditions are met
+        if name is not None:
+            greetings = ["hello", "hi", "hey"]
+            for greeting in greetings:
+                if greeting in ans.lower():
+                    ans = ans.lower().replace(greeting, f"{greeting} {name}").capitalize()
+                    break
+
+            # Check for '?' and add name before it
+            if '?' in ans:
+                ans = ans.replace('?', f' {name}?')
+
         print(ans)
     else:
         print("Sorry, I couldn't find a relevant response.")
+
 
 def handle_QA(user_input):
     answers = QAsimilarity.main("Data/QA.csv", user_input)
