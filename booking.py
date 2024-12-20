@@ -450,7 +450,7 @@ class RestaurantBooking:
         data = self.data_store.get_data()
 
         df = pd.DataFrame([data])  # Convert the data to a DataFrame
-        print(df)
+        # print(df)
 
         # CSV file path
         csv_file_path = 'Data/booking_info.csv'
