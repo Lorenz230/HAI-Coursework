@@ -5,6 +5,8 @@ nltk.download('stopwords')   # For stopwords list
 nltk.download('wordnet')     # For WordNet lemmatizer
 nltk.download('punkt_tab')
 nltk.download('averaged_perceptron_tagger')
+nltk.download('averaged_perceptron_tagger_eng')
+nltk.download('universal_tagset')
 import os
 
 from booking_helper import SentenceParser, DataStore
