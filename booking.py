@@ -3,6 +3,8 @@ import pandas as pd
 nltk.download('punkt')       # For word_tokenize
 nltk.download('stopwords')   # For stopwords list
 nltk.download('wordnet')     # For WordNet lemmatizer
+nltk.download('punkt_tab')
+nltk.download('averaged_perceptron_tagger')
 import os
 
 from booking_helper import SentenceParser, DataStore

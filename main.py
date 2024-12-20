@@ -3,6 +3,8 @@ import nltk
 nltk.download('punkt')       # For word_tokenize
 nltk.download('stopwords')   # For stopwords list
 nltk.download('wordnet')     # For WordNet lemmatizer
+nltk.download('punkt_tab')
+nltk.download('averaged_perceptron_tagger')
 
 from classifier import intentClassifier, TextClassifier, identityClassifier
 from similarity import DocumentSimilarity, StopWords, NoStop
@@ -11,8 +13,7 @@ from booking import SentenceParser, DataStore, RestaurantBooking
 
 """
 
-IMPORTANT: This is the main file responsible for identify user intentions and guiding them to complete tasks
-
+IMPORTANT: This is the main file responsible for STARTING THE PROGRAM
 """
 
 # Classifier used for predicitng intent

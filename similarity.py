@@ -3,7 +3,8 @@ import nltk
 nltk.download('punkt')       # For word_tokenize
 nltk.download('stopwords')   # For stopwords list
 nltk.download('wordnet')     # For WordNet lemmatizer
-
+nltk.download('punkt_tab')
+nltk.download('averaged_perceptron_tagger')
 
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
