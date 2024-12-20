@@ -71,7 +71,7 @@ class DocumentSimilarity:
     # This list contains all documents in descending order of similarity to the query
     def process_query_and_find_similarities(self, query):
         if not self.vectorizer or self.tfidf_matrix.size == 0:
-            raise ValueError("TF-IDF vectorizer has not been fitted. Call fit_tfidf_vectorizer() first.")
+            raise ValueError("Vectoriser not fitted!")
 
         query_vector = self.vectorizer.transform([query])
         similarities = cosine_similarity(query_vector, self.tfidf_matrix).flatten()

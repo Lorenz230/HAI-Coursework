@@ -115,3 +115,5 @@ class identityManager:
         # Handles if user wants to view bookings
         elif predicted_label == 'view_bookings':
             self.view_bookings()
+
+            
